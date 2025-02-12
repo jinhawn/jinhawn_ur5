@@ -1,0 +1,189 @@
+[35m[1mConsolidate compiler generated dependencies of target calc_server[0m
+[ 50%] Built target target_client
+[ 75%] [32mBuilding CXX object CMakeFiles/calc_server.dir/src/calc_server.cpp.o[0m
+[ 75%] Built target ament_cmake_python_symlink_service_ur5ik
+running egg_info
+writing service_ur5ik.egg-info/PKG-INFO
+writing dependency_links to service_ur5ik.egg-info/dependency_links.txt
+writing top-level names to service_ur5ik.egg-info/top_level.txt
+reading manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+writing manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_service_ur5ik_egg
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:16:[m[K [01;31m[Kerror: [m[K‘[01m[KT[m[K’ is not a type
+  344 | void cal_theta([01;31m[KT[m[K)
+      |                [01;31m[K^[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In member function ‘[01m[Kvoid ArrayServiceServer::set_trans(double, double, double, double, double, double)[m[K’:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:341:16:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  341 |         return [01;31m[KT[m[K;
+      |                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In member function ‘[01m[Kvoid ArrayServiceServer::handle_request(std::shared_ptr<interfaces_ur5ik::srv::SixTheta_Request_<std::allocator<void> > >, std::shared_ptr<interfaces_ur5ik::srv::SixTheta_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:387:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  387 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  388 |                         [32m[Kcurrent_node->data[0][m[K, current_node->data[1], current_node->data[2],
+      |                         [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [32m[K|[m[K
+      |                                             [32m[Kdouble[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:387:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  387 |             RCLCPP_INFO(this->get_logger(), "Sending array: [[01;36m[K%d[m[K, %d, %d, %d, %d, %d]",
+      |                                                              [01;36m[K~^[m[K
+      |                                                               [01;36m[K|[m[K
+      |                                                               [01;36m[Kint[m[K
+      |                                                              [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:387:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  387 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  388 |                         current_node->data[0], [32m[Kcurrent_node->data[1][m[K, current_node->data[2],
+      |                                                [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                    [32m[K|[m[K
+      |                                                                    [32m[Kdouble[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:387:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  387 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, [01;36m[K%d[m[K, %d, %d, %d, %d]",
+      |                                                                  [01;36m[K~^[m[K
+      |                                                                   [01;36m[K|[m[K
+      |                                                                   [01;36m[Kint[m[K
+      |                                                                  [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:387:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  387 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  388 |                         current_node->data[0], current_node->data[1], [32m[Kcurrent_node->data[2][m[K,
+      |                                                                       [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                           [32m[K|[m[K
+      |                                                                                           [32m[Kdouble[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:387:71:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  387 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, [01;36m[K%d[m[K, %d, %d, %d]",
+      |                                                                      [01;36m[K~^[m[K
+      |                                                                       [01;36m[K|[m[K
+      |                                                                       [01;36m[Kint[m[K
+      |                                                                      [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:387:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  387 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  388 |                         current_node->data[0], current_node->data[1], current_node->data[2],
+  389 |                         [32m[Kcurrent_node->data[3][m[K, current_node->data[4], current_node->data[5]);
+      |                         [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [32m[K|[m[K
+      |                                             [32m[Kdouble[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:387:75:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  387 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, %d, [01;36m[K%d[m[K, %d, %d]",
+      |                                                                          [01;36m[K~^[m[K
+      |                                                                           [01;36m[K|[m[K
+      |                                                                           [01;36m[Kint[m[K
+      |                                                                          [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:387:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  387 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  388 |                         current_node->data[0], current_node->data[1], current_node->data[2],
+  389 |                         current_node->data[3], [32m[Kcurrent_node->data[4][m[K, current_node->data[5]);
+      |                                                [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                    [32m[K|[m[K
+      |                                                                    [32m[Kdouble[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:387:79:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  387 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, %d, %d, [01;36m[K%d[m[K, %d]",
+      |                                                                              [01;36m[K~^[m[K
+      |                                                                               [01;36m[K|[m[K
+      |                                                                               [01;36m[Kint[m[K
+      |                                                                              [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:387:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 10 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  387 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  388 |                         current_node->data[0], current_node->data[1], current_node->data[2],
+  389 |                         current_node->data[3], current_node->data[4], [32m[Kcurrent_node->data[5][m[K);
+      |                                                                       [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                           [32m[K|[m[K
+      |                                                                                           [32m[Kdouble[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:387:83:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  387 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, %d, %d, %d, [01;36m[K%d[m[K]",
+      |                                                                                  [01;36m[K~^[m[K
+      |                                                                                   [01;36m[K|[m[K
+      |                                                                                   [01;36m[Kint[m[K
+      |                                                                                  [32m[K%f[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:399:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KArrayServiceServer::cal_theta()[m[K’
+  399 |                 [01;31m[Kcal_theta()[m[K;
+      |                 [01;31m[K~~~~~~~~~^~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ArrayServiceServer::cal_theta(int)[m[K’
+  344 | void [01;36m[Kcal_theta[m[K(T)
+      |      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:6:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:383:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  383 |     void handle_request([01;35m[Kconst std::shared_ptr<interfaces_ur5ik::srv::SixTheta::Request> request[m[K,
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In member function ‘[01m[Kvoid ArrayServiceServer::publish_next_position()[m[K’:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:460:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+  460 |         [01;31m[Kresult[m[K = set_trans(x,y,z,roll,pitch,yaw);
+      |         [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/calc_server.dir/build.make:76: CMakeFiles/calc_server.dir/src/calc_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/calc_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

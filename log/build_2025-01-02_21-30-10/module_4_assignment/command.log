@@ -1,0 +1,1 @@
+Invoking command in '/home/icrs/icrsUR/build/module_4_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/module_4_assignment -- -j8 -l8

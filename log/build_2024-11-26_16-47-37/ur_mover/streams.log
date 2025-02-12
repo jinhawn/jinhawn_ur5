@@ -1,0 +1,16 @@
+[0.037s] Invoking command in '/home/icrs/icrsUR/build/ur_mover': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/interfaces_ur5ik:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/interfaces_ur5ik:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/install/ur_custom_interfaces/local/lib/python3.10/dist-packages:/home/icrs/icrsUR/install/interfaces_ur5ik/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_mover -- -j8 -l8
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target master_node[0m
+[0.165s] [ 50%] Built target master_node2
+[0.194s] [ 75%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[1.310s] In file included from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:22[m[K:
+[1.310s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.310s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.310s]       |  [01;35m[K^~~~~~~[m[K
+[1.332s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:25:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/trajectory_processing/iterative_parameterization.h: No such file or directory
+[1.332s]    25 | #include [01;31m[K<moveit/trajectory_processing/iterative_parameterization.h>[m[K
+[1.332s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.332s] compilation terminated.
+[1.338s] gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/master_node.cpp.o] Error 1
+[1.339s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/master_node.dir/all] Error 2
+[1.339s] gmake: *** [Makefile:146: all] Error 2
+[1.353s] Invoked command in '/home/icrs/icrsUR/build/ur_mover' returned '2': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/interfaces_ur5ik:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/interfaces_ur5ik:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/install/ur_custom_interfaces/local/lib/python3.10/dist-packages:/home/icrs/icrsUR/install/interfaces_ur5ik/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_mover -- -j8 -l8

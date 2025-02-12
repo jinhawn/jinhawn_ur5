@@ -1,0 +1,354 @@
+[0.047s] Invoking command in '/home/icrs/icrsUR/build/ur_mover': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/interfaces_ur5ik:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/interfaces_ur5ik:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/install/ur_custom_interfaces/local/lib/python3.10/dist-packages:/home/icrs/icrsUR/install/interfaces_ur5ik/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_mover -- -j8 -l8
+[0.101s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.298s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.312s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.374s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.380s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.392s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.414s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.441s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.515s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.518s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.693s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.795s] -- Found ur_custom_interfaces: 0.0.0 (/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/cmake)
+[0.840s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.962s] -- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)
+[0.962s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[1.054s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.070s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[1.089s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.097s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.105s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.127s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.161s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.191s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.316s] -- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[1.322s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.350s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.355s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.370s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.394s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.435s] -- Found moveit_servo: 2.5.5 (/opt/ros/humble/share/moveit_servo/cmake)
+[1.476s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[1.479s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[1.503s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.508s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.508s] -- Found OGRE
+[1.508s] --   static     : OFF
+[1.508s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.509s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.509s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.509s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.509s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.509s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.509s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.509s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.509s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.510s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.510s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.641s] -- Found moveit_visual_tools: 4.1.0 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+[1.678s] -- Found interfaces_ur5ik: 0.0.0 (/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/cmake)
+[1.765s] -- Configuring done
+[1.812s] -- Generating done
+[1.815s] -- Build files have been written to: /home/icrs/icrsUR/build/ur_mover
+[1.847s] [35m[1mConsolidate compiler generated dependencies of target master_node2[0m
+[1.847s] [35m[1mConsolidate compiler generated dependencies of target master_node[0m
+[1.870s] [ 75%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[1.870s] [ 75%] Built target master_node2
+[2.503s] In file included from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:22[m[K:
+[2.503s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[2.503s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[2.503s]       |  [01;35m[K^~~~~~~[m[K
+[9.233s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:[m[K In constructor ‘[01m[KRobotMasterController::RobotMasterController(std::shared_ptr<rclcpp::Node>, geometry_msgs::msg::Pose*, geometry_msgs::msg::Pose*)[m[K’:
+[9.233s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:570:30:[m[K [01;35m[Kwarning: [m[K‘[01m[KRobotMasterController::target_pose[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.233s]   570 |     geometry_msgs::msg::Pose [01;35m[Ktarget_pose[m[K;
+[9.233s]       |                              [01;35m[K^~~~~~~~~~~[m[K
+[9.233s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:561:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint RobotMasterController::prev_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.233s]   561 |     int [01;35m[Kprev_x[m[K;
+[9.233s]       |         [01;35m[K^~~~~~[m[K
+[9.233s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:50:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.234s]    50 |     [01;35m[KRobotMasterController[m[K(std::shared_ptr<rclcpp::Node> move_group_node, geometry_msgs::msg::Pose* lookout_pos, geometry_msgs::msg::Pose* apple_drop_pos)
+[9.234s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[9.234s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:561:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KRobotMasterController::prev_x[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.234s]   561 |     int [01;35m[Kprev_x[m[K;
+[9.234s]       |         [01;35m[K^~~~~~[m[K
+[9.234s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:556:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool RobotMasterController::is_depth_reached[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.234s]   556 |     bool [01;35m[Kis_depth_reached[m[K;
+[9.234s]       |          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[9.234s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:50:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.234s]    50 |     [01;35m[KRobotMasterController[m[K(std::shared_ptr<rclcpp::Node> move_group_node, geometry_msgs::msg::Pose* lookout_pos, geometry_msgs::msg::Pose* apple_drop_pos)
+[9.234s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[9.234s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:568:31:[m[K [01;35m[Kwarning: [m[K‘[01m[KRobotMasterController::apple_drop_pose[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.234s]   568 |     geometry_msgs::msg::Pose* [01;35m[Kapple_drop_pose[m[K;
+[9.234s]       |                               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[9.234s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:557:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool RobotMasterController::is_at_apple_position[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.234s]   557 |     bool [01;35m[Kis_at_apple_position[m[K;
+[9.234s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.234s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:50:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.234s]    50 |     [01;35m[KRobotMasterController[m[K(std::shared_ptr<rclcpp::Node> move_group_node, geometry_msgs::msg::Pose* lookout_pos, geometry_msgs::msg::Pose* apple_drop_pos)
+[9.235s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[9.247s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMasterController::move_initial_position2()[m[K’:
+[9.247s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:107:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::robot_trajectory[m[K’ has not been declared
+[9.247s]   107 |         moveit::[01;31m[Krobot_trajectory[m[K::RobotTrajectory trajectory(robot_model, "ur_manipulator");
+[9.247s]       |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[9.258s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:110:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrajectory_msgs[m[K’?
+[9.258s]   110 |         [01;31m[Ktrajectory[m[K.setStartState(*current_state);
+[9.258s]       |         [01;31m[K^~~~~~~~~~[m[K
+[9.258s]       |         [32m[Ktrajectory_msgs[m[K
+[9.258s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:121:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ has not been declared
+[9.258s]   121 |         [01;31m[Krobot_state[m[K::RobotState waypoint_state1 = *current_state;
+[9.258s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[9.275s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:122:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoint_state1[m[K’ was not declared in this scope
+[9.275s]   122 |         [01;31m[Kwaypoint_state1[m[K.setVariablePositions(joint_group_positions_arm);
+[9.275s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[9.275s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:134:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ has not been declared
+[9.275s]   134 |         [01;31m[Krobot_state[m[K::RobotState waypoint_state2 = *current_state;
+[9.275s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[9.292s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:135:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoint_state2[m[K’ was not declared in this scope
+[9.292s]   135 |         [01;31m[Kwaypoint_state2[m[K.setVariablePositions(joint_group_positions_arm);
+[9.292s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[9.292s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:147:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ has not been declared
+[9.292s]   147 |         [01;31m[Krobot_state[m[K::RobotState waypoint_state3 = *current_state;
+[9.292s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[9.309s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:148:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoint_state3[m[K’ was not declared in this scope
+[9.309s]   148 |         [01;31m[Kwaypoint_state3[m[K.setVariablePositions(joint_group_positions_arm);
+[9.309s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[9.311s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:152:32:[m[K [01;31m[Kerror: [m[K‘[01m[KIterativeParabolicTimeParameterization[m[K’ is not a member of ‘[01m[Ktrajectory_processing[m[K’
+[9.311s]   152 |         trajectory_processing::[01;31m[KIterativeParabolicTimeParameterization[m[K time_param;
+[9.311s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.320s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:153:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_param[m[K’ was not declared in this scope
+[9.320s]   153 |         bool success = [01;31m[Ktime_param[m[K.computeTimeStamps(trajectory);
+[9.320s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[9.325s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.325s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[9.326s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[9.326s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[9.326s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[9.326s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[9.326s]                  from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.326s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMasterController::move_to_position(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.327s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:171:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.327s]   171 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Received array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[9.327s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.327s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:171:60:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.327s]   171 |         RCLCPP_INFO(this->get_logger(), "Received array: [[01;36m[K%d[m[K, %d, %d, %d, %d, %d]",
+[9.327s]       |                                                           [01;36m[K~^[m[K
+[9.327s]       |                                                            [01;36m[K|[m[K
+[9.327s]       |                                                            [01;36m[Kint[m[K
+[9.327s]       |                                                           [32m[K%f[m[K
+[9.327s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.327s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[9.327s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[9.327s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[9.327s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[9.327s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[9.327s]                  from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.327s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:171:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.327s]   171 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Received array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[9.327s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.328s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:171:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.328s]   171 |      RCLCPP_INFO(this->get_logger(), "Received array: [%d, [01;36m[K%d[m[K, %d, %d, %d, %d]",
+[9.328s]       |                                                            [01;36m[K~^[m[K
+[9.328s]       |                                                             [01;36m[K|[m[K
+[9.328s]       |                                                             [01;36m[Kint[m[K
+[9.328s]       |                                                            [32m[K%f[m[K
+[9.328s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.328s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[9.328s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[9.328s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[9.328s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[9.328s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[9.328s]                  from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.328s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:171:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.328s]   171 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Received array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[9.328s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.328s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:171:68:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.328s]   171 |  RCLCPP_INFO(this->get_logger(), "Received array: [%d, %d, [01;36m[K%d[m[K, %d, %d, %d]",
+[9.329s]       |                                                            [01;36m[K~^[m[K
+[9.329s]       |                                                             [01;36m[K|[m[K
+[9.329s]       |                                                             [01;36m[Kint[m[K
+[9.329s]       |                                                            [32m[K%f[m[K
+[9.329s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.329s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[9.329s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[9.329s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[9.329s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[9.329s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[9.329s]                  from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.329s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:171:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.329s]   171 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Received array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[9.329s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.329s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:171:72:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.329s]   171 | CPP_INFO(this->get_logger(), "Received array: [%d, %d, %d, [01;36m[K%d[m[K, %d, %d]",
+[9.329s]       |                                                            [01;36m[K~^[m[K
+[9.329s]       |                                                             [01;36m[K|[m[K
+[9.330s]       |                                                             [01;36m[Kint[m[K
+[9.330s]       |                                                            [32m[K%f[m[K
+[9.330s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.330s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[9.330s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[9.330s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[9.330s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[9.330s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[9.330s]                  from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.330s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:171:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.330s]   171 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Received array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[9.330s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.330s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:171:76:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.330s]   171 | PP_INFO(this->get_logger(), "Received array: [%d, %d, %d, %d, [01;36m[K%d[m[K, %d]",
+[9.330s]       |                                                               [01;36m[K~^[m[K
+[9.330s]       |                                                                [01;36m[K|[m[K
+[9.330s]       |                                                                [01;36m[Kint[m[K
+[9.330s]       |                                                               [32m[K%f[m[K
+[9.330s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.330s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[9.331s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[9.331s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[9.331s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[9.331s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[9.331s]                  from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.331s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:171:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 10 has type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.331s]   171 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Received array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[9.331s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.331s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:171:80:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.331s]   171 | PP_INFO(this->get_logger(), "Received array: [%d, %d, %d, %d, %d, [01;36m[K%d[m[K]",
+[9.331s]       |                                                                   [01;36m[K~^[m[K
+[9.331s]       |                                                                    [01;36m[K|[m[K
+[9.331s]       |                                                                    [01;36m[Kint[m[K
+[9.331s]       |                                                                   [32m[K%f[m[K
+[9.332s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.332s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[9.332s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[9.332s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[9.332s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[9.332s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[9.332s]                  from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.332s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMasterController::handle_response(rclcpp::Client<interfaces_ur5ik::srv::SixTheta>::SharedFuture)[m[K’:
+[9.332s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:215:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::array<double, 6>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.332s]   215 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Received array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[9.332s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.333s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:215:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.333s]   215 |          RCLCPP_INFO(this->get_logger(), "Received array: [[01;36m[K%d[m[K, %d, %d, %d, %d, %d]",
+[9.333s]       |                                                            [01;36m[K~^[m[K
+[9.333s]       |                                                             [01;36m[K|[m[K
+[9.333s]       |                                                             [01;36m[Kint[m[K
+[9.333s]       |                                                            [32m[K%f[m[K
+[9.333s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.333s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[9.333s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[9.333s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[9.333s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[9.333s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[9.333s]                  from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.333s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:215:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::array<double, 6>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.333s]   215 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Received array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[9.333s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.333s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:215:68:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.333s]   215 |      RCLCPP_INFO(this->get_logger(), "Received array: [%d, [01;36m[K%d[m[K, %d, %d, %d, %d]",
+[9.333s]       |                                                            [01;36m[K~^[m[K
+[9.334s]       |                                                             [01;36m[K|[m[K
+[9.334s]       |                                                             [01;36m[Kint[m[K
+[9.334s]       |                                                            [32m[K%f[m[K
+[9.334s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.334s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[9.334s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[9.334s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[9.334s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[9.334s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[9.334s]                  from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.334s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:215:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kstd::array<double, 6>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.334s]   215 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Received array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[9.334s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.334s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:215:72:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.334s]   215 |  RCLCPP_INFO(this->get_logger(), "Received array: [%d, %d, [01;36m[K%d[m[K, %d, %d, %d]",
+[9.334s]       |                                                            [01;36m[K~^[m[K
+[9.334s]       |                                                             [01;36m[K|[m[K
+[9.334s]       |                                                             [01;36m[Kint[m[K
+[9.335s]       |                                                            [32m[K%f[m[K
+[9.335s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.335s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[9.335s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[9.335s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[9.335s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[9.335s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[9.335s]                  from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.335s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:215:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::array<double, 6>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.335s]   215 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Received array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[9.335s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.335s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:215:76:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.335s]   215 | CPP_INFO(this->get_logger(), "Received array: [%d, %d, %d, [01;36m[K%d[m[K, %d, %d]",
+[9.335s]       |                                                            [01;36m[K~^[m[K
+[9.335s]       |                                                             [01;36m[K|[m[K
+[9.335s]       |                                                             [01;36m[Kint[m[K
+[9.336s]       |                                                            [32m[K%f[m[K
+[9.336s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.336s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[9.336s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[9.336s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[9.336s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[9.336s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[9.336s]                  from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.336s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:215:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kstd::array<double, 6>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.336s]   215 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Received array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[9.336s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.336s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:215:80:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.336s]   215 | PP_INFO(this->get_logger(), "Received array: [%d, %d, %d, %d, [01;36m[K%d[m[K, %d]",
+[9.336s]       |                                                               [01;36m[K~^[m[K
+[9.336s]       |                                                                [01;36m[K|[m[K
+[9.336s]       |                                                                [01;36m[Kint[m[K
+[9.337s]       |                                                               [32m[K%f[m[K
+[9.337s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.337s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[9.337s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[9.337s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[9.337s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[9.337s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[9.337s]                  from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.337s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:215:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 10 has type ‘[01m[Kstd::array<double, 6>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.337s]   215 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Received array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[9.337s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.337s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:215:84:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.337s]   215 | PP_INFO(this->get_logger(), "Received array: [%d, %d, %d, %d, %d, [01;36m[K%d[m[K]",
+[9.337s]       |                                                                   [01;36m[K~^[m[K
+[9.337s]       |                                                                    [01;36m[K|[m[K
+[9.337s]       |                                                                    [01;36m[Kint[m[K
+[9.337s]       |                                                                   [32m[K%f[m[K
+[9.337s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMasterController::move_initial_position(double, double, double, double, double, double, const string&)[m[K’:
+[9.337s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:275:98:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.338s]   275 | plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[9.338s]       |                                                               [01;35m[K^~~~~~~[m[K
+[9.338s] 
+[9.338s] In file included from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.338s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.338s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[9.338s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[9.338s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:275:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.338s]   275 |       bool [01;35m[Ksuccess[m[K = (move_group_->plan(my_plan) == moveit::planning_interface::MoveItErrorCode::SUCCESS);
+[9.338s]       |            [01;35m[K^~~~~~~[m[K
+[9.338s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMasterController::topic_callback(ur_custom_interfaces::msg::URCommand_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.338s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:281:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.338s]   281 | pic_callback([01;35m[Kconst ur_custom_interfaces::msg::URCommand::SharedPtr msg[m[K)
+[9.338s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.338s] 
+[9.340s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:[m[K In member function ‘[01m[Kbool RobotMasterController::move(geometry_msgs::msg::Pose, const char*)[m[K’:
+[9.340s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:512:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.340s]   512 |   if(move_res == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K){
+[9.340s]       |                                                               [01;35m[K^~~~~~~[m[K
+[9.340s] 
+[9.340s] In file included from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.340s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.340s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[9.340s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[9.342s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:[m[K In member function ‘[01m[Kbool RobotMasterController::move(std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >, const char*)[m[K’:
+[9.342s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:537:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.342s]   537 |   if(move_res == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K){
+[9.342s]       |                                                               [01;35m[K^~~~~~~[m[K
+[9.342s] 
+[9.342s] In file included from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:11[m[K:
+[9.342s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.342s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[9.342s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[13.724s] gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/master_node.cpp.o] Error 1
+[13.725s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/master_node.dir/all] Error 2
+[13.725s] gmake: *** [Makefile:146: all] Error 2
+[13.727s] Invoked command in '/home/icrs/icrsUR/build/ur_mover' returned '2': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/interfaces_ur5ik:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/interfaces_ur5ik:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/install/ur_custom_interfaces/local/lib/python3.10/dist-packages:/home/icrs/icrsUR/install/interfaces_ur5ik/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_mover -- -j8 -l8

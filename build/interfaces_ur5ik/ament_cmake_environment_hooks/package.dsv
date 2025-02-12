@@ -1,0 +1,4 @@
+source;share/interfaces_ur5ik/local_setup.bash
+source;share/interfaces_ur5ik/local_setup.dsv
+source;share/interfaces_ur5ik/local_setup.sh
+source;share/interfaces_ur5ik/local_setup.zsh

@@ -1,0 +1,32 @@
+[0.017s] Invoking command in '/home/icrs/icrsUR/build/ur_calibration': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/robotics_software_engineer-assignments/src/install/module_5_assignment:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_calibration -- -j8 -l8
+[0.066s] [ 41%] Built target gmock_main
+[0.066s] [ 41%] Built target gmock
+[0.072s] [ 66%] Built target calibration
+[0.103s] [ 83%] Built target calibration_correction
+[0.106s] [100%] Built target calibration_test
+[0.117s] Invoked command in '/home/icrs/icrsUR/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/robotics_software_engineer-assignments/src/install/module_5_assignment:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_calibration -- -j8 -l8
+[0.153s] Invoking command in '/home/icrs/icrsUR/build/ur_calibration': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/robotics_software_engineer-assignments/src/install/module_5_assignment:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_calibration
+[0.160s] -- Install configuration: "RelWithDebInfo"
+[0.161s] -- Execute custom install script
+[0.161s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/lib/ur_calibration/calibration_correction
+[0.162s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/include/ur_calibration/calibration.hpp
+[0.162s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/include/ur_calibration/calibration_consumer.hpp
+[0.163s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/launch/calibration_correction.launch.py
+[0.163s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+[0.163s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+[0.163s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.sh
+[0.164s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.dsv
+[0.164s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/environment/path.sh
+[0.164s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/environment/path.dsv
+[0.164s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/local_setup.bash
+[0.165s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/local_setup.sh
+[0.165s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/local_setup.zsh
+[0.165s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/local_setup.dsv
+[0.165s] -- Symlinking: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/package.dsv
+[0.174s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ament_index/resource_index/packages/ur_calibration
+[0.174s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.174s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.174s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+[0.175s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+[0.175s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/package.xml
+[0.178s] Invoked command in '/home/icrs/icrsUR/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/robotics_software_engineer-assignments/src/install/module_5_assignment:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_calibration

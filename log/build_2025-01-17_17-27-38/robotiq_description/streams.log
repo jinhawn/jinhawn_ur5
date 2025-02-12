@@ -1,0 +1,65 @@
+[2.128s] Invoking command in '/home/icrs/icrsUR/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/robotiq_description -- -j8 -l8
+[2.296s] Invoked command in '/home/icrs/icrsUR/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/robotiq_description -- -j8 -l8
+[2.477s] Invoking command in '/home/icrs/icrsUR/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/robotiq_description
+[2.489s] -- Install configuration: ""
+[2.492s] -- Execute custom install script
+[2.496s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/config/robotiq_controllers.yaml
+[2.499s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/launch/robotiq_control.launch.py
+[2.500s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/launch/view_gripper.launch.py
+[2.501s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_base_link.stl
+[2.502s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_coupling.stl
+[2.502s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_finger.stl
+[2.502s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_knuckle.stl
+[2.504s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_finger.stl
+[2.504s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_knuckle.stl
+[2.505s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger.stl
+[2.505s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger_tip.stl
+[2.507s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_inner_knuckle.stl
+[2.512s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_knuckle.stl
+[2.512s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger.stl
+[2.513s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger_tip.stl
+[2.513s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_inner_knuckle.stl
+[2.513s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_knuckle.stl
+[2.514s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/robotiq_base.stl
+[2.514s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/ur_to_robotiq_adapter.stl
+[2.514s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_base_link.stl
+[2.518s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_coupling.stl
+[2.519s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_finger.stl
+[2.520s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_knuckle.stl
+[2.520s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_finger.stl
+[2.521s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_knuckle.stl
+[2.521s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger.dae
+[2.521s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger_tip.dae
+[2.522s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_inner_knuckle.dae
+[2.522s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_knuckle.dae
+[2.525s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger.dae
+[2.528s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger_tip.dae
+[2.531s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_inner_knuckle.dae
+[2.534s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_knuckle.dae
+[2.534s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/robotiq_base.dae
+[2.535s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/ur_to_robotiq_adapter.dae
+[2.536s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/rviz/view_urdf.rviz
+[2.536s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/urdf/2f_140.ros2_control.xacro
+[2.536s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/urdf/2f_85.ros2_control.xacro
+[2.537s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140.xacro
+[2.537s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_gripper.urdf.xacro
+[2.538s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_macro.urdf.xacro
+[2.539s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_gripper.urdf.xacro
+[2.539s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_macro.urdf.xacro
+[2.540s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/urdf/ur_to_robotiq_adapter.urdf.xacro
+[2.540s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
+[2.541s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
+[2.542s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh
+[2.542s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.dsv
+[2.544s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/environment/path.sh
+[2.544s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/environment/path.dsv
+[2.545s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/local_setup.bash
+[2.546s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/local_setup.sh
+[2.546s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/local_setup.zsh
+[2.547s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/local_setup.dsv
+[2.547s] -- Symlinking: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/package.dsv
+[2.573s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/ament_index/resource_index/packages/robotiq_description
+[2.575s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake
+[2.575s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+[2.576s] -- Up-to-date symlink: /home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/package.xml
+[2.608s] Invoked command in '/home/icrs/icrsUR/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/robotiq_description

@@ -1,0 +1,1073 @@
+[0.138s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.138s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79411995b370>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79411995ace0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79411995ace0>>, mixin_verb=('build',))
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.323s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/icrs/icrsUR'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['cmake', 'python']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur' with type 'ros.ament_cmake' and name 'ur'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_bringup' with type 'ros.ament_cmake' and name 'ur_bringup'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_calibration' with type 'ros.ament_cmake' and name 'ur_calibration'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_controllers' with type 'ros.ament_cmake' and name 'ur_controllers'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with type 'ros.ament_cmake' and name 'ur_dashboard_msgs'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ros'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'ros'
+[0.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_control' with type 'ros.ament_python' and name 'camera_control'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_control) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_control) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_control) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_control) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_control) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_control) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_control) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_control) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_control) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gripper_control' with type 'ros.ament_python' and name 'gripper_control'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_ur5ik) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_ur5ik) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_ur5ik) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_ur5ik) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_ur5ik) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_ur5ik) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_ur5ik) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_ur5ik) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_ur5ik) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces_ur5ik' with type 'ros.ament_cmake' and name 'interfaces_ur5ik'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'ros'
+[0.370s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description' with type 'ros.ament_cmake' and name 'robotiq_description'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_ur5ik) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_ur5ik) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_ur5ik) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_ur5ik) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_ur5ik) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_ur5ik) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_ur5ik) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_ur5ik) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_ur5ik) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package 'src/service_ur5ik' with type 'ros.ament_cmake' and name 'service_ur5ik'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_custom_interfaces) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_custom_interfaces) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_custom_interfaces) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_custom_interfaces) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_custom_interfaces) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_custom_interfaces) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_custom_interfaces) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_custom_interfaces) by extension 'ros'
+[0.373s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_custom_interfaces' with type 'ros.ament_cmake' and name 'ur_custom_interfaces'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_mover) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_mover) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_mover) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_mover) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_mover) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_mover) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_mover) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_mover) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_mover) by extension 'ros'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_mover' with type 'ros.ament_cmake' and name 'ur_mover'
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.405s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /home/icrs/icrsUR/install
+[0.407s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/humble
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'gripper_control' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'gripper_control' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'gripper_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'gripper_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'gripper_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'gripper_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'gripper_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gripper_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'gripper_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.464s] DEBUG:colcon.colcon_core.verb:Building package 'gripper_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/gripper_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/gripper_control', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/gripper_control', 'symlink_install': False, 'test_result_base': None}
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'interfaces_ur5ik' build argument 'cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'interfaces_ur5ik' build argument 'cmake_target' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'interfaces_ur5ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'interfaces_ur5ik' build argument 'cmake_clean_cache' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'interfaces_ur5ik' build argument 'cmake_clean_first' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'interfaces_ur5ik' build argument 'cmake_force_configure' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'interfaces_ur5ik' build argument 'ament_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'interfaces_ur5ik' build argument 'catkin_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'interfaces_ur5ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.464s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces_ur5ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/interfaces_ur5ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/interfaces_ur5ik', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/interfaces_ur5ik', 'symlink_install': False, 'test_result_base': None}
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_target' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/robotiq_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/robotiq_description', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/robotiq_description', 'symlink_install': False, 'test_result_base': None}
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'ur_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'ur_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'ur_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'ur_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'ur_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'ur_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'ur_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'ur_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'ur_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'ur_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/ur_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/ur_custom_interfaces', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/ur_custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.467s] DEBUG:colcon.colcon_core.verb:Building package 'ur_dashboard_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/ur_dashboard_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/ur_dashboard_msgs', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/ur_description', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Description', 'symlink_install': False, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'camera_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/camera_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/camera_control', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/camera_control', 'symlink_install': False, 'test_result_base': None}
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'service_ur5ik' build argument 'cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'service_ur5ik' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'service_ur5ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'service_ur5ik' build argument 'cmake_clean_cache' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'service_ur5ik' build argument 'cmake_clean_first' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'service_ur5ik' build argument 'cmake_force_configure' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'service_ur5ik' build argument 'ament_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'service_ur5ik' build argument 'catkin_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'service_ur5ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.469s] DEBUG:colcon.colcon_core.verb:Building package 'service_ur5ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/service_ur5ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/service_ur5ik', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/service_ur5ik', 'symlink_install': False, 'test_result_base': None}
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'ur_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/ur_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/ur_controllers', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'ur_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/ur_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/ur_moveit_config', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'ur_mover' build argument 'cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_mover' build argument 'cmake_target' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_mover' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_mover' build argument 'cmake_clean_cache' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_mover' build argument 'cmake_clean_first' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_mover' build argument 'cmake_force_configure' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_mover' build argument 'ament_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_mover' build argument 'catkin_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_mover' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.471s] DEBUG:colcon.colcon_core.verb:Building package 'ur_mover' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/ur_mover', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/ur_mover', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/ur_mover', 'symlink_install': False, 'test_result_base': None}
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.471s] DEBUG:colcon.colcon_core.verb:Building package 'ur_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/ur_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/ur_bringup', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.472s] DEBUG:colcon.colcon_core.verb:Building package 'ur_robot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/ur_robot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/ur_robot_driver', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_robot_driver', 'symlink_install': False, 'test_result_base': None}
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.473s] DEBUG:colcon.colcon_core.verb:Building package 'ur_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/ur_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/ur_calibration', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_calibration', 'symlink_install': False, 'test_result_base': None}
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_cache' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_first' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_force_configure' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'ament_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.473s] DEBUG:colcon.colcon_core.verb:Building package 'ur' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icrs/icrsUR/build/ur', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icrs/icrsUR/install/ur', 'merge_install': False, 'path': '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur', 'symlink_install': False, 'test_result_base': None}
+[0.473s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.474s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.475s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with build type 'ament_cmake'
+[0.475s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs'
+[0.477s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.482s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Description' with build type 'ament_cmake'
+[0.482s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Description'
+[0.483s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.483s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.490s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/icrs/icrsUR/src/interfaces_ur5ik' with build type 'ament_cmake'
+[0.491s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/icrs/icrsUR/src/interfaces_ur5ik'
+[0.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.492s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.496s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/icrs/icrsUR/src/ur_custom_interfaces' with build type 'ament_cmake'
+[0.496s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/icrs/icrsUR/src/ur_custom_interfaces'
+[0.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.501s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/icrs/icrsUR/src/gripper_control' with build type 'ament_python'
+[0.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('gripper_control', 'ament_prefix_path')
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/gripper_control/share/gripper_control/hook/ament_prefix_path.ps1'
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/gripper_control/share/gripper_control/hook/ament_prefix_path.dsv'
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/gripper_control/share/gripper_control/hook/ament_prefix_path.sh'
+[0.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.508s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/icrs/icrsUR/src/robotiq_description' with build type 'ament_cmake'
+[0.508s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/icrs/icrsUR/src/robotiq_description'
+[0.509s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.509s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_dashboard_msgs -- -j8 -l8
+[0.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_description -- -j8 -l8
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/interfaces_ur5ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/interfaces_ur5ik -- -j8 -l8
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_custom_interfaces -- -j8 -l8
+[1.336s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'gripper_control' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.337s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/icrs/icrsUR/src/gripper_control'
+[1.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/robotiq_description -- -j8 -l8
+[1.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_description -- -j8 -l8
+[1.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_dashboard_msgs -- -j8 -l8
+[1.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/interfaces_ur5ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/interfaces_ur5ik -- -j8 -l8
+[1.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_description
+[1.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/robotiq_description -- -j8 -l8
+[1.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_custom_interfaces -- -j8 -l8
+[1.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/robotiq_description
+[1.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_description
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_description' for CMake module files
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_description' for CMake config files
+[1.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_description/bin'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_description/lib/python3.10/site-packages'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_description/bin'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_description/share/ur_description/package.ps1'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_description/share/ur_description/package.dsv'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_description/share/ur_description/package.sh'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_description/share/ur_description/package.bash'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_description/share/ur_description/package.zsh'
+[1.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_description/share/colcon-core/packages/ur_description)
+[1.521s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_description)
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/robotiq_description' for CMake module files
+[1.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/robotiq_description
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/robotiq_description' for CMake config files
+[1.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_description', 'cmake_prefix_path')
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.ps1'
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.dsv'
+[1.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.sh'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/robotiq_description/bin'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/robotiq_description/lib/pkgconfig/robotiq_description.pc'
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/robotiq_description/lib/python3.10/site-packages'
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/robotiq_description/bin'
+[1.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/package.ps1'
+[1.529s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/package.dsv'
+[1.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/package.sh'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/package.bash'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/package.zsh'
+[1.532s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/robotiq_description/share/colcon-core/packages/robotiq_description)
+[1.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/interfaces_ur5ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/interfaces_ur5ik
+[1.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_custom_interfaces
+[1.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_description' for CMake module files
+[1.555s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_description' for CMake config files
+[1.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_description/bin'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_description/lib/python3.10/site-packages'
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_description/bin'
+[1.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_description/share/ur_description/package.ps1'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_description/share/ur_description/package.dsv'
+[1.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_description/share/ur_description/package.sh'
+[1.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_description/share/ur_description/package.bash'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_description/share/ur_description/package.zsh'
+[1.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_description/share/colcon-core/packages/ur_description)
+[1.592s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_moveit_config' with build type 'ament_cmake'
+[1.593s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_moveit_config'
+[1.593s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.594s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_description)
+[1.616s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/robotiq_description' for CMake module files
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/robotiq_description' for CMake config files
+[1.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_description', 'cmake_prefix_path')
+[1.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.ps1'
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.dsv'
+[1.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.sh'
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/robotiq_description/bin'
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/robotiq_description/lib/pkgconfig/robotiq_description.pc'
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/robotiq_description/lib/python3.10/site-packages'
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/robotiq_description/bin'
+[1.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/package.ps1'
+[1.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/package.dsv'
+[1.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/package.sh'
+[1.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/package.bash'
+[1.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/robotiq_description/share/robotiq_description/package.zsh'
+[1.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/robotiq_description/share/colcon-core/packages/robotiq_description)
+[1.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_moveit_config -- -j8 -l8
+[1.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces_ur5ik)
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/interfaces_ur5ik' for CMake module files
+[1.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/interfaces_ur5ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/interfaces_ur5ik
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/interfaces_ur5ik' for CMake config files
+[1.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_ur5ik', 'cmake_prefix_path')
+[1.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/hook/cmake_prefix_path.ps1'
+[1.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/hook/cmake_prefix_path.dsv'
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/hook/cmake_prefix_path.sh'
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/interfaces_ur5ik/lib'
+[1.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_ur5ik', 'ld_library_path_lib')
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/hook/ld_library_path_lib.ps1'
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/hook/ld_library_path_lib.dsv'
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/hook/ld_library_path_lib.sh'
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/interfaces_ur5ik/bin'
+[1.708s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/interfaces_ur5ik/lib/pkgconfig/interfaces_ur5ik.pc'
+[1.708s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/interfaces_ur5ik/lib/python3.10/site-packages'
+[1.709s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/interfaces_ur5ik/bin'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/package.ps1'
+[1.711s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/package.dsv'
+[1.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/package.sh'
+[1.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/package.bash'
+[1.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/package.zsh'
+[1.715s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/interfaces_ur5ik/share/colcon-core/packages/interfaces_ur5ik)
+[1.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_custom_interfaces)
+[1.717s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_custom_interfaces' for CMake module files
+[1.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_custom_interfaces
+[1.719s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_custom_interfaces' for CMake config files
+[1.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_custom_interfaces', 'cmake_prefix_path')
+[1.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/hook/cmake_prefix_path.ps1'
+[1.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/hook/cmake_prefix_path.dsv'
+[1.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/hook/cmake_prefix_path.sh'
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_custom_interfaces/lib'
+[1.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_custom_interfaces', 'ld_library_path_lib')
+[1.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/hook/ld_library_path_lib.ps1'
+[1.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/hook/ld_library_path_lib.dsv'
+[1.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/hook/ld_library_path_lib.sh'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_custom_interfaces/bin'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_custom_interfaces/lib/pkgconfig/ur_custom_interfaces.pc'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_custom_interfaces/lib/python3.10/site-packages'
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_custom_interfaces/bin'
+[1.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/package.ps1'
+[1.734s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/package.dsv'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/package.sh'
+[1.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/package.bash'
+[1.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/package.zsh'
+[1.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_custom_interfaces/share/colcon-core/packages/ur_custom_interfaces)
+[1.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_custom_interfaces)
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_custom_interfaces' for CMake module files
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_custom_interfaces' for CMake config files
+[1.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_custom_interfaces', 'cmake_prefix_path')
+[1.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/hook/cmake_prefix_path.ps1'
+[1.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/hook/cmake_prefix_path.dsv'
+[1.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/hook/cmake_prefix_path.sh'
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_custom_interfaces/lib'
+[1.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_custom_interfaces', 'ld_library_path_lib')
+[1.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/hook/ld_library_path_lib.ps1'
+[1.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/hook/ld_library_path_lib.dsv'
+[1.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/hook/ld_library_path_lib.sh'
+[1.838s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_custom_interfaces/bin'
+[1.838s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_custom_interfaces/lib/pkgconfig/ur_custom_interfaces.pc'
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_custom_interfaces/lib/python3.10/site-packages'
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_custom_interfaces/bin'
+[1.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/package.ps1'
+[1.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/package.dsv'
+[1.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/package.sh'
+[1.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/package.bash'
+[1.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_custom_interfaces/share/ur_custom_interfaces/package.zsh'
+[1.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_custom_interfaces/share/colcon-core/packages/ur_custom_interfaces)
+[1.845s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/icrs/icrsUR/src/camera_control' with build type 'ament_python'
+[1.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_control', 'ament_prefix_path')
+[1.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/camera_control/share/camera_control/hook/ament_prefix_path.ps1'
+[1.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/camera_control/share/camera_control/hook/ament_prefix_path.dsv'
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/camera_control/share/camera_control/hook/ament_prefix_path.sh'
+[1.849s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.849s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_dashboard_msgs
+[1.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces_ur5ik)
+[1.866s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/interfaces_ur5ik' for CMake module files
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/interfaces_ur5ik' for CMake config files
+[1.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_ur5ik', 'cmake_prefix_path')
+[1.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/hook/cmake_prefix_path.ps1'
+[1.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/hook/cmake_prefix_path.dsv'
+[1.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/hook/cmake_prefix_path.sh'
+[1.873s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/interfaces_ur5ik/lib'
+[1.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_ur5ik', 'ld_library_path_lib')
+[1.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/hook/ld_library_path_lib.ps1'
+[1.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/hook/ld_library_path_lib.dsv'
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/hook/ld_library_path_lib.sh'
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/interfaces_ur5ik/bin'
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/interfaces_ur5ik/lib/pkgconfig/interfaces_ur5ik.pc'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/interfaces_ur5ik/lib/python3.10/site-packages'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/interfaces_ur5ik/bin'
+[1.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/package.ps1'
+[1.886s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/package.dsv'
+[1.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/package.sh'
+[1.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/package.bash'
+[1.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/interfaces_ur5ik/share/interfaces_ur5ik/package.zsh'
+[1.903s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/interfaces_ur5ik/share/colcon-core/packages/interfaces_ur5ik)
+[1.906s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/icrs/icrsUR/src/service_ur5ik' with build type 'ament_cmake'
+[1.906s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/icrs/icrsUR/src/service_ur5ik'
+[1.907s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.907s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.944s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/icrs/icrsUR/src/ur_mover' with build type 'ament_cmake'
+[1.944s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/icrs/icrsUR/src/ur_mover'
+[1.944s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.944s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.386s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'camera_control' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.386s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/icrs/icrsUR/src/camera_control'
+[2.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.395s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_dashboard_msgs)
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_dashboard_msgs' for CMake module files
+[2.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/src/gripper_control': PYTHONPATH=/home/icrs/icrsUR/build/gripper_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icrs/icrsUR/install/gripper_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gripper_control build --build-base /home/icrs/icrsUR/build/gripper_control/build install --record /home/icrs/icrsUR/build/gripper_control/install.log --single-version-externally-managed install_data
+[2.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_moveit_config -- -j8 -l8
+[2.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_dashboard_msgs
+[2.397s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_dashboard_msgs' for CMake config files
+[2.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'cmake_prefix_path')
+[2.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.ps1'
+[2.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.dsv'
+[2.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.sh'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_dashboard_msgs/lib'
+[2.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'ld_library_path_lib')
+[2.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.ps1'
+[2.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.dsv'
+[2.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.sh'
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_dashboard_msgs/bin'
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_dashboard_msgs/lib/pkgconfig/ur_dashboard_msgs.pc'
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_dashboard_msgs/lib/python3.10/site-packages'
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_dashboard_msgs/bin'
+[2.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.ps1'
+[2.403s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh'
+[2.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.bash'
+[2.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.zsh'
+[2.406s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_dashboard_msgs/share/colcon-core/packages/ur_dashboard_msgs)
+[2.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/service_ur5ik': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/service_ur5ik -- -j8 -l8
+[2.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_mover': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_mover -- -j8 -l8
+[2.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_moveit_config
+[2.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_mover' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_mover -- -j8 -l8
+[2.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_mover': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_mover
+[2.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[2.677s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_moveit_config' for CMake module files
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_moveit_config' for CMake config files
+[2.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[2.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_moveit_config
+[2.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[2.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[2.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[2.682s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_moveit_config/bin'
+[2.682s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[2.683s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_moveit_config/lib/python3.10/site-packages'
+[2.683s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_moveit_config/bin'
+[2.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[2.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[2.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[2.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[2.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[2.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_mover)
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_mover' for CMake module files
+[2.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_mover' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_mover
+[2.720s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_mover' for CMake config files
+[2.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_mover', 'cmake_prefix_path')
+[2.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/hook/cmake_prefix_path.ps1'
+[2.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/hook/cmake_prefix_path.dsv'
+[2.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/hook/cmake_prefix_path.sh'
+[2.726s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_mover/lib'
+[2.726s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_mover/bin'
+[2.727s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_mover/lib/pkgconfig/ur_mover.pc'
+[2.729s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_mover/lib/python3.10/site-packages'
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_mover/bin'
+[2.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/package.ps1'
+[2.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/package.dsv'
+[2.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/package.sh'
+[2.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/package.bash'
+[2.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/package.zsh'
+[2.736s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_mover/share/colcon-core/packages/ur_mover)
+[2.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[2.744s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_moveit_config' for CMake module files
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_moveit_config' for CMake config files
+[2.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[2.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[2.749s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_moveit_config/bin'
+[2.749s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_moveit_config/lib/python3.10/site-packages'
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_moveit_config/bin'
+[2.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[2.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[2.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[2.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[2.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[2.755s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[2.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_mover)
+[2.787s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_mover' for CMake module files
+[2.788s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_mover' for CMake config files
+[2.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_mover', 'cmake_prefix_path')
+[2.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/hook/cmake_prefix_path.ps1'
+[2.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/hook/cmake_prefix_path.dsv'
+[2.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/hook/cmake_prefix_path.sh'
+[2.796s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_mover/lib'
+[2.796s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_mover/bin'
+[2.797s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_mover/lib/pkgconfig/ur_mover.pc'
+[2.797s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_mover/lib/python3.10/site-packages'
+[2.797s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_mover/bin'
+[2.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/package.ps1'
+[2.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/package.dsv'
+[2.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/package.sh'
+[2.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/package.bash'
+[2.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_mover/share/ur_mover/package.zsh'
+[2.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_mover/share/colcon-core/packages/ur_mover)
+[2.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_dashboard_msgs)
+[2.972s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_dashboard_msgs' for CMake module files
+[2.973s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_dashboard_msgs' for CMake config files
+[2.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'cmake_prefix_path')
+[2.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.ps1'
+[2.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.dsv'
+[2.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.sh'
+[2.976s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_dashboard_msgs/lib'
+[2.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'ld_library_path_lib')
+[2.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.ps1'
+[2.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.dsv'
+[2.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.sh'
+[2.979s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_dashboard_msgs/bin'
+[2.979s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_dashboard_msgs/lib/pkgconfig/ur_dashboard_msgs.pc'
+[2.980s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_dashboard_msgs/lib/python3.10/site-packages'
+[2.981s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_dashboard_msgs/bin'
+[2.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.ps1'
+[2.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv'
+[2.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh'
+[2.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.bash'
+[2.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.zsh'
+[2.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_dashboard_msgs/share/colcon-core/packages/ur_dashboard_msgs)
+[2.987s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_controllers' with build type 'ament_cmake'
+[2.987s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_controllers'
+[2.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.988s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_controllers': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_controllers -- -j8 -l8
+[3.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_controllers -- -j8 -l8
+[3.180s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/gripper_control' for CMake module files
+[3.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/src/gripper_control' returned '0': PYTHONPATH=/home/icrs/icrsUR/build/gripper_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icrs/icrsUR/install/gripper_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gripper_control build --build-base /home/icrs/icrsUR/build/gripper_control/build install --record /home/icrs/icrsUR/build/gripper_control/install.log --single-version-externally-managed install_data
+[3.181s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/gripper_control' for CMake config files
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/gripper_control/lib'
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/gripper_control/bin'
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/gripper_control/lib/pkgconfig/gripper_control.pc'
+[3.183s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/gripper_control/lib/python3.10/site-packages'
+[3.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('gripper_control', 'pythonpath')
+[3.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/gripper_control/share/gripper_control/hook/pythonpath.ps1'
+[3.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/gripper_control/share/gripper_control/hook/pythonpath.dsv'
+[3.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/gripper_control/share/gripper_control/hook/pythonpath.sh'
+[3.185s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/gripper_control/bin'
+[3.185s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gripper_control)
+[3.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/gripper_control/share/gripper_control/package.ps1'
+[3.186s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/gripper_control/share/gripper_control/package.dsv'
+[3.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/gripper_control/share/gripper_control/package.sh'
+[3.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/gripper_control/share/gripper_control/package.bash'
+[3.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/gripper_control/share/gripper_control/package.zsh'
+[3.189s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/gripper_control/share/colcon-core/packages/gripper_control)
+[3.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_controllers': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_controllers
+[3.251s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_controllers)
+[3.252s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_controllers' for CMake module files
+[3.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_controllers
+[3.253s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_controllers' for CMake config files
+[3.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'cmake_prefix_path')
+[3.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.ps1'
+[3.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.dsv'
+[3.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.sh'
+[3.258s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_controllers/lib'
+[3.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'ld_library_path_lib')
+[3.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.ps1'
+[3.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.dsv'
+[3.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.sh'
+[3.260s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_controllers/bin'
+[3.260s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_controllers/lib/pkgconfig/ur_controllers.pc'
+[3.261s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_controllers/lib/python3.10/site-packages'
+[3.261s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_controllers/bin'
+[3.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/package.ps1'
+[3.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/package.dsv'
+[3.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/package.sh'
+[3.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/package.bash'
+[3.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/package.zsh'
+[3.265s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_controllers/share/colcon-core/packages/ur_controllers)
+[3.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_controllers)
+[3.308s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_controllers' for CMake module files
+[3.308s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_controllers' for CMake config files
+[3.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'cmake_prefix_path')
+[3.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.ps1'
+[3.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.dsv'
+[3.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.sh'
+[3.311s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_controllers/lib'
+[3.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'ld_library_path_lib')
+[3.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.ps1'
+[3.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.dsv'
+[3.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.sh'
+[3.313s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_controllers/bin'
+[3.313s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_controllers/lib/pkgconfig/ur_controllers.pc'
+[3.314s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_controllers/lib/python3.10/site-packages'
+[3.314s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_controllers/bin'
+[3.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/package.ps1'
+[3.315s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/package.dsv'
+[3.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/package.sh'
+[3.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/package.bash'
+[3.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/package.zsh'
+[3.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_controllers/share/colcon-core/packages/ur_controllers)
+[3.318s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_robot_driver' with build type 'ament_cmake'
+[3.318s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_robot_driver'
+[3.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.328s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_bringup' with build type 'ament_cmake'
+[3.328s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_bringup'
+[3.328s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_robot_driver -- -j8 -l8
+[3.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_bringup': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_bringup -- -j8 -l8
+[3.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_bringup' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_bringup -- -j8 -l8
+[3.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_bringup': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_bringup
+[3.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/src/camera_control': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/icrs/icrsUR/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icrs/icrsUR/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_control build --build-base /home/icrs/icrsUR/build/camera_control/build install --record /home/icrs/icrsUR/build/camera_control/install.log --single-version-externally-managed install_data
+[3.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_bringup)
+[3.554s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_bringup' for CMake module files
+[3.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_bringup' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_bringup
+[3.555s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_bringup' for CMake config files
+[3.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_bringup', 'cmake_prefix_path')
+[3.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.ps1'
+[3.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.dsv'
+[3.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.sh'
+[3.561s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_bringup/lib'
+[3.561s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_bringup/bin'
+[3.562s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_bringup/lib/pkgconfig/ur_bringup.pc'
+[3.562s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_bringup/lib/python3.10/site-packages'
+[3.562s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_bringup/bin'
+[3.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/package.ps1'
+[3.564s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/package.dsv'
+[3.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/package.sh'
+[3.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/package.bash'
+[3.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/package.zsh'
+[3.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_bringup/share/colcon-core/packages/ur_bringup)
+[3.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_bringup)
+[3.609s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_bringup' for CMake module files
+[3.611s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_bringup' for CMake config files
+[3.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_bringup', 'cmake_prefix_path')
+[3.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.ps1'
+[3.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.dsv'
+[3.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.sh'
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_bringup/lib'
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_bringup/bin'
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_bringup/lib/pkgconfig/ur_bringup.pc'
+[3.616s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_bringup/lib/python3.10/site-packages'
+[3.616s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_bringup/bin'
+[3.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/package.ps1'
+[3.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/package.dsv'
+[3.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/package.sh'
+[3.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/package.bash'
+[3.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_bringup/share/ur_bringup/package.zsh'
+[3.625s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_bringup/share/colcon-core/packages/ur_bringup)
+[3.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_robot_driver -- -j8 -l8
+[4.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_robot_driver
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/camera_control' for CMake module files
+[4.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/src/camera_control' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/icrs/icrsUR/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icrs/icrsUR/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_control build --build-base /home/icrs/icrsUR/build/camera_control/build install --record /home/icrs/icrsUR/build/camera_control/install.log --single-version-externally-managed install_data
+[4.047s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/camera_control' for CMake config files
+[4.048s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/camera_control/lib'
+[4.048s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/camera_control/bin'
+[4.048s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/camera_control/lib/pkgconfig/camera_control.pc'
+[4.048s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/camera_control/lib/python3.10/site-packages'
+[4.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_control', 'pythonpath')
+[4.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/camera_control/share/camera_control/hook/pythonpath.ps1'
+[4.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/camera_control/share/camera_control/hook/pythonpath.dsv'
+[4.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/camera_control/share/camera_control/hook/pythonpath.sh'
+[4.050s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/camera_control/bin'
+[4.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_control)
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/camera_control/share/camera_control/package.ps1'
+[4.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/camera_control/share/camera_control/package.dsv'
+[4.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/camera_control/share/camera_control/package.sh'
+[4.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/camera_control/share/camera_control/package.bash'
+[4.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/camera_control/share/camera_control/package.zsh'
+[4.055s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/camera_control/share/colcon-core/packages/camera_control)
+[4.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_driver)
+[4.138s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_robot_driver' for CMake module files
+[4.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_robot_driver
+[4.140s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_robot_driver' for CMake config files
+[4.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[4.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[4.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[4.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[4.142s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_robot_driver/lib'
+[4.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[4.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[4.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[4.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[4.144s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_robot_driver/bin'
+[4.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'path')
+[4.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[4.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[4.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[4.145s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[4.146s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_robot_driver/lib/python3.10/site-packages'
+[4.146s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_robot_driver/bin'
+[4.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[4.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[4.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[4.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[4.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[4.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[4.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[4.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[4.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[4.151s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[4.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_driver)
+[4.203s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_robot_driver' for CMake module files
+[4.203s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_robot_driver' for CMake config files
+[4.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[4.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[4.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[4.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[4.206s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_robot_driver/lib'
+[4.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[4.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[4.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[4.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[4.208s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_robot_driver/bin'
+[4.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'path')
+[4.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[4.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[4.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[4.210s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[4.210s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_robot_driver/lib/python3.10/site-packages'
+[4.210s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_robot_driver/bin'
+[4.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[4.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[4.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[4.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[4.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[4.213s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[4.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[4.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[4.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[4.215s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[4.216s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_calibration' with build type 'ament_cmake'
+[4.216s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_calibration'
+[4.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_calibration': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_calibration -- -j8 -l8
+[4.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_calibration -- -j8 -l8
+[4.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur_calibration': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_calibration
+[4.424s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_calibration)
+[4.424s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_calibration' for CMake module files
+[4.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_calibration
+[4.425s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_calibration' for CMake config files
+[4.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_calibration', 'cmake_prefix_path')
+[4.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.ps1'
+[4.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.dsv'
+[4.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.sh'
+[4.427s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_calibration/lib'
+[4.427s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_calibration/bin'
+[4.427s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_calibration/lib/pkgconfig/ur_calibration.pc'
+[4.427s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_calibration/lib/python3.10/site-packages'
+[4.427s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_calibration/bin'
+[4.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/package.ps1'
+[4.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/package.dsv'
+[4.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/package.sh'
+[4.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/package.bash'
+[4.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/package.zsh'
+[4.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_calibration/share/colcon-core/packages/ur_calibration)
+[4.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_calibration)
+[4.468s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_calibration' for CMake module files
+[4.469s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_calibration' for CMake config files
+[4.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_calibration', 'cmake_prefix_path')
+[4.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.ps1'
+[4.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.dsv'
+[4.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.sh'
+[4.471s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_calibration/lib'
+[4.471s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_calibration/bin'
+[4.472s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_calibration/lib/pkgconfig/ur_calibration.pc'
+[4.472s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_calibration/lib/python3.10/site-packages'
+[4.472s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur_calibration/bin'
+[4.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/package.ps1'
+[4.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/package.dsv'
+[4.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/package.sh'
+[4.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/package.bash'
+[4.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/package.zsh'
+[4.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur_calibration/share/colcon-core/packages/ur_calibration)
+[4.478s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur' with build type 'ament_cmake'
+[4.478s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur'
+[4.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur -- -j8 -l8
+[4.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur -- -j8 -l8
+[4.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/ur': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur
+[4.591s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur)
+[4.591s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur' for CMake module files
+[4.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur
+[4.592s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur' for CMake config files
+[4.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur', 'cmake_prefix_path')
+[4.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur/share/ur/hook/cmake_prefix_path.ps1'
+[4.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur/share/ur/hook/cmake_prefix_path.dsv'
+[4.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur/share/ur/hook/cmake_prefix_path.sh'
+[4.594s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur/bin'
+[4.594s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur/lib/pkgconfig/ur.pc'
+[4.595s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur/lib/python3.10/site-packages'
+[4.595s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur/bin'
+[4.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur/share/ur/package.ps1'
+[4.596s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur/share/ur/package.dsv'
+[4.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur/share/ur/package.sh'
+[4.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur/share/ur/package.bash'
+[4.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur/share/ur/package.zsh'
+[4.597s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur/share/colcon-core/packages/ur)
+[4.620s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur)
+[4.620s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur' for CMake module files
+[4.621s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur' for CMake config files
+[4.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur', 'cmake_prefix_path')
+[4.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur/share/ur/hook/cmake_prefix_path.ps1'
+[4.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/ur/share/ur/hook/cmake_prefix_path.dsv'
+[4.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/ur/share/ur/hook/cmake_prefix_path.sh'
+[4.623s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur/bin'
+[4.623s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur/lib/pkgconfig/ur.pc'
+[4.624s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur/lib/python3.10/site-packages'
+[4.624s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/ur/bin'
+[4.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur/share/ur/package.ps1'
+[4.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/ur/share/ur/package.dsv'
+[4.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur/share/ur/package.sh'
+[4.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur/share/ur/package.bash'
+[4.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/ur/share/ur/package.zsh'
+[4.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/ur/share/colcon-core/packages/ur)
+[9.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/service_ur5ik' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/service_ur5ik -- -j8 -l8
+[9.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icrs/icrsUR/build/service_ur5ik': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/service_ur5ik
+[9.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_ur5ik)
+[9.301s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/service_ur5ik' for CMake module files
+[9.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icrs/icrsUR/build/service_ur5ik' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/service_ur5ik
+[9.302s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/service_ur5ik' for CMake config files
+[9.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_ur5ik', 'cmake_prefix_path')
+[9.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/hook/cmake_prefix_path.ps1'
+[9.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/hook/cmake_prefix_path.dsv'
+[9.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/hook/cmake_prefix_path.sh'
+[9.303s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/service_ur5ik/lib'
+[9.304s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/service_ur5ik/bin'
+[9.304s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/service_ur5ik/lib/pkgconfig/service_ur5ik.pc'
+[9.304s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/service_ur5ik/lib/python3.10/site-packages'
+[9.304s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/service_ur5ik/bin'
+[9.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.ps1'
+[9.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.dsv'
+[9.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.sh'
+[9.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.bash'
+[9.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.zsh'
+[9.306s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/service_ur5ik/share/colcon-core/packages/service_ur5ik)
+[9.333s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_ur5ik)
+[9.334s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/service_ur5ik' for CMake module files
+[9.334s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/service_ur5ik' for CMake config files
+[9.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_ur5ik', 'cmake_prefix_path')
+[9.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/hook/cmake_prefix_path.ps1'
+[9.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/hook/cmake_prefix_path.dsv'
+[9.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/hook/cmake_prefix_path.sh'
+[9.336s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/service_ur5ik/lib'
+[9.336s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/service_ur5ik/bin'
+[9.336s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/service_ur5ik/lib/pkgconfig/service_ur5ik.pc'
+[9.336s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/service_ur5ik/lib/python3.10/site-packages'
+[9.337s] Level 1:colcon.colcon_core.environment:checking '/home/icrs/icrsUR/install/service_ur5ik/bin'
+[9.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.ps1'
+[9.337s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.dsv'
+[9.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.sh'
+[9.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.bash'
+[9.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.zsh'
+[9.339s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icrs/icrsUR/install/service_ur5ik/share/colcon-core/packages/service_ur5ik)
+[9.339s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.339s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.339s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.340s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.346s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.346s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.346s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.359s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.360s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/icrs/icrsUR/install/local_setup.ps1'
+[9.361s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/icrs/icrsUR/install/_local_setup_util_ps1.py'
+[9.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/icrs/icrsUR/install/setup.ps1'
+[9.364s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/icrs/icrsUR/install/local_setup.sh'
+[9.365s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/icrs/icrsUR/install/_local_setup_util_sh.py'
+[9.366s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/icrs/icrsUR/install/setup.sh'
+[9.368s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/icrs/icrsUR/install/local_setup.bash'
+[9.368s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/icrs/icrsUR/install/setup.bash'
+[9.370s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/icrs/icrsUR/install/local_setup.zsh'
+[9.370s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/icrs/icrsUR/install/setup.zsh'

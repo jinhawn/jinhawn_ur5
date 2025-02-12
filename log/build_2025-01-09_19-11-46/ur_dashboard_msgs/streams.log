@@ -1,0 +1,436 @@
+[0.055s] Invoking command in '/home/icrs/icrsUR/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_dashboard_msgs -- -j8 -l8
+[0.815s] [  0%] Built target ur_dashboard_msgs__cpp
+[0.816s] [  0%] Built target ament_cmake_python_symlink_ur_dashboard_msgs
+[0.816s] [ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[0.816s] [ 13%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp.o[0m
+[0.816s] [ 14%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp.o[0m
+[0.817s] [ 26%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[0.817s] [ 27%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/program_state__type_support_c.cpp.o[0m
+[0.817s] [ 39%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[0.817s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[0.817s] [ 41%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/program_state__type_support.cpp.o[0m
+[0.817s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp.o[0m
+[0.817s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support_c.cpp.o[0m
+[2.413s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[2.634s] running egg_info
+[2.635s] writing ur_dashboard_msgs.egg-info/PKG-INFO
+[2.636s] writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+[2.644s] writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+[2.666s] reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[2.668s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[2.719s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support_c.cpp.o[0m
+[2.863s] [ 44%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg
+[2.880s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[2.896s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp.o[0m
+[2.983s] [ 45%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/robot_mode__type_support.cpp.o[0m
+[3.114s] [ 45%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/safety_mode__type_support.cpp.o[0m
+[3.122s] [ 46%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp.o[0m
+[3.180s] [ 47%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp.o[0m
+[3.851s] [ 48%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support_c.cpp.o[0m
+[4.027s] [ 49%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[4.126s] [ 50%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support_c.cpp.o[0m
+[4.566s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[4.622s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/add_to_log__type_support.cpp.o[0m
+[4.750s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support_c.cpp.o[0m
+[4.893s] [ 53%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp.o[0m
+[4.947s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_loaded_program__type_support.cpp.o[0m
+[4.999s] [ 55%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support_c.cpp.o[0m
+[5.379s] [ 56%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support_c.cpp.o[0m
+[5.527s] [ 56%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[5.552s] [ 56%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp.o[0m
+[5.683s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[5.806s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp.o[0m
+[6.130s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[6.160s] [ 60%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_program_state__type_support.cpp.o[0m
+[6.225s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support_c.cpp.o[0m
+[6.310s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp.o[0m
+[6.432s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_robot_mode__type_support.cpp.o[0m
+[6.488s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support_c.cpp.o[0m
+[6.827s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[6.842s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/load__type_support_c.cpp.o[0m
+[6.863s] [ 65%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_safety_mode__type_support.cpp.o[0m
+[7.354s] [ 65%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[7.436s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/load__type_support.cpp.o[0m
+[7.550s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[7.562s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/popup__type_support.cpp.o[0m
+[7.595s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/popup__type_support_c.cpp.o[0m
+[7.859s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_running__type_support.cpp.o[0m
+[7.930s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp.o[0m
+[7.945s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[8.283s] [ 72%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/raw_request__type_support_c.cpp.o[0m
+[8.292s] [ 73%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[8.533s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp.o[0m
+[8.640s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/action/detail/set_mode__type_support_c.cpp.o[0m
+[8.667s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_saved__type_support.cpp.o[0m
+[8.781s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[9.141s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/load__type_support.cpp.o[0m
+[9.218s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/popup__type_support.cpp.o[0m
+[9.232s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/raw_request__type_support.cpp.o[0m
+[9.241s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/action/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[9.941s] [ 79%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.192s] [ 80%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[10.474s] [ 81%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_cpp.so[0m
+[10.617s] [ 82%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[10.747s] [ 83%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.936s] [ 83%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[10.994s] [ 83%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.126s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[11.156s] [ 84%] Built target ur_dashboard_msgs
+[11.186s] [ 85%] Built target ur_dashboard_msgs__py
+[11.227s] [ 86%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_add_to_log_s.c.o[0m
+[11.227s] [ 87%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_program_state_s.c.o[0m
+[11.230s] [ 87%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_robot_mode_s.c.o[0m
+[11.236s] [ 88%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_safety_mode_s.c.o[0m
+[11.245s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_robot_mode_s.c.o[0m
+[11.245s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_program_state_s.c.o[0m
+[11.255s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_loaded_program_s.c.o[0m
+[11.257s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_safety_mode_s.c.o[0m
+[11.505s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_running_s.c.o[0m
+[11.531s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_saved_s.c.o[0m
+[11.589s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_load_s.c.o[0m
+[11.614s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_popup_s.c.o[0m
+[11.616s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_raw_request_s.c.o[0m
+[11.645s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/action/_set_mode_s.c.o[0m
+[11.961s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so[0m
+[12.027s] [ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[12.065s] [ 97%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.066s] [ 99%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[12.066s] [ 99%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.470s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.486s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.492s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.537s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[12.573s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[12.573s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[12.592s] Invoked command in '/home/icrs/icrsUR/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_dashboard_msgs -- -j8 -l8
+[13.122s] Invoking command in '/home/icrs/icrsUR/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_dashboard_msgs
+[13.134s] -- Install configuration: ""
+[13.136s] -- Execute custom install script
+[13.136s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+[13.139s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.h
+[13.139s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.h
+[13.139s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.h
+[13.140s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.h
+[13.140s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.h
+[13.141s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.h
+[13.141s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.h
+[13.142s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.h
+[13.142s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.h
+[13.142s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h
+[13.142s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.h
+[13.143s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.h
+[13.143s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h
+[13.143s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.h
+[13.143s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.h
+[13.143s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[13.144s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.h
+[13.144s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.h
+[13.144s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.h
+[13.144s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.h
+[13.145s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h
+[13.145s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h
+[13.145s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h
+[13.146s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h
+[13.146s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.h
+[13.146s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.h
+[13.146s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h
+[13.146s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h
+[13.147s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h
+[13.147s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h
+[13.147s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h
+[13.147s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h
+[13.148s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h
+[13.148s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.h
+[13.148s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.h
+[13.148s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h
+[13.149s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h
+[13.149s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h
+[13.149s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h
+[13.149s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.h
+[13.150s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.h
+[13.150s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.h
+[13.150s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.h
+[13.150s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.h
+[13.150s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.h
+[13.151s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.h
+[13.151s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.h
+[13.151s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.h
+[13.151s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.h
+[13.151s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.h
+[13.152s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.h
+[13.152s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.h
+[13.152s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.h
+[13.152s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.h
+[13.152s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.h
+[13.153s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.h
+[13.153s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.h
+[13.154s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+[13.154s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+[13.155s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[13.155s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h
+[13.155s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[13.155s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h
+[13.156s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.156s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h
+[13.156s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+[13.156s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h
+[13.157s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+[13.157s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+[13.157s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h
+[13.157s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h
+[13.158s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+[13.158s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h
+[13.158s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h
+[13.159s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h
+[13.159s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h
+[13.159s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[13.160s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h
+[13.160s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.160s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h
+[13.160s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h
+[13.160s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h
+[13.161s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h
+[13.161s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h
+[13.161s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h
+[13.161s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h
+[13.162s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h
+[13.162s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h
+[13.162s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h
+[13.163s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__builder.hpp
+[13.164s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.hpp
+[13.164s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__traits.hpp
+[13.164s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.hpp
+[13.164s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__builder.hpp
+[13.164s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.hpp
+[13.165s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__traits.hpp
+[13.165s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp
+[13.165s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp
+[13.165s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp
+[13.165s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp
+[13.166s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp
+[13.166s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp
+[13.166s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.hpp
+[13.166s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.hpp
+[13.167s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.hpp
+[13.167s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.hpp
+[13.167s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp
+[13.167s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp
+[13.167s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp
+[13.168s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp
+[13.168s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp
+[13.168s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp
+[13.168s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp
+[13.169s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp
+[13.169s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp
+[13.169s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp
+[13.169s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp
+[13.170s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp
+[13.170s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp
+[13.170s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp
+[13.170s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp
+[13.171s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp
+[13.171s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp
+[13.171s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp
+[13.171s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp
+[13.172s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp
+[13.172s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp
+[13.172s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__builder.hpp
+[13.172s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.hpp
+[13.173s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__traits.hpp
+[13.173s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__builder.hpp
+[13.173s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.hpp
+[13.173s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__traits.hpp
+[13.174s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp
+[13.174s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp
+[13.174s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp
+[13.175s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.hpp
+[13.175s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.hpp
+[13.175s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.hpp
+[13.175s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.hpp
+[13.176s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.hpp
+[13.176s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.hpp
+[13.176s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.hpp
+[13.176s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.hpp
+[13.177s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.hpp
+[13.178s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[13.179s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[13.179s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[13.179s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[13.179s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.180s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+[13.180s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+[13.180s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[13.180s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[13.181s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[13.181s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+[13.181s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+[13.182s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+[13.182s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp
+[13.182s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+[13.183s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[13.183s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp
+[13.183s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[13.184s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[13.184s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+[13.184s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+[13.184s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+[13.184s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[13.185s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[13.185s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+[13.185s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+[13.185s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+[13.186s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp
+[13.186s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp
+[13.186s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+[13.187s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+[13.187s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.10-py3.10.egg-info/PKG-INFO
+[13.188s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.10-py3.10.egg-info/SOURCES.txt
+[13.188s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.10-py3.10.egg-info/dependency_links.txt
+[13.188s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.10-py3.10.egg-info/top_level.txt
+[13.190s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py
+[13.191s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c
+[13.191s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.191s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[13.192s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py
+[13.192s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py
+[13.192s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode_s.c
+[13.193s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so
+[13.193s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py
+[13.193s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py
+[13.193s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state_s.c
+[13.194s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py
+[13.194s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode_s.c
+[13.194s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py
+[13.195s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode_s.c
+[13.195s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py
+[13.195s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py
+[13.195s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log_s.c
+[13.195s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+[13.196s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program_s.c
+[13.196s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py
+[13.196s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state_s.c
+[13.197s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+[13.197s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode_s.c
+[13.197s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+[13.197s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode_s.c
+[13.198s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py
+[13.198s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running_s.c
+[13.198s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+[13.199s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved_s.c
+[13.199s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py
+[13.199s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load_s.c
+[13.199s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py
+[13.200s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup_s.c
+[13.200s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py
+[13.200s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request_s.c
+[13.201s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.201s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.201s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.202s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.203s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.204s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.204s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+[13.204s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+[13.205s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+[13.205s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+[13.206s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+[13.206s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+[13.207s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+[13.207s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+[13.208s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+[13.208s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+[13.208s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+[13.209s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+[13.209s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+[13.210s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+[13.210s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+[13.211s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+[13.211s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+[13.212s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+[13.213s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Request.msg
+[13.213s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Response.msg
+[13.213s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+[13.213s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Request.msg
+[13.214s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Response.msg
+[13.214s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+[13.215s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Request.msg
+[13.215s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Response.msg
+[13.215s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+[13.216s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Request.msg
+[13.216s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Response.msg
+[13.217s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+[13.217s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Request.msg
+[13.218s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Response.msg
+[13.218s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+[13.218s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Request.msg
+[13.219s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Response.msg
+[13.219s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+[13.220s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Request.msg
+[13.220s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Response.msg
+[13.221s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+[13.221s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Request.msg
+[13.221s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Response.msg
+[13.222s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+[13.222s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Request.msg
+[13.223s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Response.msg
+[13.223s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+[13.223s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Request.msg
+[13.224s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Response.msg
+[13.224s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+[13.225s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+[13.225s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+[13.226s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+[13.226s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+[13.227s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+[13.227s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+[13.228s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+[13.228s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+[13.229s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+[13.229s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+[13.229s] -- Symlinking: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+[13.246s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+[13.246s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+[13.247s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.247s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.248s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[13.248s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[13.248s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.249s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.249s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+[13.250s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+[13.250s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+[13.251s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+[13.252s] -- Installing: /home/icrs/icrsUR/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+[13.253s] -- Set runtime path of "/home/icrs/icrsUR/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[13.254s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+[13.254s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+[13.255s] -- Installing: /home/icrs/icrsUR/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.256s] -- Set runtime path of "/home/icrs/icrsUR/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.257s] -- Installing: /home/icrs/icrsUR/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+[13.258s] -- Set runtime path of "/home/icrs/icrsUR/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[13.258s] -- Installing: /home/icrs/icrsUR/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+[13.259s] -- Set runtime path of "/home/icrs/icrsUR/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so" to ""
+[13.344s] Listing '/home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs'...
+[13.345s] Listing '/home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action'...
+[13.345s] Listing '/home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg'...
+[13.345s] Listing '/home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv'...
+[13.353s] -- Installing: /home/icrs/icrsUR/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so
+[13.353s] -- Set runtime path of "/home/icrs/icrsUR/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so" to ""
+[13.354s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport.cmake
+[13.355s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport-noconfig.cmake
+[13.355s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[13.355s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.355s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[13.356s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.356s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake
+[13.356s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[13.357s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cppExport.cmake
+[13.357s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.357s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.358s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[13.358s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.358s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake
+[13.359s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[13.359s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport.cmake
+[13.359s] -- Up-to-date: /home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport-noconfig.cmake
+[13.364s] Invoked command in '/home/icrs/icrsUR/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_dashboard_msgs

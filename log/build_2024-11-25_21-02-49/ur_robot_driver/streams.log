@@ -1,0 +1,38 @@
+[0.016s] Invoking command in '/home/icrs/icrsUR/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_robot_driver -- -j8 -l8
+[0.133s] [ 26%] Built target dashboard_client
+[0.133s] [ 46%] Built target controller_stopper_node
+[0.133s] [ 60%] Built target urscript_interface
+[0.133s] [ 73%] Built target ur_ros2_control_node
+[0.134s] [ 73%] Built target ament_cmake_python_symlink_ur_robot_driver
+[0.149s] [100%] Built target ur_robot_driver_plugin
+[0.351s] Traceback (most recent call last):
+[0.351s]   File "/home/icrs/icrsUR/build/ur_robot_driver/ament_cmake_python/ur_robot_driver/setup.py", line 1, in <module>
+[0.352s]     from setuptools import find_packages
+[0.352s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[0.358s]     import setuptools.version
+[0.358s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[0.358s]     import pkg_resources
+[0.358s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[0.359s]     def _initialize_master_working_set():
+[0.360s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[0.360s]     f(*args, **kwargs)
+[0.360s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[0.361s]     working_set = WorkingSet._build_master()
+[0.361s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[0.361s]     ws = cls()
+[0.361s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[0.361s]     self.add_entry(entry)
+[0.361s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[0.361s]     for dist in find_distributions(entry, True):
+[0.362s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+[0.362s]     for dist in factory(fullpath):
+[0.362s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata
+[0.362s]     yield Distribution.from_location(
+[0.362s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2594, in from_location
+[0.362s]     basename, ext = os.path.splitext(basename)
+[0.362s]   File "/usr/lib/python3.10/posixpath.py", line 119, in splitext
+[0.362s]     if isinstance(p, bytes):
+[0.362s] KeyboardInterrupt
+[0.397s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ur_robot_driver_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ur_robot_driver_egg] Interrupt
+[0.397s] gmake[1]: *** [CMakeFiles/Makefile2:304: CMakeFiles/ament_cmake_python_build_ur_robot_driver_egg.dir/all] Interrupt
+[0.397s] gmake: *** [Makefile:146: all] Interrupt

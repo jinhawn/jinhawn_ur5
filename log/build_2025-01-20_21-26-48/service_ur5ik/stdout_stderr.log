@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target calc_server[0m
+[  0%] Built target ament_cmake_python_symlink_service_ur5ik
+[ 50%] Built target target_client
+[100%] Built target calc_server
+Traceback (most recent call last):
+  File "/home/icrs/icrsUR/build/service_ur5ik/ament_cmake_python/service_ur5ik/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+    def _initialize_master_working_set():
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+    f(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+    ws = cls()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+    self.add_entry(entry)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2073, in find_on_path
+    path_item_entries = _by_version_descending(filtered)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2043, in _by_version_descending
+    return sorted(names, key=_by_version, reverse=True)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2039, in _by_version
+    name, ext = os.path.splitext(name)
+  File "/usr/lib/python3.10/posixpath.py", line 125, in splitext
+    return genericpath._splitext(p, sep, None, extsep)
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_service_ur5ik_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_service_ur5ik_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/ament_cmake_python_build_service_ur5ik_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

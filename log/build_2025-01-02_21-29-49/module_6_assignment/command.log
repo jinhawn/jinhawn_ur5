@@ -1,0 +1,1 @@
+Invoking command in '/home/icrs/icrsUR/build/module_6_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/icrs/icrsUR/src/robotics_software_engineer-assignments/module_6_assignment -DCMAKE_INSTALL_PREFIX=/home/icrs/icrsUR/install/module_6_assignment

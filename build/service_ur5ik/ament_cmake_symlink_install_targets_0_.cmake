@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/icrs/icrsUR/build/service_ur5ik/target_client" "/home/icrs/icrsUR/build/service_ur5ik/calc_server" "TARGETS" "target_client" "calc_server" "DESTINATION" "lib/service_ur5ik")

@@ -1,0 +1,62 @@
+[0.011s] Invoking command in '/home/icrs/icrsUR/build/ur_calibration': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/icrs/icrsUR/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/icrs/icrsUR/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_calibration -- -j8 -l8
+[0.059s] [ 41%] Built target gmock_main
+[0.060s] [ 41%] Built target gmock
+[0.065s] [ 66%] Built target calibration
+[0.091s] [100%] Built target calibration_test
+[0.091s] [100%] Built target calibration_correction
+[0.100s] Invoked command in '/home/icrs/icrsUR/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/icrs/icrsUR/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/icrs/icrsUR/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_calibration -- -j8 -l8
+[0.127s] Invoking command in '/home/icrs/icrsUR/build/ur_calibration': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/icrs/icrsUR/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/icrs/icrsUR/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_calibration
+[0.133s] -- Install configuration: "RelWithDebInfo"
+[0.134s] -- Execute custom install script
+[0.134s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/lib/ur_calibration/calibration_correction
+[0.134s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/include/ur_calibration/calibration.hpp
+[0.134s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/include/ur_calibration/calibration_consumer.hpp
+[0.135s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/launch/calibration_correction.launch.py
+[0.135s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+[0.135s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+[0.135s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.sh
+[0.135s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.dsv
+[0.135s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/environment/path.sh
+[0.135s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/environment/path.dsv
+[0.136s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/local_setup.bash
+[0.136s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/local_setup.sh
+[0.136s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/local_setup.zsh
+[0.136s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/local_setup.dsv
+[0.136s] -- Symlinking: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/package.dsv
+[0.144s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ament_index/resource_index/packages/ur_calibration
+[0.144s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.144s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.144s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+[0.144s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+[0.144s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_calibration/share/ur_calibration/package.xml
+[0.146s] Invoked command in '/home/icrs/icrsUR/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/icrs/icrsUR/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/icrs/icrsUR/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_calibration
+[0.164s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 65, in build
+    has_install_target = await has_target(args.build_base, 'install')
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/icrs/icrsUR/build/ur_calibration', '--target', 'help'] to pass: gmake: *** [Makefile:389: help] Interrupt
+

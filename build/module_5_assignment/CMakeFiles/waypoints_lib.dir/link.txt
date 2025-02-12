@@ -1,0 +1,2 @@
+/usr/bin/ar qc libwaypoints_lib.a CMakeFiles/waypoints_lib.dir/src/waypoints_lib/waypoints_lib.cpp.o
+/usr/bin/ranlib libwaypoints_lib.a

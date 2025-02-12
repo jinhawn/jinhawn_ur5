@@ -1,0 +1,241 @@
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:381:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_node[m[K’ does not name a type
+  381 |         [01;31m[Kcurrent_node[m[K = list_.getHead();
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:382:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  382 |     }
+      |      [01;31m[K^[m[K
+      |      [32m[K;[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In constructor ‘[01m[KArrayServiceServer::ArrayServiceServer()[m[K’:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:68:58:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KArrayServiceServer[m[K’ does not have any field named ‘[01m[Kcurrent_node[m[K’
+   68 |     ArrayServiceServer() : Node("array_service_server"), [01;31m[Kcurrent_node[m[K(nullptr) {
+      |                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_client_[m[K’ was not declared in this scope
+   69 |     [01;31m[Kservice_client_[m[K = this->create_service<interfaces_ur5ik::srv::SixTheta>("service_ik",std::bind(&ArrayServiceServer::handle_request, this, std::placeholders::_1, std::placeholders::_2));
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:69:121:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_request[m[K’ is not a member of ‘[01m[KArrayServiceServer[m[K’
+   69 |     service_client_ = this->create_service<interfaces_ur5ik::srv::SixTheta>("service_ik",std::bind(&ArrayServiceServer::[01;31m[Khandle_request[m[K, this, std::placeholders::_1, std::placeholders::_2));
+      |                                                                                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:71:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   71 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(500ms, std::bind(&ArrayServiceServer::publish_next_position, this));
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:71:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_next_position[m[K’ is not a member of ‘[01m[KArrayServiceServer[m[K’
+   71 |     timer_ = this->create_wall_timer(500ms, std::bind(&ArrayServiceServer::[01;31m[Kpublish_next_position[m[K, this));
+      |                                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:72:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kobject_position_pub_[m[K’ was not declared in this scope
+   72 |     [01;31m[Kobject_position_pub_[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>("object_position",10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:177:1:[m[K [01;31m[Kerror: [m[K‘[01m[Klist_[m[K’ was not declared in this scope
+  177 | [01;31m[Klist_[m[K.append(arr1);
+      | [01;31m[K^~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:279:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KT[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  279 |     double [01;35m[KT[m[K[4][4] = { 0 };
+      |            [01;35m[K^[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:281:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Km_theta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  281 |     double [01;35m[Km_theta[m[K[6] = { 0 };
+      |            [01;35m[K^~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In member function ‘[01m[Kvoid ArrayServiceServer::cal_theta()[m[K’:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:357:9:[m[K [01;31m[Kerror: [m[K‘[01m[Km_theta[m[K’ was not declared in this scope; did you mean ‘[01m[Kcal_theta[m[K’?
+  357 |         [01;31m[Km_theta[m[K[0] = atan2(p05[1][0], p05[0][0]) - acos(m_d4 / sqrt(pow(p05[0][0], 2) + pow(p05[1][0], 2))) + pi / 2;
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[Kcal_theta[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K At global scope:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:385:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+  385 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In function ‘[01m[Kvoid publish_next_position()[m[K’:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:437:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitialized_[m[K’ was not declared in this scope
+  437 |         if (![01;31m[Kinitialized_[m[K) {
+      |              [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:438:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  438 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Waiting for initialization via service...");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:438:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:438:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  438 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Waiting for initialization via service...");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:438:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  438 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Waiting for initialization via service...");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:438:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  438 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Waiting for initialization via service...");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:438:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  438 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Waiting for initialization via service...");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:438:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  438 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Waiting for initialization via service...");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:442:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_node[m[K’ was not declared in this scope
+  442 |         if ([01;31m[Kcurrent_node[m[K == nullptr) {
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:443:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  443 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "No more points to publish.");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:443:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:443:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  443 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "No more points to publish.");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:443:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  443 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "No more points to publish.");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:443:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  443 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "No more points to publish.");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:443:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  443 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "No more points to publish.");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:443:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  443 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "No more points to publish.");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:447:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_node[m[K’ was not declared in this scope
+  447 |         if ([01;31m[Kcurrent_node[m[K != nullptr) {
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:448:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  448 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "12345");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:448:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:448:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  448 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "12345");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:448:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  448 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "12345");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:448:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  448 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "12345");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:448:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  448 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "12345");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:448:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  448 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "12345");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:456:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_node[m[K’ was not declared in this scope
+  456 |         double x = [01;31m[Kcurrent_node[m[K->data[0];
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:463:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_trans[m[K’ was not declared in this scope
+  463 |         [01;31m[Kset_trans[m[K(x,y,z,roll,pitch,yaw);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:464:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcal_theta[m[K’ was not declared in this scope
+  464 |         [01;31m[Kcal_theta[m[K();
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:467:36:[m[K [01;31m[Kerror: [m[K‘[01m[Km_theta[m[K’ was not declared in this scope
+  467 |             message.data.push_back([01;31m[Km_theta[m[K[i]);
+      |                                    [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:470:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  470 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Publishing point");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:470:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:470:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  470 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing point");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:470:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  470 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing point");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:470:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  470 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing point");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:470:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  470 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Publishing point");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:470:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  470 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Publishing point");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:471:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kobject_position_pub_[m[K’ was not declared in this scope
+  471 |         [01;31m[Kobject_position_pub_[m[K-> publish(message);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/calc_server.dir/build.make:76: CMakeFiles/calc_server.dir/src/calc_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/calc_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

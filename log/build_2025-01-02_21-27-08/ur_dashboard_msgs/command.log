@@ -1,0 +1,2 @@
+Invoking command in '/home/icrs/icrsUR/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_dashboard_msgs -- -j8 -l8
+Invoked command in '/home/icrs/icrsUR/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_dashboard_msgs -- -j8 -l8

@@ -1,0 +1,61 @@
+[35m[1mConsolidate compiler generated dependencies of target calc_server[0m
+[ 50%] Built target target_client
+[ 50%] Built target ament_cmake_python_symlink_service_ur5ik
+[ 75%] [32mBuilding CXX object CMakeFiles/calc_server.dir/src/calc_server.cpp.o[0m
+running egg_info
+writing service_ur5ik.egg-info/PKG-INFO
+writing dependency_links to service_ur5ik.egg-info/dependency_links.txt
+writing top-level names to service_ur5ik.egg-info/top_level.txt
+reading manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+writing manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_service_ur5ik_egg
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:500:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  500 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:66:48:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   66 | class ArrayServiceServer : public rclcpp::Node [01;36m[K{[m[K
+      |                                                [01;36m[K^[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In constructor ‘[01m[KArrayServiceServer::ArrayServiceServer()[m[K’:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:68:58:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KArrayServiceServer[m[K’ does not have any field named ‘[01m[Kcurrent_node[m[K’
+   68 |     ArrayServiceServer() : Node("array_service_server"), [01;31m[Kcurrent_node[m[K(nullptr) {
+      |                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_client_[m[K’ was not declared in this scope
+   69 |     [01;31m[Kservice_client_[m[K = this->create_service<interfaces_ur5ik::srv::SixTheta>("service_ik",std::bind(&ArrayServiceServer::handle_request, this, std::placeholders::_1, std::placeholders::_2));
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:69:121:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_request[m[K’ is not a member of ‘[01m[KArrayServiceServer[m[K’
+   69 |     service_client_ = this->create_service<interfaces_ur5ik::srv::SixTheta>("service_ik",std::bind(&ArrayServiceServer::[01;31m[Khandle_request[m[K, this, std::placeholders::_1, std::placeholders::_2));
+      |                                                                                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:71:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   71 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(500ms, std::bind(&ArrayServiceServer::publish_next_position, this));
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:71:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_next_position[m[K’ is not a member of ‘[01m[KArrayServiceServer[m[K’
+   71 |     timer_ = this->create_wall_timer(500ms, std::bind(&ArrayServiceServer::[01;31m[Kpublish_next_position[m[K, this));
+      |                                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:72:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kobject_position_pub_[m[K’ was not declared in this scope
+   72 |     [01;31m[Kobject_position_pub_[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>("object_position",10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:177:1:[m[K [01;31m[Kerror: [m[K‘[01m[Klist_[m[K’ was not declared in this scope
+  177 | [01;31m[Klist_[m[K.append(arr1);
+      | [01;31m[K^~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:281:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_node[m[K’ was not declared in this scope
+  281 |         [01;31m[Kcurrent_node[m[K = list_.getHead();
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In member function ‘[01m[Kvoid ArrayServiceServer::set_trans(double, double, double, double, double, double)[m[K’:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:345:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+  345 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  344 |         printf[01;36m[K([m[K"%f", T[1][1]
+      |               [01;36m[K^[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In member function ‘[01m[Kint ArrayServiceServer::main(int, char**)[m[K’:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:500:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  500 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K At global scope:
+[01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:500:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  500 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/calc_server.dir/build.make:76: CMakeFiles/calc_server.dir/src/calc_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/calc_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

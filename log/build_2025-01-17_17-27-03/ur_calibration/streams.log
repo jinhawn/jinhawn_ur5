@@ -1,0 +1,6 @@
+[0.077s] Invoking command in '/home/icrs/icrsUR/build/ur_calibration': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_calibration -- -j8 -l8
+[0.288s] [ 16%] Built target gmock_main
+[0.300s] [ 41%] Built target gmock
+[0.315s] [ 66%] Built target calibration
+[0.422s] [ 91%] Built target calibration_test
+[0.423s] [100%] Built target calibration_correction

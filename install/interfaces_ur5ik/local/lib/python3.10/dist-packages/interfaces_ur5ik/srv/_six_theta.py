@@ -1,0 +1,1 @@
+/home/icrs/icrsUR/build/interfaces_ur5ik/rosidl_generator_py/interfaces_ur5ik/srv/_six_theta.py

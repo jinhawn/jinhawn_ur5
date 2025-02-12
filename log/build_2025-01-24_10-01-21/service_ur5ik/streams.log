@@ -1,0 +1,463 @@
+[0.021s] Invoking command in '/home/icrs/icrsUR/build/service_ur5ik': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/service_ur5ik -- -j8 -l8
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target calc_server[0m
+[0.144s] [  0%] Built target ament_cmake_python_symlink_service_ur5ik
+[0.153s] [ 25%] [32m[1mLinking CXX executable target_client[0m
+[0.162s] [ 50%] [32mBuilding CXX object CMakeFiles/calc_server.dir/src/calc_server.cpp.o[0m
+[0.602s] [ 75%] Built target target_client
+[0.797s] running egg_info
+[0.800s] writing service_ur5ik.egg-info/PKG-INFO
+[0.800s] writing dependency_links to service_ur5ik.egg-info/dependency_links.txt
+[0.801s] writing top-level names to service_ur5ik.egg-info/top_level.txt
+[0.810s] reading manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+[0.812s] writing manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+[0.901s] [ 75%] Built target ament_cmake_python_build_service_ur5ik_egg
+[5.873s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In constructor ‘[01m[KArrayServiceServer::ArrayServiceServer()[m[K’:
+[5.874s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:89:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr15[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.874s]    89 |         double [01;35m[Karr15[m[K[6] = {0.063636, -0.5, 0.3892, 2.8833, 0.0, 0.0};
+[5.874s]       |                [01;35m[K^~~~~[m[K
+[5.875s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:90:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.875s]    90 |         double [01;35m[Karr16[m[K[6] = {0.068182, -0.5, 0.3870, 2.8650, 0.0, 0.0};
+[5.875s]       |                [01;35m[K^~~~~[m[K
+[5.875s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:91:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr17[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.875s]    91 |         double [01;35m[Karr17[m[K[6] = {0.072727, -0.5, 0.3848, 2.8467, 0.0, 0.0};
+[5.875s]       |                [01;35m[K^~~~~[m[K
+[5.875s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:92:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr18[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.876s]    92 |         double [01;35m[Karr18[m[K[6] = {0.077273, -0.5, 0.3826, 2.8283, 0.0, 0.0};
+[5.876s]       |                [01;35m[K^~~~~[m[K
+[5.876s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:93:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr19[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.876s]    93 |         double [01;35m[Karr19[m[K[6] = {0.081818, -0.5, 0.3804, 2.8100, 0.0, 0.0};
+[5.876s]       |                [01;35m[K^~~~~[m[K
+[5.876s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:94:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.876s]    94 |         double [01;35m[Karr20[m[K[6] = {0.086364, -0.5, 0.3782, 2.7917, 0.0, 0.0};
+[5.877s]       |                [01;35m[K^~~~~[m[K
+[5.877s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:95:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr21[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.877s]    95 |         double [01;35m[Karr21[m[K[6] = {0.090909, -0.5, 0.3760, 2.7733, 0.0, 0.0};
+[5.877s]       |                [01;35m[K^~~~~[m[K
+[5.877s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:96:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr22[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.877s]    96 |         double [01;35m[Karr22[m[K[6] = {0.095455, -0.5, 0.3738, 2.7550, 0.0, 0.0};
+[5.877s]       |                [01;35m[K^~~~~[m[K
+[5.877s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:97:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr23[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.878s]    97 |         double [01;35m[Karr23[m[K[6] = {0.100000, -0.5, 0.3716, 2.7367, 0.0, 0.0};
+[5.878s]       |                [01;35m[K^~~~~[m[K
+[5.878s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:98:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr24[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.878s]    98 |         double [01;35m[Karr24[m[K[6] = {0.104545, -0.5, 0.3694, 2.7183, 0.0, 0.0};
+[5.878s]       |                [01;35m[K^~~~~[m[K
+[5.878s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:99:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr25[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.878s]    99 |         double [01;35m[Karr25[m[K[6] = {0.109091, -0.5, 0.3672, 2.7000, 0.0, 0.0};
+[5.879s]       |                [01;35m[K^~~~~[m[K
+[5.879s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:100:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr26[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.879s]   100 |         double [01;35m[Karr26[m[K[6] = {0.113636, -0.5, 0.3650, 2.6817, 0.0, 0.0};
+[5.879s]       |                [01;35m[K^~~~~[m[K
+[5.879s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:101:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr27[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.879s]   101 |         double [01;35m[Karr27[m[K[6] = {0.118182, -0.5, 0.3628, 2.6633, 0.0, 0.0};
+[5.879s]       |                [01;35m[K^~~~~[m[K
+[5.879s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:102:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr28[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.880s]   102 |         double [01;35m[Karr28[m[K[6] = {0.122727, -0.5, 0.3606, 2.6450, 0.0, 0.0};
+[5.880s]       |                [01;35m[K^~~~~[m[K
+[5.880s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:103:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr29[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.880s]   103 |         double [01;35m[Karr29[m[K[6] = {0.127273, -0.5, 0.3584, 2.6267, 0.0, 0.0};
+[5.880s]       |                [01;35m[K^~~~~[m[K
+[5.880s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:104:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr30[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.880s]   104 |         double [01;35m[Karr30[m[K[6] = {0.131818, -0.5, 0.3562, 2.6083, 0.0, 0.0};
+[5.880s]       |                [01;35m[K^~~~~[m[K
+[5.880s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:105:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr31[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.880s]   105 |         double [01;35m[Karr31[m[K[6] = {0.136364, -0.5, 0.3540, 2.5900, 0.0, 0.0};
+[5.881s]       |                [01;35m[K^~~~~[m[K
+[5.881s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:106:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr32[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.881s]   106 |         double [01;35m[Karr32[m[K[6] = {0.140909, -0.5, 0.3518, 2.5717, 0.0, 0.0};
+[5.881s]       |                [01;35m[K^~~~~[m[K
+[5.881s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:107:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr33[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.881s]   107 |         double [01;35m[Karr33[m[K[6] = {0.145455, -0.5, 0.3496, 2.5533, 0.0, 0.0};
+[5.881s]       |                [01;35m[K^~~~~[m[K
+[5.881s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:108:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr34[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.882s]   108 |         double [01;35m[Karr34[m[K[6] = {0.150000, -0.5, 0.3474, 2.5350, 0.0, 0.0};
+[5.882s]       |                [01;35m[K^~~~~[m[K
+[5.882s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:109:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr35[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.882s]   109 |         double [01;35m[Karr35[m[K[6] = {0.154545, -0.5, 0.3452, 2.5167, 0.0, 0.0};
+[5.882s]       |                [01;35m[K^~~~~[m[K
+[5.882s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:110:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr36[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.882s]   110 |         double [01;35m[Karr36[m[K[6] = {0.159091, -0.5, 0.3430, 2.4983, 0.0, 0.0};
+[5.882s]       |                [01;35m[K^~~~~[m[K
+[5.883s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:111:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr37[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.883s]   111 |         double [01;35m[Karr37[m[K[6] = {0.163636, -0.5, 0.3408, 2.4800, 0.0, 0.0};
+[5.883s]       |                [01;35m[K^~~~~[m[K
+[5.883s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:112:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr38[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.883s]   112 |         double [01;35m[Karr38[m[K[6] = {0.168182, -0.5, 0.3386, 2.4617, 0.0, 0.0};
+[5.883s]       |                [01;35m[K^~~~~[m[K
+[5.883s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:113:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr39[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.883s]   113 |         double [01;35m[Karr39[m[K[6] = {0.172727, -0.5, 0.3364, 2.4433, 0.0, 0.0};
+[5.884s]       |                [01;35m[K^~~~~[m[K
+[5.884s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:114:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr40[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.884s]   114 |         double [01;35m[Karr40[m[K[6] = {0.177273, -0.5, 0.3342, 2.4250, 0.0, 0.0};
+[5.884s]       |                [01;35m[K^~~~~[m[K
+[5.884s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:115:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr41[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.884s]   115 |         double [01;35m[Karr41[m[K[6] = {0.181818, -0.5, 0.3320, 2.4067, 0.0, 0.0};
+[5.884s]       |                [01;35m[K^~~~~[m[K
+[5.885s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:116:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr42[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.885s]   116 |         double [01;35m[Karr42[m[K[6] = {0.186364, -0.5, 0.3298, 2.3883, 0.0, 0.0};
+[5.885s]       |                [01;35m[K^~~~~[m[K
+[5.885s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:117:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr43[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.886s]   117 |         double [01;35m[Karr43[m[K[6] = {0.190909, -0.5, 0.3276, 2.3700, 0.0, 0.0};
+[5.886s]       |                [01;35m[K^~~~~[m[K
+[5.886s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:118:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr44[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.886s]   118 |         double [01;35m[Karr44[m[K[6] = {0.195455, -0.5, 0.3254, 2.3517, 0.0, 0.0};
+[5.886s]       |                [01;35m[K^~~~~[m[K
+[5.886s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:119:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr45[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.886s]   119 |         double [01;35m[Karr45[m[K[6] = {0.200000, -0.5, 0.3232, 2.3333, 0.0, 0.0};
+[5.887s]       |                [01;35m[K^~~~~[m[K
+[5.887s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:120:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr46[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.887s]   120 |         double [01;35m[Karr46[m[K[6] = {0.204545, -0.5, 0.3210, 2.3150, 0.0, 0.0};
+[5.887s]       |                [01;35m[K^~~~~[m[K
+[5.887s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:121:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr47[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.887s]   121 |         double [01;35m[Karr47[m[K[6] = {0.209091, -0.5, 0.3188, 2.2967, 0.0, 0.0};
+[5.887s]       |                [01;35m[K^~~~~[m[K
+[5.887s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:122:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr48[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.888s]   122 |         double [01;35m[Karr48[m[K[6] = {0.213636, -0.5, 0.3166, 2.2783, 0.0, 0.0};
+[5.888s]       |                [01;35m[K^~~~~[m[K
+[5.888s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:123:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr49[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.888s]   123 |         double [01;35m[Karr49[m[K[6] = {0.218182, -0.5, 0.3144, 2.2600, 0.0, 0.0};
+[5.888s]       |                [01;35m[K^~~~~[m[K
+[5.888s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:124:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr50[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.888s]   124 |         double [01;35m[Karr50[m[K[6] = {0.222727, -0.5, 0.3122, 2.2417, 0.0, 0.0};
+[5.889s]       |                [01;35m[K^~~~~[m[K
+[5.889s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:125:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr51[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.889s]   125 |         double [01;35m[Karr51[m[K[6] = {0.227273, -0.5, 0.3100, 2.2233, 0.0, 0.0};
+[5.889s]       |                [01;35m[K^~~~~[m[K
+[5.889s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:126:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr52[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.889s]   126 |         double [01;35m[Karr52[m[K[6] = {0.231818, -0.5, 0.3078, 2.2050, 0.0, 0.0};
+[5.889s]       |                [01;35m[K^~~~~[m[K
+[5.889s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:127:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr53[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.890s]   127 |         double [01;35m[Karr53[m[K[6] = {0.236364, -0.5, 0.3056, 2.1867, 0.0, 0.0};
+[5.890s]       |                [01;35m[K^~~~~[m[K
+[5.890s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:128:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr54[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.890s]   128 |         double [01;35m[Karr54[m[K[6] = {0.240909, -0.5, 0.3034, 2.1683, 0.0, 0.0};
+[5.890s]       |                [01;35m[K^~~~~[m[K
+[5.890s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:129:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr55[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.891s]   129 |         double [01;35m[Karr55[m[K[6] = {0.245455, -0.5, 0.3012, 2.1500, 0.0, 0.0};
+[5.891s]       |                [01;35m[K^~~~~[m[K
+[5.891s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:130:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr56[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.891s]   130 |         double [01;35m[Karr56[m[K[6] = {0.250000, -0.5, 0.2990, 2.1317, 0.0, 0.0};
+[5.891s]       |                [01;35m[K^~~~~[m[K
+[5.891s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:131:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr57[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.891s]   131 |         double [01;35m[Karr57[m[K[6] = {0.254545, -0.5, 0.2968, 2.1133, 0.0, 0.0};
+[5.892s]       |                [01;35m[K^~~~~[m[K
+[5.892s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:132:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr58[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.892s]   132 |         double [01;35m[Karr58[m[K[6] = {0.259091, -0.5, 0.2946, 2.0950, 0.0, 0.0};
+[5.893s]       |                [01;35m[K^~~~~[m[K
+[5.893s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:133:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr59[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.893s]   133 |         double [01;35m[Karr59[m[K[6] = {0.263636, -0.5, 0.2924, 2.0767, 0.0, 0.0};
+[5.893s]       |                [01;35m[K^~~~~[m[K
+[5.893s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:134:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr60[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.893s]   134 |         double [01;35m[Karr60[m[K[6] = {0.268182, -0.5, 0.2902, 2.0583, 0.0, 0.0};
+[5.893s]       |                [01;35m[K^~~~~[m[K
+[5.894s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:135:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr61[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.894s]   135 |         double [01;35m[Karr61[m[K[6] = {0.272727, -0.5, 0.2880, 2.0400, 0.0, 0.0};
+[5.894s]       |                [01;35m[K^~~~~[m[K
+[5.894s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:136:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr62[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.894s]   136 |         double [01;35m[Karr62[m[K[6] = {0.277273, -0.5, 0.2858, 2.0217, 0.0, 0.0};
+[5.894s]       |                [01;35m[K^~~~~[m[K
+[5.894s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:137:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr63[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.894s]   137 |         double [01;35m[Karr63[m[K[6] = {0.281818, -0.5, 0.2836, 2.0033, 0.0, 0.0};
+[5.895s]       |                [01;35m[K^~~~~[m[K
+[5.895s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:138:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr64[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.895s]   138 |         double [01;35m[Karr64[m[K[6] = {0.286364, -0.5, 0.2814, 1.9850, 0.0, 0.0};
+[5.895s]       |                [01;35m[K^~~~~[m[K
+[5.895s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:139:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr65[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.895s]   139 |         double [01;35m[Karr65[m[K[6] = {0.290909, -0.5, 0.2792, 1.9667, 0.0, 0.0};
+[5.895s]       |                [01;35m[K^~~~~[m[K
+[5.896s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:140:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr66[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.896s]   140 |         double [01;35m[Karr66[m[K[6] = {0.295455, -0.5, 0.2770, 1.9483, 0.0, 0.0};
+[5.896s]       |                [01;35m[K^~~~~[m[K
+[5.896s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:141:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr67[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.896s]   141 |         double [01;35m[Karr67[m[K[6] = {0.300000, -0.5, 0.2748, 1.9300, 0.0, 0.0};
+[5.896s]       |                [01;35m[K^~~~~[m[K
+[5.896s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:142:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr68[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.896s]   142 |         double [01;35m[Karr68[m[K[6] = {0.304545, -0.5, 0.2726, 1.9117, 0.0, 0.0};
+[5.897s]       |                [01;35m[K^~~~~[m[K
+[5.897s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:143:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr69[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.897s]   143 |         double [01;35m[Karr69[m[K[6] = {0.309091, -0.5, 0.2704, 1.8933, 0.0, 0.0};
+[5.897s]       |                [01;35m[K^~~~~[m[K
+[5.897s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:144:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr70[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.897s]   144 |         double [01;35m[Karr70[m[K[6] = {0.313636, -0.5, 0.2682, 1.8750, 0.0, 0.0};
+[5.897s]       |                [01;35m[K^~~~~[m[K
+[5.897s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:145:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr71[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.897s]   145 |         double [01;35m[Karr71[m[K[6] = {0.318182, -0.5, 0.2660, 1.8567, 0.0, 0.0};
+[5.898s]       |                [01;35m[K^~~~~[m[K
+[5.898s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:146:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr72[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.898s]   146 |         double [01;35m[Karr72[m[K[6] = {0.322727, -0.5, 0.2638, 1.8383, 0.0, 0.0};
+[5.898s]       |                [01;35m[K^~~~~[m[K
+[5.898s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:147:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr73[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.898s]   147 |         double [01;35m[Karr73[m[K[6] = {0.327273, -0.5, 0.2616, 1.8200, 0.0, 0.0};
+[5.898s]       |                [01;35m[K^~~~~[m[K
+[5.898s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:148:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr74[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.899s]   148 |         double [01;35m[Karr74[m[K[6] = {0.331818, -0.5, 0.2594, 1.8017, 0.0, 0.0};
+[5.899s]       |                [01;35m[K^~~~~[m[K
+[5.899s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:149:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr75[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.899s]   149 |         double [01;35m[Karr75[m[K[6] = {0.336364, -0.5, 0.2572, 1.7833, 0.0, 0.0};
+[5.899s]       |                [01;35m[K^~~~~[m[K
+[5.899s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:150:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr76[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.899s]   150 |         double [01;35m[Karr76[m[K[6] = {0.340909, -0.5, 0.2550, 1.7650, 0.0, 0.0};
+[5.899s]       |                [01;35m[K^~~~~[m[K
+[5.900s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:151:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr77[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.900s]   151 |         double [01;35m[Karr77[m[K[6] = {0.345455, -0.5, 0.2528, 1.7467, 0.0, 0.0};
+[5.900s]       |                [01;35m[K^~~~~[m[K
+[5.900s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:152:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr78[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.900s]   152 |         double [01;35m[Karr78[m[K[6] = {0.350000, -0.5, 0.2506, 1.7283, 0.0, 0.0};
+[5.900s]       |                [01;35m[K^~~~~[m[K
+[5.900s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:153:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr79[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.900s]   153 |         double [01;35m[Karr79[m[K[6] = {0.354545, -0.5, 0.2484, 1.7100, 0.0, 0.0};
+[5.900s]       |                [01;35m[K^~~~~[m[K
+[5.900s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:154:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr80[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.901s]   154 |         double [01;35m[Karr80[m[K[6] = {0.359091, -0.5, 0.2462, 1.6917, 0.0, 0.0};
+[5.901s]       |                [01;35m[K^~~~~[m[K
+[5.901s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:155:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr81[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.901s]   155 |         double [01;35m[Karr81[m[K[6] = {0.363636, -0.5, 0.2440, 1.6733, 0.0, 0.0};
+[5.901s]       |                [01;35m[K^~~~~[m[K
+[5.901s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:156:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr82[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.901s]   156 |         double [01;35m[Karr82[m[K[6] = {0.368182, -0.5, 0.2418, 1.6550, 0.0, 0.0};
+[5.901s]       |                [01;35m[K^~~~~[m[K
+[5.901s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:157:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr83[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.902s]   157 |         double [01;35m[Karr83[m[K[6] = {0.372727, -0.5, 0.2396, 1.6367, 0.0, 0.0};
+[5.902s]       |                [01;35m[K^~~~~[m[K
+[5.902s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:158:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr84[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.902s]   158 |         double [01;35m[Karr84[m[K[6] = {0.377273, -0.5, 0.2374, 1.6183, 0.0, 0.0};
+[5.902s]       |                [01;35m[K^~~~~[m[K
+[5.902s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:159:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr85[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.902s]   159 |         double [01;35m[Karr85[m[K[6] = {0.381818, -0.5, 0.2352, 1.6000, 0.0, 0.0};
+[5.902s]       |                [01;35m[K^~~~~[m[K
+[5.902s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:160:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr86[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.903s]   160 |         double [01;35m[Karr86[m[K[6] = {0.386364, -0.5, 0.2330, 1.5817, 0.0, 0.0};
+[5.903s]       |                [01;35m[K^~~~~[m[K
+[5.903s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:161:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr87[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.903s]   161 |         double [01;35m[Karr87[m[K[6] = {0.390909, -0.5, 0.2308, 1.5633, 0.0, 0.0};
+[5.903s]       |                [01;35m[K^~~~~[m[K
+[5.903s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:162:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr88[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.903s]   162 |         double [01;35m[Karr88[m[K[6] = {0.395455, -0.5, 0.2286, 1.5450, 0.0, 0.0};
+[5.903s]       |                [01;35m[K^~~~~[m[K
+[5.903s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:163:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr89[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.904s]   163 |         double [01;35m[Karr89[m[K[6] = {0.400000, -0.5, 0.2264, 1.5267, 0.0, 0.0};
+[5.904s]       |                [01;35m[K^~~~~[m[K
+[5.904s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:164:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr90[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.904s]   164 |         double [01;35m[Karr90[m[K[6] = {0.404545, -0.5, 0.2242, 1.5083, 0.0, 0.0};
+[5.904s]       |                [01;35m[K^~~~~[m[K
+[5.904s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:165:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr91[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.904s]   165 |         double [01;35m[Karr91[m[K[6] = {0.409091, -0.5, 0.2220, 1.4900, 0.0, 0.0};
+[5.904s]       |                [01;35m[K^~~~~[m[K
+[5.905s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:166:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr92[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.905s]   166 |         double [01;35m[Karr92[m[K[6] = {0.413636, -0.5, 0.2198, 1.4717, 0.0, 0.0};
+[5.905s]       |                [01;35m[K^~~~~[m[K
+[5.905s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:167:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr93[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.905s]   167 |         double [01;35m[Karr93[m[K[6] = {0.418182, -0.5, 0.2176, 1.4533, 0.0, 0.0};
+[5.905s]       |                [01;35m[K^~~~~[m[K
+[5.905s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:168:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr94[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.905s]   168 |         double [01;35m[Karr94[m[K[6] = {0.422727, -0.5, 0.2154, 1.4350, 0.0, 0.0};
+[5.905s]       |                [01;35m[K^~~~~[m[K
+[5.906s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:169:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr95[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.906s]   169 |         double [01;35m[Karr95[m[K[6] = {0.427273, -0.5, 0.2132, 1.4167, 0.0, 0.0};
+[5.906s]       |                [01;35m[K^~~~~[m[K
+[5.906s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:170:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr96[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.906s]   170 |         double [01;35m[Karr96[m[K[6] = {0.431818, -0.5, 0.2110, 1.3983, 0.0, 0.0};
+[5.906s]       |                [01;35m[K^~~~~[m[K
+[5.906s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:171:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr97[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.906s]   171 |         double [01;35m[Karr97[m[K[6] = {0.436364, -0.5, 0.2088, 1.3800, 0.0, 0.0};
+[5.906s]       |                [01;35m[K^~~~~[m[K
+[5.907s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:172:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr98[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.907s]   172 |         double [01;35m[Karr98[m[K[6] = {0.440909, -0.5, 0.2066, 1.3617, 0.0, 0.0};
+[5.907s]       |                [01;35m[K^~~~~[m[K
+[5.907s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:173:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr99[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.907s]   173 |         double [01;35m[Karr99[m[K[6] = {0.445455, -0.5, 0.2044, 1.3433, 0.0, 0.0};
+[5.907s]       |                [01;35m[K^~~~~[m[K
+[5.907s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:174:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr100[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.907s]   174 |         double [01;35m[Karr100[m[K[6] = {0.450000, -0.5, 0.2020, 1.3200, 0.0, 0.0};
+[5.907s]       |                [01;35m[K^~~~~~[m[K
+[5.908s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.909s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.909s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.909s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[5.909s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In member function ‘[01m[Kvoid ArrayServiceServer::handle_request(std::shared_ptr<interfaces_ur5ik::srv::SixTheta_Request_<std::allocator<void> > >, std::shared_ptr<interfaces_ur5ik::srv::SixTheta_Response_<std::allocator<void> > >)[m[K’:
+[5.909s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:300:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.909s]   300 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[5.909s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.909s]   301 |                         [32m[Kcurrent_node->data[0][m[K, current_node->data[1], current_node->data[2],
+[5.909s]       |                         [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.910s]       |                                             [32m[K|[m[K
+[5.910s]       |                                             [32m[Kdouble[m[K
+[5.910s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:300:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.910s]   300 |             RCLCPP_INFO(this->get_logger(), "Sending array: [[01;36m[K%d[m[K, %d, %d, %d, %d, %d]",
+[5.910s]       |                                                              [01;36m[K~^[m[K
+[5.910s]       |                                                               [01;36m[K|[m[K
+[5.910s]       |                                                               [01;36m[Kint[m[K
+[5.910s]       |                                                              [32m[K%f[m[K
+[5.910s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.912s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.912s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.912s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.912s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[5.912s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:300:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.912s]   300 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[5.912s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.912s]   301 |                         current_node->data[0], [32m[Kcurrent_node->data[1][m[K, current_node->data[2],
+[5.912s]       |                                                [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.913s]       |                                                                    [32m[K|[m[K
+[5.913s]       |                                                                    [32m[Kdouble[m[K
+[5.913s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:300:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.913s]   300 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, [01;36m[K%d[m[K, %d, %d, %d, %d]",
+[5.913s]       |                                                                  [01;36m[K~^[m[K
+[5.913s]       |                                                                   [01;36m[K|[m[K
+[5.913s]       |                                                                   [01;36m[Kint[m[K
+[5.914s]       |                                                                  [32m[K%f[m[K
+[5.914s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.914s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.914s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.914s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.915s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.915s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.915s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.915s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.915s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.916s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[5.916s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:300:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.916s]   300 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[5.917s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.917s]   301 |                         current_node->data[0], current_node->data[1], [32m[Kcurrent_node->data[2][m[K,
+[5.917s]       |                                                                       [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.917s]       |                                                                                           [32m[K|[m[K
+[5.918s]       |                                                                                           [32m[Kdouble[m[K
+[5.918s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:300:71:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.918s]   300 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, [01;36m[K%d[m[K, %d, %d, %d]",
+[5.918s]       |                                                                      [01;36m[K~^[m[K
+[5.918s]       |                                                                       [01;36m[K|[m[K
+[5.918s]       |                                                                       [01;36m[Kint[m[K
+[5.919s]       |                                                                      [32m[K%f[m[K
+[5.919s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.919s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.919s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.919s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.919s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.920s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[5.920s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:300:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.920s]   300 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[5.921s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.921s]   301 |                         current_node->data[0], current_node->data[1], current_node->data[2],
+[5.921s]   302 |                         [32m[Kcurrent_node->data[3][m[K, current_node->data[4], current_node->data[5]);
+[5.921s]       |                         [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.922s]       |                                             [32m[K|[m[K
+[5.922s]       |                                             [32m[Kdouble[m[K
+[5.922s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:300:75:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.922s]   300 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, %d, [01;36m[K%d[m[K, %d, %d]",
+[5.922s]       |                                                                          [01;36m[K~^[m[K
+[5.922s]       |                                                                           [01;36m[K|[m[K
+[5.922s]       |                                                                           [01;36m[Kint[m[K
+[5.922s]       |                                                                          [32m[K%f[m[K
+[5.922s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.924s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.924s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.924s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.924s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[5.924s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:300:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.924s]   300 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[5.924s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.924s]   301 |                         current_node->data[0], current_node->data[1], current_node->data[2],
+[5.925s]   302 |                         current_node->data[3], [32m[Kcurrent_node->data[4][m[K, current_node->data[5]);
+[5.925s]       |                                                [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.925s]       |                                                                    [32m[K|[m[K
+[5.925s]       |                                                                    [32m[Kdouble[m[K
+[5.925s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:300:79:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.925s]   300 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, %d, %d, [01;36m[K%d[m[K, %d]",
+[5.925s]       |                                                                              [01;36m[K~^[m[K
+[5.926s]       |                                                                               [01;36m[K|[m[K
+[5.926s]       |                                                                               [01;36m[Kint[m[K
+[5.926s]       |                                                                              [32m[K%f[m[K
+[5.926s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.927s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[5.928s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:300:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 10 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.928s]   300 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[5.928s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.928s]   301 |                         current_node->data[0], current_node->data[1], current_node->data[2],
+[5.928s]   302 |                         current_node->data[3], current_node->data[4], [32m[Kcurrent_node->data[5][m[K);
+[5.928s]       |                                                                       [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.928s]       |                                                                                           [32m[K|[m[K
+[5.929s]       |                                                                                           [32m[Kdouble[m[K
+[5.929s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:300:83:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.929s]   300 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, %d, %d, %d, [01;36m[K%d[m[K]",
+[5.929s]       |                                                                                  [01;36m[K~^[m[K
+[5.929s]       |                                                                                   [01;36m[K|[m[K
+[5.929s]       |                                                                                   [01;36m[Kint[m[K
+[5.929s]       |                                                                                  [32m[K%f[m[K
+[5.929s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:296:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.930s]   296 |     void handle_request([01;35m[Kconst std::shared_ptr<interfaces_ur5ik::srv::SixTheta::Request> request[m[K,
+[5.930s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[9.436s] [100%] [32m[1mLinking CXX executable calc_server[0m
+[9.752s] [100%] Built target calc_server
+[9.764s] Invoked command in '/home/icrs/icrsUR/build/service_ur5ik' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/service_ur5ik -- -j8 -l8
+[9.794s] Invoking command in '/home/icrs/icrsUR/build/service_ur5ik': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/service_ur5ik
+[9.801s] -- Install configuration: ""
+[9.801s] -- Execute custom install script
+[9.802s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/lib/service_ur5ik/target_client
+[9.802s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/lib/service_ur5ik/calc_server
+[9.802s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/pythonpath.sh
+[9.802s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/pythonpath.dsv
+[9.802s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik-0.0.0-py3.10.egg-info/PKG-INFO
+[9.803s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.803s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.803s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik-0.0.0-py3.10.egg-info/top_level.txt
+[9.804s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik/__init__.py
+[9.804s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/lib/service_ur5ik/target_client_py.py
+[9.804s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/lib/service_ur5ik/calc_server_py.py
+[9.804s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/ament_index/resource_index/package_run_dependencies/service_ur5ik
+[9.804s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/ament_index/resource_index/parent_prefix_path/service_ur5ik
+[9.805s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/ament_prefix_path.sh
+[9.805s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/ament_prefix_path.dsv
+[9.805s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/path.sh
+[9.805s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/path.dsv
+[9.806s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/local_setup.bash
+[9.806s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/local_setup.sh
+[9.806s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/local_setup.zsh
+[9.806s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/local_setup.dsv
+[9.806s] -- Symlinking: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.dsv
+[9.815s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/ament_index/resource_index/packages/service_ur5ik
+[9.815s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/cmake/service_ur5ikConfig.cmake
+[9.815s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/cmake/service_ur5ikConfig-version.cmake
+[9.816s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.xml
+[9.858s] Listing '/home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik'...
+[9.865s] Invoked command in '/home/icrs/icrsUR/build/service_ur5ik' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/service_ur5ik

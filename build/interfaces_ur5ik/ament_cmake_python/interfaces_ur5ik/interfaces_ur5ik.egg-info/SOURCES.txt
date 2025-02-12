@@ -1,0 +1,12 @@
+setup.py
+interfaces_ur5ik/__init__.py
+interfaces_ur5ik.egg-info/PKG-INFO
+interfaces_ur5ik.egg-info/SOURCES.txt
+interfaces_ur5ik.egg-info/dependency_links.txt
+interfaces_ur5ik.egg-info/top_level.txt
+interfaces_ur5ik/action/__init__.py
+interfaces_ur5ik/action/_calc_theta.py
+interfaces_ur5ik/msg/__init__.py
+interfaces_ur5ik/msg/_target.py
+interfaces_ur5ik/srv/__init__.py
+interfaces_ur5ik/srv/_six_theta.py

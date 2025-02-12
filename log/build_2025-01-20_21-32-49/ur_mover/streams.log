@@ -1,0 +1,171 @@
+[0.032s] Invoking command in '/home/icrs/icrsUR/build/ur_mover': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_mover -- -j8 -l8
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target master_node[0m
+[0.178s] [ 50%] Built target master_node2
+[0.189s] [ 75%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[1.330s] In file included from [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:23[m[K:
+[1.330s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.330s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.330s]       |  [01;35m[K^~~~~~~[m[K
+[8.321s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:614:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[8.321s]   614 | }
+[8.321s]       |  [01;31m[K^[m[K
+[8.321s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:50:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[8.321s]    50 | [01;36m[K{[m[K
+[8.321s]       | [01;36m[K^[m[K
+[8.321s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:[m[K In constructor ‘[01m[KRobotMasterController::RobotMasterController(std::shared_ptr<rclcpp::Node>, geometry_msgs::msg::Pose*, geometry_msgs::msg::Pose*)[m[K’:
+[8.321s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:53:28:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Kis_lookout_position[m[K’
+[8.321s]    53 |     : Node("master_node"), [01;31m[Kis_lookout_position[m[K(false), is_horizontally_centered(false),
+[8.321s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[8.321s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:53:56:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Kis_horizontally_centered[m[K’
+[8.322s]    53 |     : Node("master_node"), is_lookout_position(false), [01;31m[Kis_horizontally_centered[m[K(false),
+[8.322s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.322s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:54:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Kis_vertically_centered[m[K’
+[8.322s]    54 |     [01;31m[Kis_vertically_centered[m[K(false), is_moving(false), lookout_pos(lookout_pos), target_pose(*lookout_pos), prev_x(0),
+[8.322s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.322s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:54:36:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Kis_moving[m[K’
+[8.322s]    54 |     is_vertically_centered(false), [01;31m[Kis_moving[m[K(false), lookout_pos(lookout_pos), target_pose(*lookout_pos), prev_x(0),
+[8.322s]       |                                    [01;31m[K^~~~~~~~~[m[K
+[8.322s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:54:54:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Klookout_pos[m[K’
+[8.322s]    54 |     is_vertically_centered(false), is_moving(false), [01;31m[Klookout_pos[m[K(lookout_pos), target_pose(*lookout_pos), prev_x(0),
+[8.322s]       |                                                      [01;31m[K^~~~~~~~~~~[m[K
+[8.322s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:54:80:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Ktarget_pose[m[K’
+[8.322s]    54 | entered(false), is_moving(false), lookout_pos(lookout_pos), [01;31m[Ktarget_pose[m[K(*lookout_pos), prev_x(0),
+[8.322s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[8.322s] 
+[8.322s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:54:107:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Kprev_x[m[K’
+[8.322s]    54 | false), lookout_pos(lookout_pos), target_pose(*lookout_pos), [01;31m[Kprev_x[m[K(0),
+[8.323s]       |                                                              [01;31m[K^~~~~~[m[K
+[8.323s] 
+[8.323s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:55:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Kis_depth_reached[m[K’
+[8.323s]    55 |     [01;31m[Kis_depth_reached[m[K(false), was_centered_message_shown(false), depth(0.0), apple_drop_pose(apple_drop_pos), is_at_apple_position(false),
+[8.323s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[8.323s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:55:30:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Kwas_centered_message_shown[m[K’
+[8.323s]    55 |     is_depth_reached(false), [01;31m[Kwas_centered_message_shown[m[K(false), depth(0.0), apple_drop_pose(apple_drop_pos), is_at_apple_position(false),
+[8.323s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.323s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:55:65:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Kdepth[m[K’
+[8.323s]    55 | is_depth_reached(false), was_centered_message_shown(false), [01;31m[Kdepth[m[K(0.0), apple_drop_pose(apple_drop_pos), is_at_apple_position(false),
+[8.323s]       |                                                             [01;31m[K^~~~~[m[K
+[8.323s] 
+[8.323s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:55:77:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Kapple_drop_pose[m[K’
+[8.323s]    55 | ched(false), was_centered_message_shown(false), depth(0.0), [01;31m[Kapple_drop_pose[m[K(apple_drop_pos), is_at_apple_position(false),
+[8.323s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[8.323s] 
+[8.323s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:55:110:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Kis_at_apple_position[m[K’
+[8.324s]    55 | _shown(false), depth(0.0), apple_drop_pose(apple_drop_pos), [01;31m[Kis_at_apple_position[m[K(false),
+[8.324s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.324s] 
+[8.324s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:56:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Kis_apple_grabbed[m[K’
+[8.324s]    56 |     [01;31m[Kis_apple_grabbed[m[K(false), is_apple_picked(false), is_with_apple_at_lookout_position(false)
+[8.324s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[8.324s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:56:30:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Kis_apple_picked[m[K’
+[8.324s]    56 |     is_apple_grabbed(false), [01;31m[Kis_apple_picked[m[K(false), is_with_apple_at_lookout_position(false)
+[8.324s]       |                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[8.324s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:56:54:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotMasterController[m[K’ does not have any field named ‘[01m[Kis_with_apple_at_lookout_position[m[K’
+[8.324s]    56 |     is_apple_grabbed(false), is_apple_picked(false), [01;31m[Kis_with_apple_at_lookout_position[m[K(false)
+[8.324s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.360s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:58:7:[m[K [01;31m[Kerror: [m[K‘[01m[K_publisher_joint_trajectory[m[K’ was not declared in this scope
+[8.360s]    58 |       [01;31m[K_publisher_joint_trajectory[m[K = this->create_publisher<trajectory_msgs::msg::JointTrajectory>("/arm_controller/joint_trajectory",10);
+[8.360s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.378s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:59:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+[8.378s]    59 |       [01;31m[Kpublisher[m[K = this->create_publisher<std_msgs::msg::String>("/custom_gripper", 1);
+[8.378s]       |       [01;31m[K^~~~~~~~~[m[K
+[8.394s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:63:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_client_[m[K’ was not declared in this scope
+[8.395s]    63 |       [01;31m[Kservice_client_[m[K = this->create_client<interfaces_ur5ik::srv::SixTheta>("service_ik");
+[8.395s]       |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[8.466s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:66:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmove_group_node[m[K’?
+[8.466s]    66 |       [01;31m[Kmove_group_[m[K = new moveit::planning_interface::MoveGroupInterface(move_group_node, "ur_manipulator");
+[8.466s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[8.466s]       |       [32m[Kmove_group_node[m[K
+[8.486s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:73:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSphereVisualizer[m[K’ was not declared in this scope
+[8.486s]    73 |     [01;31m[KSphereVisualizer[m[K() : Node("sphere_visualizer") {
+[8.486s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[8.486s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:79:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+[8.486s]    79 |   [01;31m[Kprivate[m[K:
+[8.486s]       |   [01;31m[K^~~~~~~[m[K
+[8.486s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:113:29:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[8.487s]   113 |       void planAndExecute() [01;31m[K{[m[K
+[8.487s]       |                             [01;31m[K^[m[K
+[8.487s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:191:21:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[8.487s]   191 | void send_request() [01;31m[K{[m[K
+[8.487s]       |                     [01;31m[K^[m[K
+[8.487s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:215:92:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[8.487s]   215 | rclcpp::Client<interfaces_ur5ik::srv::SixTheta>::SharedFuture future) [01;31m[K{[m[K
+[8.487s]       |                                                                       [01;31m[K^[m[K
+[8.487s] 
+[8.487s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:280:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[8.487s]   280 |     [01;31m[K{[m[K
+[8.487s]       |     [01;31m[K^[m[K
+[8.487s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:458:36:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[8.487s]   458 |     void move_to_lookout_position()[01;31m[K{[m[K
+[8.487s]       |                                    [01;31m[K^[m[K
+[8.487s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:472:28:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[8.487s]   472 |     void reset_robot_loop()[01;31m[K{[m[K
+[8.487s]       |                            [01;31m[K^[m[K
+[8.488s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:488:48:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[8.488s]   488 |     float sanitize_depth(std::string raw_depth)[01;31m[K{[m[K
+[8.488s]       |                                                [01;31m[K^[m[K
+[8.488s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:499:95:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[8.488s]   499 | sgs::msg::Pose target_pose, const char * log_message = "Moving robot")[01;31m[K{[m[K
+[8.488s]       |                                                                       [01;31m[K^[m[K
+[8.488s] 
+[8.488s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:524:109:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[8.488s]   524 | s::msg::Pose> target_poses, const char * log_message = "Moving robot")[01;31m[K{[m[K
+[8.488s]       |                                                                       [01;31m[K^[m[K
+[8.488s] 
+[8.542s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:565:31:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kgeometry_msgs::msg::Pose* lookout_pos[m[K’ shadows a parameter
+[8.542s]   565 |     geometry_msgs::msg::Pose* [01;31m[Klookout_pos[m[K;
+[8.542s]       |                               [01;31m[K^~~~~~~~~~~[m[K
+[8.542s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:52:100:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Pose* lookout_pos[m[K’ previously declared here
+[8.542s]    52 | tr<rclcpp::Node> move_group_node, [01;36m[Kgeometry_msgs::msg::Pose* lookout_pos[m[K, geometry_msgs::msg::Pose* apple_drop_pos)
+[8.542s]       |                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[8.542s] 
+[8.604s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:550:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kis_lookout_position[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.604s]   550 |     bool [01;35m[Kis_lookout_position[m[K;
+[8.604s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[8.604s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:551:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kis_horizontally_centered[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.604s]   551 |     bool [01;35m[Kis_horizontally_centered[m[K;
+[8.604s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.604s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:552:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kis_vertically_centered[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.605s]   552 |     bool [01;35m[Kis_vertically_centered[m[K;
+[8.605s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.605s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:553:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kis_moving[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.605s]   553 |     bool [01;35m[Kis_moving[m[K;
+[8.605s]       |          [01;35m[K^~~~~~~~~[m[K
+[8.605s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:554:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kis_depth_reached[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.605s]   554 |     bool [01;35m[Kis_depth_reached[m[K;
+[8.605s]       |          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[8.605s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:555:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kis_at_apple_position[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.605s]   555 |     bool [01;35m[Kis_at_apple_position[m[K;
+[8.606s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.606s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:556:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kis_apple_grabbed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.606s]   556 |     bool [01;35m[Kis_apple_grabbed[m[K;
+[8.606s]       |          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[8.606s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:557:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kis_apple_picked[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.606s]   557 |     bool [01;35m[Kis_apple_picked[m[K;
+[8.606s]       |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[8.606s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:558:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kis_with_apple_at_lookout_position[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.606s]   558 |     bool [01;35m[Kis_with_apple_at_lookout_position[m[K;
+[8.607s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.607s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:559:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprev_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.607s]   559 |     int [01;35m[Kprev_x[m[K;
+[8.607s]       |         [01;35m[K^~~~~~[m[K
+[8.607s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:560:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwas_centered_message_shown[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.607s]   560 |     bool [01;35m[Kwas_centered_message_shown[m[K;
+[8.607s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.607s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:561:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdepth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.607s]   561 |     float [01;35m[Kdepth[m[K;
+[8.607s]       |           [01;35m[K^~~~~[m[K
+[8.608s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:565:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klookout_pos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.608s]   565 |     geometry_msgs::msg::Pose* [01;35m[Klookout_pos[m[K;
+[8.608s]       |                               [01;35m[K^~~~~~~~~~~[m[K
+[8.608s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:566:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kapple_drop_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.608s]   566 |     geometry_msgs::msg::Pose* [01;35m[Kapple_drop_pose[m[K;
+[8.608s]       |                               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[8.612s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:[m[K At global scope:
+[8.612s] [01m[K/home/icrs/icrsUR/src/ur_mover/src/master_node.cpp:614:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[8.612s]   614 | }
+[8.612s]       |  [01;31m[K^[m[K
+[11.641s] gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/master_node.cpp.o] Error 1
+[11.642s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/master_node.dir/all] Error 2
+[11.642s] gmake: *** [Makefile:146: all] Error 2
+[11.644s] Invoked command in '/home/icrs/icrsUR/build/ur_mover' returned '2': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_mover -- -j8 -l8

@@ -1,0 +1,19 @@
+[1.436s] Invoking command in '/home/icrs/icrsUR/build/gripper_control': PYTHONPATH=/home/icrs/icrsUR/build/gripper_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icrs/icrsUR/install/gripper_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/icrs/icrsUR/build/gripper_control/build --no-deps symlink_data
+[2.019s] running develop
+[2.020s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.020s]   warnings.warn(
+[2.416s] running egg_info
+[2.417s] writing gripper_control.egg-info/PKG-INFO
+[2.418s] writing dependency_links to gripper_control.egg-info/dependency_links.txt
+[2.418s] writing entry points to gripper_control.egg-info/entry_points.txt
+[2.419s] writing requirements to gripper_control.egg-info/requires.txt
+[2.419s] writing top-level names to gripper_control.egg-info/top_level.txt
+[2.420s] reading manifest file 'gripper_control.egg-info/SOURCES.txt'
+[2.421s] writing manifest file 'gripper_control.egg-info/SOURCES.txt'
+[2.512s] running build_ext
+[2.514s] Creating /home/icrs/icrsUR/install/gripper_control/lib/python3.10/site-packages/gripper-control.egg-link (link to .)
+[2.515s] Installing gripper_control_node script to /home/icrs/icrsUR/install/gripper_control/lib/gripper_control
+[2.515s] 
+[2.515s] Installed /home/icrs/icrsUR/build/gripper_control
+[2.515s] running symlink_data
+[2.561s] Invoked command in '/home/icrs/icrsUR/build/gripper_control' returned '0': PYTHONPATH=/home/icrs/icrsUR/build/gripper_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icrs/icrsUR/install/gripper_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/icrs/icrsUR/build/gripper_control/build --no-deps symlink_data

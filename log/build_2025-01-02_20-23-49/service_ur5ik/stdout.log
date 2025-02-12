@@ -1,0 +1,9 @@
+[ 50%] Built target calc_server
+[100%] Built target target_client
+[100%] Built target ament_cmake_python_symlink_service_ur5ik
+running egg_info
+writing service_ur5ik.egg-info/PKG-INFO
+writing dependency_links to service_ur5ik.egg-info/dependency_links.txt
+writing top-level names to service_ur5ik.egg-info/top_level.txt
+reading manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+writing manifest file 'service_ur5ik.egg-info/SOURCES.txt'

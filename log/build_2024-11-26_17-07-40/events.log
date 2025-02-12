@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.000750] (gripper_control) JobQueued: {'identifier': 'gripper_control', 'dependencies': OrderedDict()}
+[0.000972] (interfaces_ur5ik) JobQueued: {'identifier': 'interfaces_ur5ik', 'dependencies': OrderedDict()}
+[0.000996] (robotiq_description) JobQueued: {'identifier': 'robotiq_description', 'dependencies': OrderedDict()}
+[0.001012] (ur_custom_interfaces) JobQueued: {'identifier': 'ur_custom_interfaces', 'dependencies': OrderedDict()}
+[0.001029] (ur_dashboard_msgs) JobQueued: {'identifier': 'ur_dashboard_msgs', 'dependencies': OrderedDict()}
+[0.001051] (ur_description) JobQueued: {'identifier': 'ur_description', 'dependencies': OrderedDict()}
+[0.001076] (camera_control) JobQueued: {'identifier': 'camera_control', 'dependencies': OrderedDict([('ur_custom_interfaces', '/home/icrs/icrsUR/install/ur_custom_interfaces')])}
+[0.001095] (service_ur5ik) JobQueued: {'identifier': 'service_ur5ik', 'dependencies': OrderedDict([('interfaces_ur5ik', '/home/icrs/icrsUR/install/interfaces_ur5ik')])}
+[0.001110] (ur_controllers) JobQueued: {'identifier': 'ur_controllers', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/icrs/icrsUR/install/ur_dashboard_msgs')])}
+[0.001124] (ur_moveit_config) JobQueued: {'identifier': 'ur_moveit_config', 'dependencies': OrderedDict([('ur_description', '/home/icrs/icrsUR/install/ur_description')])}
+[0.001139] (ur_mover) JobQueued: {'identifier': 'ur_mover', 'dependencies': OrderedDict([('interfaces_ur5ik', '/home/icrs/icrsUR/install/interfaces_ur5ik'), ('ur_custom_interfaces', '/home/icrs/icrsUR/install/ur_custom_interfaces')])}
+[0.001154] (ur_bringup) JobQueued: {'identifier': 'ur_bringup', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/icrs/icrsUR/install/ur_dashboard_msgs'), ('ur_description', '/home/icrs/icrsUR/install/ur_description'), ('ur_controllers', '/home/icrs/icrsUR/install/ur_controllers')])}
+[0.001177] (ur_robot_driver) JobQueued: {'identifier': 'ur_robot_driver', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/icrs/icrsUR/install/ur_dashboard_msgs'), ('ur_description', '/home/icrs/icrsUR/install/ur_description'), ('ur_controllers', '/home/icrs/icrsUR/install/ur_controllers')])}
+[0.001192] (ur_calibration) JobQueued: {'identifier': 'ur_calibration', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/icrs/icrsUR/install/ur_dashboard_msgs'), ('ur_description', '/home/icrs/icrsUR/install/ur_description'), ('ur_controllers', '/home/icrs/icrsUR/install/ur_controllers'), ('ur_robot_driver', '/home/icrs/icrsUR/install/ur_robot_driver')])}
+[0.001207] (ur) JobQueued: {'identifier': 'ur', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/icrs/icrsUR/install/ur_dashboard_msgs'), ('ur_description', '/home/icrs/icrsUR/install/ur_description'), ('ur_controllers', '/home/icrs/icrsUR/install/ur_controllers'), ('ur_moveit_config', '/home/icrs/icrsUR/install/ur_moveit_config'), ('ur_robot_driver', '/home/icrs/icrsUR/install/ur_robot_driver'), ('ur_calibration', '/home/icrs/icrsUR/install/ur_calibration')])}
+[0.001226] (ur_dashboard_msgs) JobStarted: {'identifier': 'ur_dashboard_msgs'}
+[0.005309] (ur_description) JobStarted: {'identifier': 'ur_description'}
+[0.008058] (interfaces_ur5ik) JobStarted: {'identifier': 'interfaces_ur5ik'}
+[0.011106] (ur_custom_interfaces) JobStarted: {'identifier': 'ur_custom_interfaces'}
+[0.013616] (gripper_control) JobStarted: {'identifier': 'gripper_control'}
+[0.017993] (robotiq_description) JobStarted: {'identifier': 'robotiq_description'}
+[0.023035] (ur_dashboard_msgs) JobProgress: {'identifier': 'ur_dashboard_msgs', 'progress': 'cmake'}
+[0.023536] (ur_dashboard_msgs) JobProgress: {'identifier': 'ur_dashboard_msgs', 'progress': 'build'}
+[0.024131] (ur_dashboard_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/icrs/icrsUR/build/ur_dashboard_msgs', '--', '-j8', '-l8'], 'cwd': '/home/icrs/icrsUR/build/ur_dashboard_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'icrs'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/icrs'), ('OLDPWD', '/home/icrs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1895'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'icrs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'icrs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.8/bin:/opt/ros/humble/bin:/home/icrs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/icrs-350XCJ-350XCR:@/tmp/.ICE-unix/1866,unix/icrs-350XCJ-350XCR:/tmp/.ICE-unix/1866'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7629a427_7774_4d4d_96be_9caf7e566a18'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KSAPX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/icrs/icrsUR/build/ur_dashboard_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.026404] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'cmake'}
+[0.027037] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'build'}
+[0.027661] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/icrs/icrsUR/build/ur_description', '--', '-j8', '-l8'], 'cwd': '/home/icrs/icrsUR/build/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'icrs'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/icrs'), ('OLDPWD', '/home/icrs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1895'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'icrs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'icrs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.8/bin:/opt/ros/humble/bin:/home/icrs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/icrs-350XCJ-350XCR:@/tmp/.ICE-unix/1866,unix/icrs-350XCJ-350XCR:/tmp/.ICE-unix/1866'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7629a427_7774_4d4d_96be_9caf7e566a18'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KSAPX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/icrs/icrsUR/build/ur_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.029840] (interfaces_ur5ik) JobProgress: {'identifier': 'interfaces_ur5ik', 'progress': 'cmake'}
+[0.030122] (interfaces_ur5ik) JobProgress: {'identifier': 'interfaces_ur5ik', 'progress': 'build'}
+[0.030473] (interfaces_ur5ik) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/icrs/icrsUR/build/interfaces_ur5ik', '--', '-j8', '-l8'], 'cwd': '/home/icrs/icrsUR/build/interfaces_ur5ik', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'icrs'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/icrs'), ('OLDPWD', '/home/icrs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1895'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'icrs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'icrs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.8/bin:/opt/ros/humble/bin:/home/icrs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/icrs-350XCJ-350XCR:@/tmp/.ICE-unix/1866,unix/icrs-350XCJ-350XCR:/tmp/.ICE-unix/1866'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7629a427_7774_4d4d_96be_9caf7e566a18'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KSAPX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/icrs/icrsUR/build/interfaces_ur5ik'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.032357] (ur_custom_interfaces) JobProgress: {'identifier': 'ur_custom_interfaces', 'progress': 'cmake'}
+[0.032555] (ur_custom_interfaces) JobProgress: {'identifier': 'ur_custom_interfaces', 'progress': 'build'}
+[0.032770] (ur_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/icrs/icrsUR/build/ur_custom_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/icrs/icrsUR/build/ur_custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'icrs'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/icrs'), ('OLDPWD', '/home/icrs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1895'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'icrs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'icrs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.8/bin:/opt/ros/humble/bin:/home/icrs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/icrs-350XCJ-350XCR:@/tmp/.ICE-unix/1866,unix/icrs-350XCJ-350XCR:/tmp/.ICE-unix/1866'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7629a427_7774_4d4d_96be_9caf7e566a18'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KSAPX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/icrs/icrsUR/build/ur_custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.102667] (-) TimerEvent: {}
+[0.203099] (-) TimerEvent: {}
+[0.303489] (-) TimerEvent: {}
+[0.385221] (gripper_control) JobEnded: {'identifier': 'gripper_control', 'rc': 0}
+[0.386650] (ur_dashboard_msgs) StdoutLine: {'line': b'[  0%] Built target ur_dashboard_msgs__cpp\n'}
+[0.387175] (ur_dashboard_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_ur_dashboard_msgs\n'}
+[0.387260] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 12%] Built target ur_dashboard_msgs__rosidl_generator_c\n'}
+[0.387332] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp\n'}
+[0.387401] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.387470] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.387544] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 61%] Built target ur_dashboard_msgs__rosidl_typesupport_c\n'}
+[0.387739] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c\n'}
+[0.387809] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.387876] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 84%] Built target ur_dashboard_msgs\n'}
+[0.387942] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 85%] Built target ur_dashboard_msgs__py\n'}
+[0.388008] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 96%] Built target ur_dashboard_msgs__rosidl_generator_py\n'}
+[0.388075] (ur_dashboard_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.388245] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/functools.py", line 832, in dispatch\n'}
+[0.388312] (ur_dashboard_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all] Interrupt\n'}
+[0.388376] (ur_dashboard_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c__pyext.dir/build.make:147: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c__pyext.dir/depend] Interrupt\n'}
+[0.388440] (ur_dashboard_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:563: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c__pyext.dir/all] Interrupt\n'}
+[0.388503] (ur_dashboard_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make:148: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend] Interrupt\n'}
+[0.388615] (ur_dashboard_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:534: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext.dir/all] Interrupt\n'}
+[0.388681] (interfaces_ur5ik) StdoutLine: {'line': b'[  2%] Built target interfaces_ur5ik__cpp\n'}
+[0.389244] (interfaces_ur5ik) StdoutLine: {'line': b'[ 12%] Built target interfaces_ur5ik__rosidl_generator_c\n'}
+[0.389341] (interfaces_ur5ik) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_interfaces_ur5ik\n'}
+[0.389416] (interfaces_ur5ik) StdoutLine: {'line': b'[ 23%] Built target interfaces_ur5ik__rosidl_typesupport_cpp\n'}
+[0.389487] (interfaces_ur5ik) StdoutLine: {'line': b'[ 34%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_cpp\n'}
+[0.390020] (interfaces_ur5ik) StdoutLine: {'line': b'[ 44%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_cpp\n'}
+[0.390770] (interfaces_ur5ik) StdoutLine: {'line': b'[ 55%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_c\n'}
+[0.390871] (interfaces_ur5ik) StdoutLine: {'line': b'[ 65%] Built target interfaces_ur5ik__rosidl_typesupport_c\n'}
+[0.390955] (interfaces_ur5ik) StdoutLine: {'line': b'[ 76%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_c\n'}
+[0.391201] (interfaces_ur5ik) StdoutLine: {'line': b'[ 76%] Built target interfaces_ur5ik\n'}
+[0.391326] (interfaces_ur5ik) StdoutLine: {'line': b'[ 78%] Built target interfaces_ur5ik__py\n'}
+[0.391445] (interfaces_ur5ik) StdoutLine: {'line': b'[ 87%] Built target interfaces_ur5ik__rosidl_generator_py\n'}
+[0.391740] (interfaces_ur5ik) StdoutLine: {'line': b'[ 91%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.391896] (interfaces_ur5ik) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.392025] (interfaces_ur5ik) StderrLine: {'line': b'  File "/home/icrs/icrsUR/build/interfaces_ur5ik/ament_cmake_python/interfaces_ur5ik/setup.py", line 1, in <module>\n'}
+[0.392138] (interfaces_ur5ik) StderrLine: {'line': b'    from setuptools import find_packages\n'}
+[0.392252] (interfaces_ur5ik) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>\n'}
+[0.392366] (interfaces_ur5ik) StderrLine: {'line': b'    import setuptools.version\n'}
+[0.392480] (interfaces_ur5ik) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n'}
+[0.392735] (interfaces_ur5ik) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:536: CMakeFiles/interfaces_ur5ik__rosidl_typesupport_introspection_c__pyext.dir/all] Interrupt\n'}
+[0.392822] (interfaces_ur5ik) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:565: CMakeFiles/interfaces_ur5ik__rosidl_typesupport_c__pyext.dir/all] Interrupt\n'}
+[0.392892] (ur_custom_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.393055] (ur_custom_interfaces) StderrLine: {'line': b'  File "/home/icrs/icrsUR/build/ur_custom_interfaces/ament_cmake_python/ur_custom_interfaces/setup.py", line 1, in <module>\n'}
+[0.393119] (ur_custom_interfaces) StderrLine: {'line': b'    from setuptools import find_packages\n'}
+[0.393179] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>\n'}
+[0.393250] (ur_custom_interfaces) StderrLine: {'line': b'    import setuptools.version\n'}
+[0.393320] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n'}
+[0.393382] (ur_custom_interfaces) StderrLine: {'line': b'    import pkg_resources\n'}
+[0.393445] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>\n'}
+[0.393516] (robotiq_description) JobEnded: {'identifier': 'robotiq_description', 'rc': 'SIGINT'}
+[0.393949] (ur_dashboard_msgs) StderrLine: {'line': b'    impl = dispatch_cache[cls]\n'}
+[0.394043] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/weakref.py", line 416, in __getitem__\n'}
+[0.394131] (interfaces_ur5ik) StderrLine: {'line': b'    import pkg_resources\n'}
+[0.394215] (interfaces_ur5ik) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 78, in <module>\n'}
+[0.394290] (interfaces_ur5ik) StderrLine: {'line': b"    __import__('pkg_resources.extern.packaging.requirements')\n"}
+[0.394363] (interfaces_ur5ik) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/requirements.py", line 84, in <module>\n'}
+[0.394438] (ur_custom_interfaces) StdoutLine: {'line': b'[  9%] Built target ur_custom_interfaces__rosidl_generator_c\n'}
+[0.394675] (ur_custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target ur_custom_interfaces__cpp\n'}
+[0.394782] (ur_custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_ur_custom_interfaces\n'}
+[0.394848] (ur_custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target ur_custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.394912] (ur_custom_interfaces) StdoutLine: {'line': b'[ 32%] Built target ur_custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.394995] (ur_custom_interfaces) StdoutLine: {'line': b'[ 41%] Built target ur_custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.395128] (ur_custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target ur_custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.395197] (ur_custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target ur_custom_interfaces__rosidl_typesupport_cpp\n'}
+[0.395265] (ur_custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target ur_custom_interfaces__rosidl_typesupport_c\n'}
+[0.395406] (ur_custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target ur_custom_interfaces\n'}
+[0.395472] (ur_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target ur_custom_interfaces__py\n'}
+[0.395554] (ur_custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target ur_custom_interfaces__rosidl_generator_py\n'}
+[0.395635] (ur_custom_interfaces) StdoutLine: {'line': b'[ 87%] Built target ur_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.395699] (ur_custom_interfaces) StdoutLine: {'line': b'[ 93%] Built target ur_custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.395788] (ur_custom_interfaces) StdoutLine: {'line': b'[100%] Built target ur_custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.395877] (ur_custom_interfaces) StderrLine: {'line': b'    def _initialize_master_working_set():\n'}
+[0.396004] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside\n'}
+[0.396070] (ur_dashboard_msgs) StderrLine: {'line': b'    return self.data[ref(key)]\n'}
+[0.396201] (interfaces_ur5ik) StderrLine: {'line': b'    REQUIREMENT.parseString("x[]")\n'}
+[0.396276] (interfaces_ur5ik) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1644, in parseString\n'}
+[0.396364] (ur_dashboard_msgs) StderrLine: {'line': b"KeyError: <weakref at 0x7136a554d030; to 'type' at 0x5f7bb27da7c0 (str)>\n"}
+[0.396449] (ur_dashboard_msgs) StderrLine: {'line': b'\n'}
+[0.396543] (ur_dashboard_msgs) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[0.396663] (ur_dashboard_msgs) StderrLine: {'line': b'\n'}
+[0.396725] (ur_dashboard_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.396783] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/home/icrs/icrsUR/build/ur_dashboard_msgs/ament_cmake_python/ur_dashboard_msgs/setup.py", line 1, in <module>\n'}
+[0.396843] (ur_dashboard_msgs) StderrLine: {'line': b'    from setuptools import find_packages\n'}
+[0.396900] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>\n'}
+[0.396959] (ur_dashboard_msgs) StderrLine: {'line': b'    import setuptools.version\n'}
+[0.397017] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n'}
+[0.397076] (ur_dashboard_msgs) StderrLine: {'line': b'    import pkg_resources\n'}
+[0.397149] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>\n'}
+[0.397245] (ur_description) JobEnded: {'identifier': 'ur_description', 'rc': 'SIGINT'}
+[0.397773] (interfaces_ur5ik) StderrLine: {'line': b'    loc, tokens = self._parse( instring, 0 )\n'}
+[0.397879] (interfaces_ur5ik) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache\n'}
+[0.397948] (ur_dashboard_msgs) StderrLine: {'line': b'    def _initialize_master_working_set():\n'}
+[0.398018] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside\n'}
+[0.398082] (ur_custom_interfaces) StderrLine: {'line': b'    f(*args, **kwargs)\n'}
+[0.398154] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set\n'}
+[0.398217] (interfaces_ur5ik) StderrLine: {'line': b'    loc,tokens = self.parseImpl( instring, preloc, doActions )\n'}
+[0.398289] (interfaces_ur5ik) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3417, in parseImpl\n'}
+[0.398351] (ur_dashboard_msgs) StderrLine: {'line': b'    f(*args, **kwargs)\n'}
+[0.398411] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set\n'}
+[0.398470] (ur_custom_interfaces) StderrLine: {'line': b'    working_set = WorkingSet._build_master()\n'}
+[0.398544] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master\n'}
+[0.398615] (ur_custom_interfaces) StderrLine: {'line': b'    ws = cls()\n'}
+[0.398676] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__\n'}
+[0.398736] (ur_custom_interfaces) StderrLine: {'line': b'    self.add_entry(entry)\n'}
+[0.398796] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry\n'}
+[0.398855] (interfaces_ur5ik) StderrLine: {'line': b'    loc, exprtokens = e._parse( instring, loc, doActions )\n'}
+[0.398921] (interfaces_ur5ik) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache\n'}
+[0.398985] (ur_custom_interfaces) StderrLine: {'line': b'    for dist in find_distributions(entry, True):\n'}
+[0.399043] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path\n'}
+[0.399105] (interfaces_ur5ik) StderrLine: {'line': b'    loc,tokens = self.parseImpl( instring, preloc, doActions )\n'}
+[0.399163] (interfaces_ur5ik) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3552, in parseImpl\n'}
+[0.399223] (ur_dashboard_msgs) StderrLine: {'line': b'    working_set = WorkingSet._build_master()\n'}
+[0.399289] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master\n'}
+[0.399351] (ur_dashboard_msgs) StderrLine: {'line': b'    ws = cls()\n'}
+[0.399410] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__\n'}
+[0.399470] (ur_dashboard_msgs) StderrLine: {'line': b'    self.add_entry(entry)\n'}
+[0.399528] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry\n'}
+[0.399614] (interfaces_ur5ik) StderrLine: {'line': b'    ret = e._parse( instring, loc, doActions )\n'}
+[0.399678] (interfaces_ur5ik) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache\n'}
+[0.399737] (interfaces_ur5ik) StderrLine: {'line': b'    loc,tokens = self.parseImpl( instring, preloc, doActions )\n'}
+[0.399796] (interfaces_ur5ik) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3400, in parseImpl\n'}
+[0.399856] (ur_dashboard_msgs) StderrLine: {'line': b'    for dist in find_distributions(entry, True):\n'}
+[0.399914] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path\n'}
+[0.399973] (ur_custom_interfaces) StderrLine: {'line': b'    for dist in factory(fullpath):\n'}
+[0.400036] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata\n'}
+[0.400097] (ur_custom_interfaces) StderrLine: {'line': b'    yield Distribution.from_location(\n'}
+[0.400155] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2606, in from_location\n'}
+[0.400214] (ur_custom_interfaces) StderrLine: {'line': b'    )._reload_version()\n'}
+[0.400273] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3004, in _reload_version\n'}
+[0.400346] (interfaces_ur5ik) StderrLine: {'line': b'    loc, resultlist = self.exprs[0]._parse( instring, loc, doActions, callPreParse=False )\n'}
+[0.400405] (interfaces_ur5ik) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache\n'}
+[0.400464] (interfaces_ur5ik) StderrLine: {'line': b'    loc,tokens = self.parseImpl( instring, preloc, doActions )\n'}
+[0.400522] (interfaces_ur5ik) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3400, in parseImpl\n'}
+[0.400604] (ur_custom_interfaces) StderrLine: {'line': b'    md_version = self._get_version()\n'}
+[0.400669] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2785, in _get_version\n'}
+[0.400730] (ur_custom_interfaces) StderrLine: {'line': b'    version = _version_from_file(lines)\n'}
+[0.400788] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2569, in _version_from_file\n'}
+[0.400846] (ur_dashboard_msgs) StderrLine: {'line': b'    for dist in factory(fullpath):\n'}
+[0.400910] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata\n'}
+[0.400971] (ur_dashboard_msgs) StderrLine: {'line': b'    yield Distribution.from_location(\n'}
+[0.401029] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2606, in from_location\n'}
+[0.401088] (ur_custom_interfaces) StderrLine: {'line': b"    line = next(iter(version_lines), '')\n"}
+[0.401148] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2779, in _get_metadata\n'}
+[0.401206] (ur_custom_interfaces) StderrLine: {'line': b'    if self.has_metadata(name):\n'}
+[0.401265] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1406, in has_metadata\n'}
+[0.401324] (interfaces_ur5ik) StderrLine: {'line': b'    loc, resultlist = self.exprs[0]._parse( instring, loc, doActions, callPreParse=False )\n'}
+[0.401384] (interfaces_ur5ik) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1434, in _parseNoCache\n'}
+[0.401444] (interfaces_ur5ik) StderrLine: {'line': b'    if debugging:\n'}
+[0.401513] (interfaces_ur5ik) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[0.401619] (ur_dashboard_msgs) StderrLine: {'line': b'    )._reload_version()\n'}
+[0.401688] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3004, in _reload_version\n'}
+[0.401760] (ur_dashboard_msgs) StderrLine: {'line': b'    md_version = self._get_version()\n'}
+[0.401821] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2785, in _get_version\n'}
+[0.401880] (ur_custom_interfaces) StderrLine: {'line': b'    return self._has(path)\n'}
+[0.401945] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1604, in _has\n'}
+[0.402006] (ur_dashboard_msgs) StderrLine: {'line': b'    version = _version_from_file(lines)\n'}
+[0.402066] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2569, in _version_from_file\n'}
+[0.402125] (ur_custom_interfaces) StderrLine: {'line': b'    return os.path.exists(path)\n'}
+[0.402184] (ur_custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/genericpath.py", line 19, in exists\n'}
+[0.402245] (ur_dashboard_msgs) StderrLine: {'line': b"    line = next(iter(version_lines), '')\n"}
+[0.402304] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2780, in _get_metadata\n'}
+[0.402373] (ur_custom_interfaces) StderrLine: {'line': b'    os.stat(path)\n'}
+[0.402453] (ur_custom_interfaces) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[0.402511] (ur_dashboard_msgs) StderrLine: {'line': b'    for line in self.get_metadata_lines(name):\n'}
+[0.402593] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1422, in get_metadata_lines\n'}
+[0.402654] (ur_dashboard_msgs) StderrLine: {'line': b'    return yield_lines(self.get_metadata(name))\n'}
+[0.402721] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/functools.py", line 889, in wrapper\n'}
+[0.402780] (ur_dashboard_msgs) StderrLine: {'line': b'    return dispatch(args[0].__class__)(*args, **kw)\n'}
+[0.402838] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/functools.py", line 838, in dispatch\n'}
+[0.402896] (ur_dashboard_msgs) StderrLine: {'line': b'    dispatch_cache[cls] = impl\n'}
+[0.402957] (ur_dashboard_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/weakref.py", line 428, in __setitem__\n'}
+[0.403016] (ur_dashboard_msgs) StderrLine: {'line': b'    def __setitem__(self, key, value):\n'}
+[0.403074] (ur_dashboard_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[0.403568] (-) TimerEvent: {}
+[0.420359] (interfaces_ur5ik) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg] Interrupt\n'}
+[0.420690] (interfaces_ur5ik) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg.dir/all] Interrupt\n'}
+[0.420853] (interfaces_ur5ik) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[0.422402] (interfaces_ur5ik) JobEnded: {'identifier': 'interfaces_ur5ik', 'rc': 'SIGINT'}
+[0.422914] (ur_custom_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ur_custom_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ur_custom_interfaces_egg] Interrupt\n'}
+[0.423033] (ur_custom_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ur_custom_interfaces_egg.dir/all] Interrupt\n'}
+[0.423154] (ur_custom_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[0.423754] (ur_dashboard_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg] Interrupt\n'}
+[0.423889] (ur_dashboard_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg.dir/all] Interrupt\n'}
+[0.424092] (ur_dashboard_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[0.424598] (ur_custom_interfaces) JobEnded: {'identifier': 'ur_custom_interfaces', 'rc': 'SIGINT'}
+[0.425688] (ur_dashboard_msgs) JobEnded: {'identifier': 'ur_dashboard_msgs', 'rc': 'SIGINT'}
+[0.436212] (camera_control) JobSkipped: {'identifier': 'camera_control'}
+[0.436300] (service_ur5ik) JobSkipped: {'identifier': 'service_ur5ik'}
+[0.436334] (ur_controllers) JobSkipped: {'identifier': 'ur_controllers'}
+[0.436361] (ur_moveit_config) JobSkipped: {'identifier': 'ur_moveit_config'}
+[0.436385] (ur_mover) JobSkipped: {'identifier': 'ur_mover'}
+[0.436408] (ur_bringup) JobSkipped: {'identifier': 'ur_bringup'}
+[0.436431] (ur_robot_driver) JobSkipped: {'identifier': 'ur_robot_driver'}
+[0.436454] (ur_calibration) JobSkipped: {'identifier': 'ur_calibration'}
+[0.436477] (ur) JobSkipped: {'identifier': 'ur'}
+[0.436501] (-) EventReactorShutdown: {}

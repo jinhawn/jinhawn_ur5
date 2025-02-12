@@ -1,0 +1,9 @@
+[0.041s] Invoking command in '/home/icrs/icrsUR/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/home/icrs/robotics_software_engineer-assignments/install/module_5_assignment:/home/icrs/robotics_software_engineer-assignments/module_5_assignment/install/module_5_assignment:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_moveit_config -- -j8 -l8
+[0.122s] Built target ament_cmake_python_symlink_ur_moveit_config
+[0.803s] running egg_info
+[0.803s] writing ur_moveit_config.egg-info/PKG-INFO
+[0.803s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[0.803s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[0.808s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[0.810s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[0.884s] Built target ament_cmake_python_build_ur_moveit_config_egg

@@ -1,0 +1,1 @@
+/home/icrs/icrsUR/build/ur_robot_driver/ament_cmake_environment_hooks/local_setup.bash

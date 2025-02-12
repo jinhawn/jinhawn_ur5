@@ -1,0 +1,19 @@
+[1.754s] Invoking command in '/home/icrs/icrsUR/src/gripper_control': PYTHONPATH=/home/icrs/icrsUR/build/gripper_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icrs/icrsUR/install/gripper_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gripper_control build --build-base /home/icrs/icrsUR/build/gripper_control/build install --record /home/icrs/icrsUR/build/gripper_control/install.log --single-version-externally-managed install_data
+[2.346s] running egg_info
+[2.348s] writing ../../build/gripper_control/gripper_control.egg-info/PKG-INFO
+[2.348s] writing dependency_links to ../../build/gripper_control/gripper_control.egg-info/dependency_links.txt
+[2.349s] writing entry points to ../../build/gripper_control/gripper_control.egg-info/entry_points.txt
+[2.350s] writing requirements to ../../build/gripper_control/gripper_control.egg-info/requires.txt
+[2.351s] writing top-level names to ../../build/gripper_control/gripper_control.egg-info/top_level.txt
+[2.354s] reading manifest file '../../build/gripper_control/gripper_control.egg-info/SOURCES.txt'
+[2.356s] writing manifest file '../../build/gripper_control/gripper_control.egg-info/SOURCES.txt'
+[2.357s] running build
+[2.357s] running install
+[2.357s] running install_data
+[2.357s] running install_egg_info
+[2.362s] removing '/home/icrs/icrsUR/install/gripper_control/lib/python3.10/site-packages/gripper_control-0.0.0-py3.10.egg-info' (and everything under it)
+[2.362s] Copying ../../build/gripper_control/gripper_control.egg-info to /home/icrs/icrsUR/install/gripper_control/lib/python3.10/site-packages/gripper_control-0.0.0-py3.10.egg-info
+[2.364s] running install_scripts
+[2.410s] Installing gripper_control_node script to /home/icrs/icrsUR/install/gripper_control/lib/gripper_control
+[2.411s] writing list of installed files to '/home/icrs/icrsUR/build/gripper_control/install.log'
+[2.491s] Invoked command in '/home/icrs/icrsUR/src/gripper_control' returned '0': PYTHONPATH=/home/icrs/icrsUR/build/gripper_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icrs/icrsUR/install/gripper_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gripper_control build --build-base /home/icrs/icrsUR/build/gripper_control/build install --record /home/icrs/icrsUR/build/gripper_control/install.log --single-version-externally-managed install_data

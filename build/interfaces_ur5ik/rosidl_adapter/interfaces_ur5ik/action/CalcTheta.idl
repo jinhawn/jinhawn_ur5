@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from interfaces_ur5ik/action/CalcTheta.action
+// generated code does not contain a copyright notice
+
+
+module interfaces_ur5ik {
+  module action {
+    typedef double double__6[6];
+    struct CalcTheta_Goal {
+      double__6 act_target;
+    };
+    typedef double double__6[6];
+    struct CalcTheta_Result {
+      double__6 act_theta;
+    };
+    typedef double double__6[6];
+    struct CalcTheta_Feedback {
+      double__6 act_l_target;
+    };
+  };
+};

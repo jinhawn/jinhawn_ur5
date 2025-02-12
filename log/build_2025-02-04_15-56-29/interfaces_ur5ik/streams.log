@@ -1,0 +1,23 @@
+[0.038s] Invoking command in '/home/icrs/icrsUR/build/interfaces_ur5ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/interfaces_ur5ik -- -j8 -l8
+[21.257s] [  2%] Built target interfaces_ur5ik__cpp
+[21.258s] [ 12%] Built target interfaces_ur5ik__rosidl_generator_c
+[21.258s] [ 12%] Built target ament_cmake_python_symlink_interfaces_ur5ik
+[21.258s] [ 23%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_cpp
+[21.258s] [ 34%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_c
+[21.258s] [ 44%] Built target interfaces_ur5ik__rosidl_typesupport_c
+[21.258s] [ 55%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_cpp
+[21.258s] [ 68%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_c
+[21.258s] [ 76%] Built target interfaces_ur5ik__rosidl_typesupport_cpp
+[21.258s] [ 76%] Built target interfaces_ur5ik
+[21.258s] [ 78%] Built target interfaces_ur5ik__py
+[21.258s] [ 87%] Built target interfaces_ur5ik__rosidl_generator_py
+[21.258s] [ 91%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_c__pyext
+[21.258s] [ 95%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_c__pyext
+[21.258s] [100%] Built target interfaces_ur5ik__rosidl_typesupport_c__pyext
+[21.258s] running egg_info
+[21.259s] writing interfaces_ur5ik.egg-info/PKG-INFO
+[21.259s] writing dependency_links to interfaces_ur5ik.egg-info/dependency_links.txt
+[21.259s] writing top-level names to interfaces_ur5ik.egg-info/top_level.txt
+[21.259s] reading manifest file 'interfaces_ur5ik.egg-info/SOURCES.txt'
+[21.259s] writing manifest file 'interfaces_ur5ik.egg-info/SOURCES.txt'
+[21.259s] [100%] Built target ament_cmake_python_build_interfaces_ur5ik_egg

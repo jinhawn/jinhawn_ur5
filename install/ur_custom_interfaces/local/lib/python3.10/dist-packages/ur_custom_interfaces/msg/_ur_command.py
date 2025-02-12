@@ -1,0 +1,1 @@
+/home/icrs/icrsUR/build/ur_custom_interfaces/rosidl_generator_py/ur_custom_interfaces/msg/_ur_command.py

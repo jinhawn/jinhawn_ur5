@@ -1,0 +1,67 @@
+[0.011s] Invoking command in '/home/icrs/icrsUR/build/ur_controllers': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/icrs/icrsUR/install/ur_controllers
+[0.028s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.200s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.213s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.217s] -- Found controller_interface: 2.43.1 (/opt/ros/humble/share/controller_interface/cmake)
+[0.271s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.276s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.289s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.305s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.322s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.663s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.667s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.705s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.718s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.746s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.756s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.770s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.836s] -- Found joint_trajectory_controller: 2.37.3 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[0.863s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.892s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.906s] -- Found ur_dashboard_msgs: 2.2.10 (/home/icrs/icrsUR/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[0.927s] -- Found ur_msgs: 2.0.1 (/opt/ros/humble/share/ur_msgs/cmake)
+[1.080s] -- Configuring done
+[1.120s] -- Generating done
+[1.124s] -- Build files have been written to: /home/icrs/icrsUR/build/ur_controllers
+[1.147s] Invoked command in '/home/icrs/icrsUR/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/icrs/icrsUR/install/ur_controllers
+[1.150s] Invoking command in '/home/icrs/icrsUR/build/ur_controllers': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_controllers -- -j8 -l8
+[1.235s] [ 14%] Built target gpio_controller_parameters
+[1.248s] [ 28%] Built target speed_scaling_state_broadcaster_parameters
+[1.255s] [ 42%] Built target scaled_joint_trajectory_controller_parameters
+[1.275s] [35m[1mConsolidate compiler generated dependencies of target ur_controllers[0m
+[1.311s] [100%] Built target ur_controllers
+[1.328s] Invoked command in '/home/icrs/icrsUR/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_controllers -- -j8 -l8
+[1.382s] Invoking command in '/home/icrs/icrsUR/build/ur_controllers': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_controllers
+[1.397s] -- Install configuration: ""
+[1.398s] -- Execute custom install script
+[1.399s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/include/gpio_controller_parameters/gpio_controller_parameters.hpp
+[1.399s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters/speed_scaling_state_broadcaster_parameters.hpp
+[1.400s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters/scaled_joint_trajectory_controller_parameters.hpp
+[1.400s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers//controller_plugins.xml
+[1.401s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/lib/libur_controllers.so
+[1.401s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[1.401s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[1.402s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[1.402s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[1.402s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[1.402s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[1.403s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[1.403s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[1.403s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[1.403s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[1.404s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/environment/path.sh
+[1.404s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[1.404s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/local_setup.bash
+[1.405s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/local_setup.sh
+[1.405s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[1.405s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[1.405s] -- Symlinking: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/package.dsv
+[1.424s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[1.424s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[1.425s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.425s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.425s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[1.425s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[1.425s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[1.425s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_controllers/share/ur_controllers/package.xml
+[1.435s] Invoked command in '/home/icrs/icrsUR/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_controllers

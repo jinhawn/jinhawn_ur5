@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/icrs/icrsUR/build/interfaces_ur5ik/rosidl_generator_py/interfaces_ur5ik/interfaces_ur5ik_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "interfaces_ur5ik__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/interfaces_ur5ik")

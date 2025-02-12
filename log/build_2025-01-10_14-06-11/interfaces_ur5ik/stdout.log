@@ -1,0 +1,10 @@
+[  4%] Built target interfaces_ur5ik__cpp
+[ 12%] Built target interfaces_ur5ik__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_interfaces_ur5ik
+[ 23%] Built target interfaces_ur5ik__rosidl_typesupport_c
+[ 34%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_c
+[ 55%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_cpp
+[ 55%] Built target interfaces_ur5ik__rosidl_typesupport_cpp
+[ 65%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_c
+[ 76%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_cpp
+[ 76%] Built target interfaces_ur5ik

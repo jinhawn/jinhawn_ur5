@@ -1,0 +1,251 @@
+[0.633s] Invoking command in '/home/icrs/icrsUR/build/module_5_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake /home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment -DCMAKE_INSTALL_PREFIX=/home/icrs/icrsUR/install/module_5_assignment
+[0.774s] -- The C compiler identification is GNU 11.4.0
+[0.884s] -- The CXX compiler identification is GNU 11.4.0
+[0.899s] -- Detecting C compiler ABI info
+[1.013s] -- Detecting C compiler ABI info - done
+[1.030s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.031s] -- Detecting C compile features
+[1.032s] -- Detecting C compile features - done
+[1.038s] -- Detecting CXX compiler ABI info
+[1.166s] -- Detecting CXX compiler ABI info - done
+[1.186s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.186s] -- Detecting CXX compile features
+[1.187s] -- Detecting CXX compile features - done
+[1.211s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.453s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.603s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.704s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.737s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.769s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.819s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.873s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.997s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.003s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.171s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.210s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.267s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.290s] -- Looking for pthread.h
+[2.373s] -- Looking for pthread.h - found
+[2.374s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.457s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.458s] -- Found Threads: TRUE  
+[2.568s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.588s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.590s] -- Checking for module 'bullet>=2.82'
+[2.606s] --   Found bullet, version 3.05
+[2.730s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.782s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.808s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.846s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.864s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.872s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.881s] -- Searching for dependencies of ignition-math6
+[2.883s] -- Looking for OGRE...
+[2.883s] -- OGRE_PREFIX_WATCH changed.
+[2.889s] -- Checking for module 'OGRE'
+[2.903s] --   Found OGRE, version 1.9.0
+[2.937s] -- Found Ogre Ghadamon (1.9.0)
+[2.945s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.955s] -- Looking for OGRE_Paging...
+[2.962s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.962s] -- Looking for OGRE_Terrain...
+[2.969s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.969s] -- Looking for OGRE_Property...
+[2.976s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.976s] -- Looking for OGRE_RTShaderSystem...
+[2.984s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.984s] -- Looking for OGRE_Volume...
+[2.991s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.991s] -- Looking for OGRE_Overlay...
+[2.996s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.163s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.166s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.167s] -- Searching for dependencies of ignition-transport8
+[3.187s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.202s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.208s] -- Checking for module 'libzmq >= 4'
+[3.225s] --   Found libzmq , version 4.3.4
+[3.262s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.268s] -- Checking for module 'uuid'
+[3.283s] --   Found uuid, version 2.37.2
+[3.314s] -- Found UUID: TRUE  
+[3.318s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.318s] -- Searching for dependencies of ignition-msgs5
+[3.340s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.345s] -- Checking for module 'tinyxml2'
+[3.360s] --   Found tinyxml2, version 9.0.0
+[3.391s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.395s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.395s] -- Searching for dependencies of ignition-common3
+[3.395s] -- Looking for dlfcn.h - found
+[3.396s] -- Looking for libdl - found
+[3.398s] -- Found DL: TRUE  
+[3.411s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[3.412s] -- Searching for <ignition-common3> component [graphics]
+[3.416s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.416s] -- Searching for dependencies of ignition-common3-graphics
+[3.416s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.420s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.421s] -- Searching for dependencies of ignition-fuel_tools4
+[3.504s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.515s] -- Checking for module 'jsoncpp'
+[3.528s] --   Found jsoncpp, version 1.9.5
+[3.557s] -- Found JSONCPP: TRUE  
+[3.564s] -- Checking for module 'libzip'
+[3.577s] --   Found libzip, version 1.7.3
+[3.606s] -- Found ZIP: TRUE  
+[3.606s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.606s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.607s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.612s] -- Gazebo version: 11.10
+[3.612s] -- Checking for module 'tbb'
+[3.625s] --   Found tbb, version 2021.5.0
+[3.657s] -- Found ros2_control: 2.43.1 (/opt/ros/humble/share/ros2_control/cmake)
+[3.659s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.678s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.704s] -- Found OpenCV: /usr/local (found version "4.10.0") 
+[3.706s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.715s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.735s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[3.747s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.757s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.758s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.758s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.868s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.890s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[3.909s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[3.914s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.010s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.011s] -- Configured cppcheck include dirs: /home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/include;/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/$(CMAKE_SOURCE_DIR)/../..extern/eigen
+[4.011s] -- Configured cppcheck exclude dirs and/or files: 
+[4.012s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.013s] -- Added test 'lint_cmake' to check CMake code style
+[4.014s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.018s] -- Added test 'uncrustify' to check C / C++ code style
+[4.018s] -- Configured uncrustify additional arguments: 
+[4.019s] -- Added test 'xmllint' to check XML markup files
+[4.021s] -- Configuring done
+[4.049s] -- Generating done
+[4.051s] -- Build files have been written to: /home/icrs/icrsUR/build/module_5_assignment
+[4.066s] Invoked command in '/home/icrs/icrsUR/build/module_5_assignment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake /home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment -DCMAKE_INSTALL_PREFIX=/home/icrs/icrsUR/install/module_5_assignment
+[4.068s] Invoking command in '/home/icrs/icrsUR/build/module_5_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/module_5_assignment -- -j8 -l8
+[4.119s] [ 17%] [32mBuilding CXX object CMakeFiles/lqr_lib.dir/src/lqr_lib/lqr_lib.cpp.o[0m
+[4.119s] [ 17%] [32mBuilding CXX object CMakeFiles/waypoints_lib.dir/src/waypoints_lib/waypoints_lib.cpp.o[0m
+[4.119s] [ 17%] [32mBuilding CXX object CMakeFiles/arm_path_planner.dir/src/arm_path_planner/arm_path_planner.cpp.o[0m
+[4.120s] [ 23%] [32mBuilding CXX object CMakeFiles/pid_lib.dir/src/pid_lib/pid_lib.cpp.o[0m
+[4.122s] [ 29%] [32mBuilding CXX object CMakeFiles/arm_path_planner.dir/src/arm_path_planner/arm_planner.cpp.o[0m
+[5.246s] [ 35%] [32m[1mLinking CXX static library libwaypoints_lib.a[0m
+[5.311s] [ 35%] Built target waypoints_lib
+[6.889s] In file included from [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/pid_lib/pid_lib.cpp:1[m[K:
+[6.889s] [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/include/pid_lib/pid_lib.hpp:[m[K In constructor ‘[01m[KPID::PID(double, double, double, double, double)[m[K’:
+[6.889s] [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/include/pid_lib/pid_lib.hpp:20:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KPID::_cmd_max[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.889s]    20 |     double [01;35m[K_cmd_max[m[K;         // maximum clamp
+[6.889s]       |            [01;35m[K^~~~~~~~[m[K
+[6.889s] [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/include/pid_lib/pid_lib.hpp:18:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble PID::_deriv_err_prev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.890s]    18 |     double [01;35m[K_deriv_err_prev[m[K;  // Previous derivative
+[6.890s]       |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[6.890s] [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/pid_lib/pid_lib.cpp:4:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.890s]     4 | [01;35m[KPID[m[K::PID(double Kp, double Ki, double Kd, double cmd_min, double cmd_max) : _Kp(Kp), _Ki(Ki), _Kd(Kd),
+[6.890s]       | [01;35m[K^~~[m[K
+[7.446s] [ 41%] [32m[1mLinking CXX static library libpid_lib.a[0m
+[7.513s] [ 41%] Built target pid_lib
+[7.542s] [ 52%] [32mBuilding CXX object CMakeFiles/goal_planner_node.dir/src/goal_planner/goal_planner_node.cpp.o[0m
+[7.543s] [ 52%] [32mBuilding CXX object CMakeFiles/goal_planner_node.dir/src/goal_planner/goal_planner.cpp.o[0m
+[7.546s] [ 58%] [32mBuilding CXX object CMakeFiles/line_follower_pid.dir/src/line_follower_camera/line_follower_camera.cpp.o[0m
+[7.547s] [ 64%] [32mBuilding CXX object CMakeFiles/line_follower_pid.dir/src/line_follower_camera/line_follower.cpp.o[0m
+[8.006s] In file included from [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/include/goal_planner/goal_planner.h:13[m[K,
+[8.006s]                  from [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:1[m[K:
+[8.006s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[8.006s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[8.007s]       |  [01;35m[K^~~~~~~[m[K
+[8.007s] In file included from [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/include/goal_planner/goal_planner.h:13[m[K,
+[8.007s]                  from [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner_node.cpp:2[m[K:
+[8.007s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[8.007s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[8.007s]       |  [01;35m[K^~~~~~~[m[K
+[13.507s] [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:[m[K In member function ‘[01m[Kvoid GoalPlanner::odom_callback(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)[m[K’:
+[13.508s] [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:87:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_kp_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.508s]    87 |     double [01;35m[Klinear_kp_[m[K = this->get_parameter("linear_kp").as_double();
+[13.508s]       |            [01;35m[K^~~~~~~~~~[m[K
+[13.508s] [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:88:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_ki_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.508s]    88 |     double [01;35m[Klinear_ki_[m[K = this->get_parameter("linear_ki").as_double();
+[13.508s]       |            [01;35m[K^~~~~~~~~~[m[K
+[13.509s] [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:89:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_kd_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.509s]    89 |     double [01;35m[Klinear_kd_[m[K = this->get_parameter("linear_kd").as_double();
+[13.509s]       |            [01;35m[K^~~~~~~~~~[m[K
+[13.509s] [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:91:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangular_kp_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.509s]    91 |     double [01;35m[Kangular_kp_[m[K = this->get_parameter("angular_kp").as_double();
+[13.509s]       |            [01;35m[K^~~~~~~~~~~[m[K
+[13.509s] [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:92:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangular_ki_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.509s]    92 |     double [01;35m[Kangular_ki_[m[K = this->get_parameter("angular_ki").as_double();
+[13.510s]       |            [01;35m[K^~~~~~~~~~~[m[K
+[13.510s] [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:93:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangular_kd_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.510s]    93 |     double [01;35m[Kangular_kd_[m[K = this->get_parameter("angular_kd").as_double();
+[13.510s]       |            [01;35m[K^~~~~~~~~~~[m[K
+[17.140s] [ 70%] [32m[1mLinking CXX executable arm_path_planner[0m
+[17.700s] [ 70%] Built target arm_path_planner
+[17.858s] [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:[m[K In member function ‘[01m[Ktf2::Quaternion* GoalPlanner::get_quaternion_from_euler(double, double, double)[m[K’:
+[17.858s] [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:150:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kq[m[K’ is used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized-Wuninitialized]8;;[m[K]
+[17.858s]   150 |     [01;35m[Kq->setRPY(roll, pitch, yaw)[m[K;
+[17.858s]       |     [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[19.478s] [ 76%] [32m[1mLinking CXX static library liblqr_lib.a[0m
+[19.669s] [ 76%] Built target lqr_lib
+[19.693s] [ 82%] [32mBuilding CXX object CMakeFiles/lqr_node.dir/src/lqr_lib/lqr_node.cpp.o[0m
+[22.346s] [ 88%] [32m[1mLinking CXX executable line_follower_pid[0m
+[22.701s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.410
+[22.701s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410
+[22.743s] [ 94%] [32m[1mLinking CXX executable goal_planner_node[0m
+[23.359s] [ 94%] Built target goal_planner_node
+[23.389s] [ 94%] Built target line_follower_pid
+[39.656s] [100%] [32m[1mLinking CXX executable lqr_node[0m
+[40.897s] [100%] Built target lqr_node
+[40.915s] Invoked command in '/home/icrs/icrsUR/build/module_5_assignment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/module_5_assignment -- -j8 -l8
+[41.042s] Invoking command in '/home/icrs/icrsUR/build/module_5_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/module_5_assignment
+[41.059s] -- Install configuration: ""
+[41.059s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/libpid_lib.a
+[41.059s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/liblqr_lib.a
+[41.070s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/lqr_node
+[41.078s] -- Set runtime path of "/home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/lqr_node" to ""
+[41.078s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/line_follower_pid
+[41.080s] -- Set runtime path of "/home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/line_follower_pid" to ""
+[41.080s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/libwaypoints_lib.a
+[41.081s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/goal_planner_node
+[41.083s] -- Set runtime path of "/home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/goal_planner_node" to ""
+[41.083s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/arm_path_planner
+[41.084s] -- Set runtime path of "/home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/arm_path_planner" to ""
+[41.084s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/config
+[41.085s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/config/arm_waypoints.yaml
+[41.085s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/config/routes.yaml
+[41.085s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/config/robotic_arm_controllers.yaml
+[41.085s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch
+[41.085s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/tb3_line_world.launch.py
+[41.085s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/main_tb3_lqr.launch.py
+[41.085s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/gazebo_ros.launch.py
+[41.085s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/main_tb3_line_world.launch.py
+[41.085s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/robotic_arm_controllers.launch.py
+[41.085s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/main_tb3_goal_planner.launch.py
+[41.085s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/main_robotic_arm.launch.py
+[41.085s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/line_follower_pid.launch.py
+[41.086s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/rviz.launch.py
+[41.086s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/main.launch.py
+[41.086s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/rviz
+[41.086s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/rviz/lqr.rviz
+[41.086s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/rviz/config.rviz
+[41.086s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/urdf
+[41.086s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/urdf/robotic_arm.urdf
+[41.086s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/ament_index/resource_index/package_run_dependencies/module_5_assignment
+[41.086s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/ament_index/resource_index/parent_prefix_path/module_5_assignment
+[41.086s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/environment/ament_prefix_path.sh
+[41.086s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/environment/ament_prefix_path.dsv
+[41.086s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/environment/path.sh
+[41.086s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/environment/path.dsv
+[41.086s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/local_setup.bash
+[41.087s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/local_setup.sh
+[41.087s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/local_setup.zsh
+[41.087s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/local_setup.dsv
+[41.087s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/package.dsv
+[41.087s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/ament_index/resource_index/packages/module_5_assignment
+[41.087s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/cmake/module_5_assignmentConfig.cmake
+[41.087s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/cmake/module_5_assignmentConfig-version.cmake
+[41.087s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/package.xml
+[41.089s] Invoked command in '/home/icrs/icrsUR/build/module_5_assignment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/module_5_assignment

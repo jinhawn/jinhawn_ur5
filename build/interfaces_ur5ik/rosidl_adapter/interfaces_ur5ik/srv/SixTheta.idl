@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces_ur5ik/srv/SixTheta.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces_ur5ik {
+  module srv {
+    struct SixTheta_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    typedef double double__6[6];
+    struct SixTheta_Response {
+      double__6 srv_theta;
+
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,14 @@
+[0.016s] Invoking command in '/home/icrs/icrsUR/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_robot_driver -- -j8 -l8
+[0.125s] [ 26%] Built target ur_robot_driver_plugin
+[0.127s] [ 46%] Built target controller_stopper_node
+[0.133s] [ 60%] Built target urscript_interface
+[0.137s] [ 73%] Built target ur_ros2_control_node
+[0.137s] [ 73%] Built target ament_cmake_python_symlink_ur_robot_driver
+[0.141s] [100%] Built target dashboard_client
+[0.490s] running egg_info
+[0.490s] writing ur_robot_driver.egg-info/PKG-INFO
+[0.491s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[0.491s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[0.494s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[0.495s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[0.524s] [100%] Built target ament_cmake_python_build_ur_robot_driver_egg

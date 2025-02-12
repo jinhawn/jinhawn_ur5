@@ -1,0 +1,54 @@
+[0.678s] Invoking command in '/home/icrs/icrsUR/build/module_5_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/module_5_assignment -- -j8 -l8
+[0.788s] [ 11%] Built target lqr_lib
+[0.800s] [ 23%] Built target pid_lib
+[0.807s] [ 35%] Built target waypoints_lib
+[0.812s] [ 52%] Built target arm_path_planner
+[0.871s] [ 64%] Built target lqr_node
+[0.873s] [ 82%] Built target line_follower_pid
+[0.881s] [100%] Built target goal_planner_node
+[0.904s] Invoked command in '/home/icrs/icrsUR/build/module_5_assignment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/module_5_assignment -- -j8 -l8
+[0.989s] Invoking command in '/home/icrs/icrsUR/build/module_5_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/module_5_assignment
+[1.000s] -- Install configuration: ""
+[1.001s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/libpid_lib.a
+[1.001s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/liblqr_lib.a
+[1.001s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/lqr_node
+[1.001s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/line_follower_pid
+[1.002s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/libwaypoints_lib.a
+[1.002s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/goal_planner_node
+[1.002s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/lib/module_5_assignment/arm_path_planner
+[1.002s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/config
+[1.003s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/config/arm_waypoints.yaml
+[1.003s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/config/routes.yaml
+[1.004s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/config/robotic_arm_controllers.yaml
+[1.004s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch
+[1.004s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/tb3_line_world.launch.py
+[1.004s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/main_tb3_lqr.launch.py
+[1.004s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/gazebo_ros.launch.py
+[1.004s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/main_tb3_line_world.launch.py
+[1.004s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/robotic_arm_controllers.launch.py
+[1.005s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/main_tb3_goal_planner.launch.py
+[1.005s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/main_robotic_arm.launch.py
+[1.005s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/line_follower_pid.launch.py
+[1.005s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/rviz.launch.py
+[1.005s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/launch/main.launch.py
+[1.005s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/rviz
+[1.005s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/rviz/lqr.rviz
+[1.005s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/rviz/config.rviz
+[1.006s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/urdf
+[1.006s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/urdf/robotic_arm.urdf
+[1.006s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/ament_index/resource_index/package_run_dependencies/module_5_assignment
+[1.006s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/ament_index/resource_index/parent_prefix_path/module_5_assignment
+[1.006s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/environment/ament_prefix_path.sh
+[1.006s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/environment/ament_prefix_path.dsv
+[1.007s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/environment/path.sh
+[1.007s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/environment/path.dsv
+[1.007s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/local_setup.bash
+[1.007s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/local_setup.sh
+[1.007s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/local_setup.zsh
+[1.008s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/local_setup.dsv
+[1.008s] -- Installing: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/package.dsv
+[1.008s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/ament_index/resource_index/packages/module_5_assignment
+[1.008s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/cmake/module_5_assignmentConfig.cmake
+[1.010s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/cmake/module_5_assignmentConfig-version.cmake
+[1.010s] -- Up-to-date: /home/icrs/icrsUR/install/module_5_assignment/share/module_5_assignment/package.xml
+[1.011s] Invoked command in '/home/icrs/icrsUR/build/module_5_assignment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/module_5_assignment

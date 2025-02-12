@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/assignment2.dir/src/task2/assignment2.cpp.o CMakeFiles/assignment2.dir/src/task2/RobotTask2.cpp.o -o assignment2 

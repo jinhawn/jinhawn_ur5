@@ -1,0 +1,22 @@
+[2.742s] Invoking command in '/home/icrs/icrsUR/build/camera_control': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icrs/icrsUR/install/camera_control/lib/python3.10/site-packages:/home/icrs/icrsUR/install/ur_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/icrs/icrsUR/build/camera_control/build --no-deps symlink_data
+[3.690s] running develop
+[3.691s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.691s]   warnings.warn(
+[4.481s] running egg_info
+[4.481s] creating camera_control.egg-info
+[4.482s] writing camera_control.egg-info/PKG-INFO
+[4.482s] writing dependency_links to camera_control.egg-info/dependency_links.txt
+[4.483s] writing entry points to camera_control.egg-info/entry_points.txt
+[4.487s] writing requirements to camera_control.egg-info/requires.txt
+[4.487s] writing top-level names to camera_control.egg-info/top_level.txt
+[4.487s] writing manifest file 'camera_control.egg-info/SOURCES.txt'
+[4.490s] reading manifest file 'camera_control.egg-info/SOURCES.txt'
+[4.490s] writing manifest file 'camera_control.egg-info/SOURCES.txt'
+[4.634s] running build_ext
+[4.635s] Creating /home/icrs/icrsUR/install/camera_control/lib/python3.10/site-packages/camera-control.egg-link (link to .)
+[4.638s] Installing camera_control_node script to /home/icrs/icrsUR/install/camera_control/lib/camera_control
+[4.639s] 
+[4.639s] Installed /home/icrs/icrsUR/build/camera_control
+[4.640s] running symlink_data
+[4.640s] symbolically linking /home/icrs/icrsUR/build/camera_control/package.xml -> /home/icrs/icrsUR/install/camera_control/share/camera_control
+[4.763s] Invoked command in '/home/icrs/icrsUR/build/camera_control' returned '0': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icrs/icrsUR/install/camera_control/lib/python3.10/site-packages:/home/icrs/icrsUR/install/ur_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/icrs/icrsUR/build/camera_control/build --no-deps symlink_data

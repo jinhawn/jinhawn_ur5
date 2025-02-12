@@ -1,0 +1,40 @@
+[0.016s] Invoking command in '/home/icrs/icrsUR/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_robot_driver -- -j8 -l8
+[0.108s] [  6%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[0.115s] [ 13%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[0.117s] [ 26%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[0.117s] [ 26%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[0.127s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_ros2_control_node.dir/src/ur_ros2_control_node.cpp.o[0m
+[0.141s] [ 46%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[0.141s] [ 46%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[0.141s] [ 46%] Built target ament_cmake_python_symlink_ur_robot_driver
+[0.166s] [ 53%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+[3.150s] running egg_info
+[3.151s] creating ur_robot_driver.egg-info
+[3.152s] writing ur_robot_driver.egg-info/PKG-INFO
+[3.152s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[3.152s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[3.153s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[3.158s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[3.162s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[3.217s] [ 53%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[3.231s] [ 60%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[10.877s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[12.604s] [01m[K/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ur_robot_driver::URPositionHardwareInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[12.604s] [01m[K/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:432:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid urcl::UrDriver::setKeepaliveCount(uint32_t)[m[K’ is deprecated: Set keepaliveCount is deprecated, instead set the robot receive timeout directly in the write commands. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[12.604s]   432 |     [01;35m[Kur_driver_->setKeepaliveCount(keep_alive_count)[m[K;
+[12.604s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[12.604s] In file included from [01m[K/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp:55[m[K,
+[12.604s]                  from [01m[K/home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:50[m[K:
+[12.604s] [01m[K/opt/ros/humble/include/ur_client_library/ur/ur_driver.h:461:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.605s]   461 |   [01;36m[KsetKeepaliveCount[m[K(const uint32_t count);
+[12.605s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.060s] [ 73%] [32m[1mLinking CXX executable ur_ros2_control_node[0m
+[13.465s] [ 73%] Built target ur_ros2_control_node
+[24.940s] [ 80%] [32m[1mLinking CXX executable urscript_interface[0m
+[25.389s] [ 80%] Built target urscript_interface
+[27.788s] [ 86%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[28.175s] [ 86%] Built target controller_stopper_node
+[30.698s] [ 93%] [32m[1mLinking CXX executable dashboard_client[0m
+[31.136s] [ 93%] Built target dashboard_client
+[33.130s] [100%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[33.542s] [100%] Built target ur_robot_driver_plugin

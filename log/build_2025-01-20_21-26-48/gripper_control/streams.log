@@ -1,0 +1,40 @@
+[1.521s] Invoking command in '/home/icrs/icrsUR/src/gripper_control': PYTHONPATH=/home/icrs/icrsUR/build/gripper_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icrs/icrsUR/install/gripper_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gripper_control build --build-base /home/icrs/icrsUR/build/gripper_control/build install --record /home/icrs/icrsUR/build/gripper_control/install.log --single-version-externally-managed install_data
+[1.915s] Traceback (most recent call last):
+[1.916s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2031, in try_parse
+[1.916s]     return packaging.version.Version(name)
+[1.916s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 266, in __init__
+[1.916s]     raise InvalidVersion(f"Invalid version: '{version}'")
+[1.916s] pkg_resources.extern.packaging.version.InvalidVersion: Invalid version: '/usr/lib/python3/dist'
+[1.916s] 
+[1.916s] During handling of the above exception, another exception occurred:
+[1.916s] 
+[1.916s] Traceback (most recent call last):
+[1.917s]   File "/home/icrs/icrsUR/src/gripper_control/setup.py", line 1, in <module>
+[1.917s]     from setuptools import find_packages, setup
+[1.917s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[1.917s]     import setuptools.version
+[1.917s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[1.917s]     import pkg_resources
+[1.917s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[1.917s]     def _initialize_master_working_set():
+[1.917s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[1.918s]     f(*args, **kwargs)
+[1.918s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3302, in _initialize_master_working_set
+[1.918s]     list(map(working_set.add_entry, sys.path))
+[1.918s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[1.918s]     for dist in find_distributions(entry, True):
+[1.918s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2073, in find_on_path
+[1.919s]     path_item_entries = _by_version_descending(filtered)
+[1.919s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2043, in _by_version_descending
+[1.919s]     return sorted(names, key=_by_version, reverse=True)
+[1.919s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2041, in _by_version
+[1.920s]     return [try_parse(part) for part in parts]
+[1.920s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2041, in <listcomp>
+[1.921s]     return [try_parse(part) for part in parts]
+[1.921s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2033, in try_parse
+[1.921s]     return packaging.version.Version('0')
+[1.921s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 281, in __init__
+[1.921s]     self._key = _cmpkey(
+[1.921s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 458, in _cmpkey
+[1.921s]     _release = tuple(
+[1.921s] KeyboardInterrupt

@@ -1,0 +1,24 @@
+[0.032s] Invoking command in '/home/icrs/icrsUR/build/interfaces_ur5ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/interfaces_ur5ik -- -j8 -l8
+[0.569s] [ 10%] Built target interfaces_ur5ik__rosidl_generator_c
+[0.569s] [ 12%] Built target interfaces_ur5ik__cpp
+[0.570s] [ 12%] Built target ament_cmake_python_symlink_interfaces_ur5ik
+[0.570s] [ 23%] Built target interfaces_ur5ik__rosidl_typesupport_c
+[0.570s] [ 34%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_c
+[0.570s] [ 44%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_c
+[0.570s] [ 55%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_cpp
+[0.570s] [ 65%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_cpp
+[0.571s] [ 76%] Built target interfaces_ur5ik__rosidl_typesupport_cpp
+[0.571s] [ 76%] Built target interfaces_ur5ik
+[0.571s] [ 78%] Built target interfaces_ur5ik__py
+[0.571s] [ 87%] Built target interfaces_ur5ik__rosidl_generator_py
+[0.571s] [ 91%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_c__pyext
+[0.572s] [ 95%] Built target interfaces_ur5ik__rosidl_typesupport_c__pyext
+[0.572s] [100%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_c__pyext
+[0.595s] running egg_info
+[0.598s] writing interfaces_ur5ik.egg-info/PKG-INFO
+[0.599s] writing dependency_links to interfaces_ur5ik.egg-info/dependency_links.txt
+[0.599s] writing top-level names to interfaces_ur5ik.egg-info/top_level.txt
+[0.604s] reading manifest file 'interfaces_ur5ik.egg-info/SOURCES.txt'
+[0.604s] writing manifest file 'interfaces_ur5ik.egg-info/SOURCES.txt'
+[0.663s] [100%] Built target ament_cmake_python_build_interfaces_ur5ik_egg
+[0.691s] Invoked command in '/home/icrs/icrsUR/build/interfaces_ur5ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/interfaces_ur5ik -- -j8 -l8

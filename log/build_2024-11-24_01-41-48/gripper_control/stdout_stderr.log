@@ -1,0 +1,17 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running develop
+running egg_info
+writing gripper_control.egg-info/PKG-INFO
+writing dependency_links to gripper_control.egg-info/dependency_links.txt
+writing entry points to gripper_control.egg-info/entry_points.txt
+writing requirements to gripper_control.egg-info/requires.txt
+writing top-level names to gripper_control.egg-info/top_level.txt
+reading manifest file 'gripper_control.egg-info/SOURCES.txt'
+writing manifest file 'gripper_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/icrs/icrsUR/install/gripper_control/lib/python3.10/site-packages/gripper-control.egg-link (link to .)
+Installing gripper_control_node script to /home/icrs/icrsUR/install/gripper_control/lib/gripper_control
+
+Installed /home/icrs/icrsUR/build/gripper_control
+running symlink_data

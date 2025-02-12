@@ -1,0 +1,51 @@
+[0.024s] Invoking command in '/home/icrs/icrsUR/build/interfaces_ur5ik': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/interfaces_ur5ik -- -j8 -l8
+[0.381s] [  2%] Built target interfaces_ur5ik__cpp
+[0.381s] [ 12%] Built target interfaces_ur5ik__rosidl_generator_c
+[0.381s] [ 12%] Built target ament_cmake_python_symlink_interfaces_ur5ik
+[0.381s] [ 23%] Built target interfaces_ur5ik__rosidl_typesupport_cpp
+[0.381s] [ 34%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_cpp
+[0.382s] [ 44%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_cpp
+[0.382s] [ 55%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_c
+[0.382s] [ 65%] Built target interfaces_ur5ik__rosidl_typesupport_c
+[0.383s] [ 76%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_c
+[0.383s] [ 76%] Built target interfaces_ur5ik
+[0.383s] [ 78%] Built target interfaces_ur5ik__py
+[0.383s] [ 87%] Built target interfaces_ur5ik__rosidl_generator_py
+[0.383s] [ 91%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_c__pyext
+[0.383s] Traceback (most recent call last):
+[0.384s]   File "/home/icrs/icrsUR/build/interfaces_ur5ik/ament_cmake_python/interfaces_ur5ik/setup.py", line 1, in <module>
+[0.384s]     from setuptools import find_packages
+[0.384s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[0.384s]     import setuptools.version
+[0.384s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[0.384s] gmake[1]: *** [CMakeFiles/Makefile2:536: CMakeFiles/interfaces_ur5ik__rosidl_typesupport_introspection_c__pyext.dir/all] Interrupt
+[0.384s] gmake[1]: *** [CMakeFiles/Makefile2:565: CMakeFiles/interfaces_ur5ik__rosidl_typesupport_c__pyext.dir/all] Interrupt
+[0.386s]     import pkg_resources
+[0.386s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 78, in <module>
+[0.386s]     __import__('pkg_resources.extern.packaging.requirements')
+[0.386s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/requirements.py", line 84, in <module>
+[0.388s]     REQUIREMENT.parseString("x[]")
+[0.388s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1644, in parseString
+[0.389s]     loc, tokens = self._parse( instring, 0 )
+[0.389s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+[0.390s]     loc,tokens = self.parseImpl( instring, preloc, doActions )
+[0.390s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3417, in parseImpl
+[0.390s]     loc, exprtokens = e._parse( instring, loc, doActions )
+[0.390s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+[0.391s]     loc,tokens = self.parseImpl( instring, preloc, doActions )
+[0.391s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3552, in parseImpl
+[0.391s]     ret = e._parse( instring, loc, doActions )
+[0.391s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+[0.391s]     loc,tokens = self.parseImpl( instring, preloc, doActions )
+[0.391s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3400, in parseImpl
+[0.392s]     loc, resultlist = self.exprs[0]._parse( instring, loc, doActions, callPreParse=False )
+[0.392s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+[0.392s]     loc,tokens = self.parseImpl( instring, preloc, doActions )
+[0.392s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3400, in parseImpl
+[0.393s]     loc, resultlist = self.exprs[0]._parse( instring, loc, doActions, callPreParse=False )
+[0.393s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1434, in _parseNoCache
+[0.393s]     if debugging:
+[0.393s] KeyboardInterrupt
+[0.412s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg] Interrupt
+[0.412s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg.dir/all] Interrupt
+[0.412s] gmake: *** [Makefile:146: all] Interrupt

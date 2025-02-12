@@ -1,0 +1,47 @@
+[0.082s] Invoking command in '/home/icrs/icrsUR/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_moveit_config -- -j8 -l8
+[0.313s] Built target ament_cmake_python_symlink_ur_moveit_config
+[1.548s] running egg_info
+[1.551s] writing ur_moveit_config.egg-info/PKG-INFO
+[1.552s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[1.553s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[1.566s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.568s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.679s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[2.318s] Invoked command in '/home/icrs/icrsUR/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_moveit_config -- -j8 -l8
+[2.451s] Invoking command in '/home/icrs/icrsUR/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_moveit_config
+[2.490s] -- Install configuration: ""
+[2.492s] -- Execute custom install script
+[2.495s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[2.496s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[2.497s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[2.497s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[2.499s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[2.500s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[2.502s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[2.503s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[2.504s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[2.505s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[2.507s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.10-py3.10.egg-info/PKG-INFO
+[2.508s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.10-py3.10.egg-info/SOURCES.txt
+[2.509s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.10-py3.10.egg-info/dependency_links.txt
+[2.510s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.10-py3.10.egg-info/top_level.txt
+[2.513s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[2.514s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[2.515s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[2.516s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[2.517s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[2.518s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[2.519s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[2.520s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[2.521s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[2.522s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[2.524s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[2.528s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[2.531s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[2.532s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[2.578s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[2.583s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[2.583s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[2.584s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[2.824s] Listing '/home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[3.127s] Invoked command in '/home/icrs/icrsUR/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_moveit_config

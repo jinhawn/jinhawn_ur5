@@ -1,0 +1,10 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/maze_solver.dir/src/maze_solver/maze_solver.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/maze_solver.dir/src/maze_solver/scan_laser_data.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/line_follower.dir/src/line_follower_camera/line_follower.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/line_follower.dir/src/line_follower_camera/line_follower_camera.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable line_follower[0m
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.410
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410
+[ 83%] Built target line_follower
+[100%] [32m[1mLinking CXX executable maze_solver[0m
+[100%] Built target maze_solver

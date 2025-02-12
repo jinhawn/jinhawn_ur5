@@ -1,0 +1,4 @@
+source;share/interfaces_ur5ik/environment/ament_prefix_path.sh
+source;share/interfaces_ur5ik/environment/library_path.sh
+source;share/interfaces_ur5ik/environment/path.sh
+source;share/interfaces_ur5ik/environment/pythonpath.sh

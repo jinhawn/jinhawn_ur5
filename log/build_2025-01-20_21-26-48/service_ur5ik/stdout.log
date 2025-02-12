@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target calc_server[0m
+[  0%] Built target ament_cmake_python_symlink_service_ur5ik
+[ 50%] Built target target_client
+[100%] Built target calc_server

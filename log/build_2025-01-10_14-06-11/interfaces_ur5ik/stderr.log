@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/icrs/icrsUR/build/interfaces_ur5ik/ament_cmake_python/interfaces_ur5ik/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+gmake[1]: *** [CMakeFiles/Makefile2:591: interfaces_ur5ik__py/CMakeFiles/interfaces_ur5ik__py.dir/all] Interrupt
+    import distutils.core
+  File "/usr/lib/python3.10/distutils/core.py", line 18, in <module>
+    from distutils.config import PyPIRCCommand
+  File "/usr/lib/python3.10/distutils/config.py", line 7, in <module>
+    from configparser import RawConfigParser
+  File "/usr/lib/python3.10/configparser.py", line 561, in <module>
+    class RawConfigParser(MutableMapping):
+  File "/usr/lib/python3.10/abc.py", line 106, in __new__
+    cls = super().__new__(mcls, name, bases, namespace, **kwargs)
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

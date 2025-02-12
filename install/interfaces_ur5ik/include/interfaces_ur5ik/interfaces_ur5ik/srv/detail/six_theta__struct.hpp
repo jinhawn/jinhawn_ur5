@@ -1,0 +1,1 @@
+/home/icrs/icrsUR/build/interfaces_ur5ik/rosidl_generator_cpp/interfaces_ur5ik/srv/detail/six_theta__struct.hpp

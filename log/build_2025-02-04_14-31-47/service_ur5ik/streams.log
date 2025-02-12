@@ -1,0 +1,203 @@
+[0.063s] Invoking command in '/home/icrs/icrsUR/build/service_ur5ik': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/service_ur5ik -- -j8 -l8
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target calc_server[0m
+[0.165s] [  0%] Built target ament_cmake_python_symlink_service_ur5ik
+[0.169s] [ 25%] [32mBuilding CXX object CMakeFiles/calc_server.dir/src/calc_server.cpp.o[0m
+[0.179s] [ 75%] Built target target_client
+[0.700s] running egg_info
+[0.703s] writing service_ur5ik.egg-info/PKG-INFO
+[0.703s] writing dependency_links to service_ur5ik.egg-info/dependency_links.txt
+[0.703s] writing top-level names to service_ur5ik.egg-info/top_level.txt
+[0.710s] reading manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+[0.712s] writing manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+[0.758s] [ 75%] Built target ament_cmake_python_build_service_ur5ik_egg
+[3.288s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.289s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[3.289s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In member function ‘[01m[Kvoid ArrayServiceServer::handle_request(std::shared_ptr<interfaces_ur5ik::srv::SixTheta_Request_<std::allocator<void> > >, std::shared_ptr<interfaces_ur5ik::srv::SixTheta_Response_<std::allocator<void> > >)[m[K’:
+[3.289s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:403:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.289s]   403 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[3.289s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.289s]   404 |                         [32m[Kcurrent_node->data[0][m[K, current_node->data[1], current_node->data[2],
+[3.289s]       |                         [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.289s]       |                                             [32m[K|[m[K
+[3.289s]       |                                             [32m[Kdouble[m[K
+[3.289s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:403:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.289s]   403 |             RCLCPP_INFO(this->get_logger(), "Sending array: [[01;36m[K%d[m[K, %d, %d, %d, %d, %d]",
+[3.289s]       |                                                              [01;36m[K~^[m[K
+[3.289s]       |                                                               [01;36m[K|[m[K
+[3.289s]       |                                                               [01;36m[Kint[m[K
+[3.290s]       |                                                              [32m[K%f[m[K
+[3.290s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.290s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[3.290s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:403:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.290s]   403 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[3.290s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.290s]   404 |                         current_node->data[0], [32m[Kcurrent_node->data[1][m[K, current_node->data[2],
+[3.290s]       |                                                [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.290s]       |                                                                    [32m[K|[m[K
+[3.291s]       |                                                                    [32m[Kdouble[m[K
+[3.291s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:403:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.291s]   403 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, [01;36m[K%d[m[K, %d, %d, %d, %d]",
+[3.291s]       |                                                                  [01;36m[K~^[m[K
+[3.291s]       |                                                                   [01;36m[K|[m[K
+[3.291s]       |                                                                   [01;36m[Kint[m[K
+[3.291s]       |                                                                  [32m[K%f[m[K
+[3.291s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.291s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[3.292s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:403:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.292s]   403 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[3.292s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.292s]   404 |                         current_node->data[0], current_node->data[1], [32m[Kcurrent_node->data[2][m[K,
+[3.292s]       |                                                                       [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.292s]       |                                                                                           [32m[K|[m[K
+[3.292s]       |                                                                                           [32m[Kdouble[m[K
+[3.292s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:403:71:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.292s]   403 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, [01;36m[K%d[m[K, %d, %d, %d]",
+[3.292s]       |                                                                      [01;36m[K~^[m[K
+[3.292s]       |                                                                       [01;36m[K|[m[K
+[3.292s]       |                                                                       [01;36m[Kint[m[K
+[3.292s]       |                                                                      [32m[K%f[m[K
+[3.292s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.293s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[3.293s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:403:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.293s]   403 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[3.293s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.293s]   404 |                         current_node->data[0], current_node->data[1], current_node->data[2],
+[3.293s]   405 |                         [32m[Kcurrent_node->data[3][m[K, current_node->data[4], current_node->data[5]);
+[3.293s]       |                         [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.293s]       |                                             [32m[K|[m[K
+[3.293s]       |                                             [32m[Kdouble[m[K
+[3.293s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:403:75:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.293s]   403 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, %d, [01;36m[K%d[m[K, %d, %d]",
+[3.293s]       |                                                                          [01;36m[K~^[m[K
+[3.293s]       |                                                                           [01;36m[K|[m[K
+[3.293s]       |                                                                           [01;36m[Kint[m[K
+[3.294s]       |                                                                          [32m[K%f[m[K
+[3.294s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.294s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[3.294s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:403:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.294s]   403 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[3.294s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.294s]   404 |                         current_node->data[0], current_node->data[1], current_node->data[2],
+[3.294s]   405 |                         current_node->data[3], [32m[Kcurrent_node->data[4][m[K, current_node->data[5]);
+[3.295s]       |                                                [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.295s]       |                                                                    [32m[K|[m[K
+[3.295s]       |                                                                    [32m[Kdouble[m[K
+[3.295s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:403:79:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.295s]   403 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, %d, %d, [01;36m[K%d[m[K, %d]",
+[3.295s]       |                                                                              [01;36m[K~^[m[K
+[3.295s]       |                                                                               [01;36m[K|[m[K
+[3.295s]       |                                                                               [01;36m[Kint[m[K
+[3.295s]       |                                                                              [32m[K%f[m[K
+[3.295s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.296s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[3.296s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:403:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 10 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.296s]   403 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[3.296s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.296s]   404 |                         current_node->data[0], current_node->data[1], current_node->data[2],
+[3.296s]   405 |                         current_node->data[3], current_node->data[4], [32m[Kcurrent_node->data[5][m[K);
+[3.296s]       |                                                                       [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.296s]       |                                                                                           [32m[K|[m[K
+[3.296s]       |                                                                                           [32m[Kdouble[m[K
+[3.296s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:403:83:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.296s]   403 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, %d, %d, %d, [01;36m[K%d[m[K]",
+[3.296s]       |                                                                                  [01;36m[K~^[m[K
+[3.296s]       |                                                                                   [01;36m[K|[m[K
+[3.296s]       |                                                                                   [01;36m[Kint[m[K
+[3.296s]       |                                                                                  [32m[K%f[m[K
+[3.296s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:399:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.297s]   399 |     void handle_request([01;35m[Kconst std::shared_ptr<interfaces_ur5ik::srv::SixTheta::Request> request[m[K,
+[3.297s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.058s] [100%] [32m[1mLinking CXX executable calc_server[0m
+[6.323s] [100%] Built target calc_server
+[6.334s] Invoked command in '/home/icrs/icrsUR/build/service_ur5ik' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/service_ur5ik -- -j8 -l8
+[6.361s] Invoking command in '/home/icrs/icrsUR/build/service_ur5ik': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/service_ur5ik
+[6.368s] -- Install configuration: ""
+[6.369s] -- Execute custom install script
+[6.369s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/lib/service_ur5ik/target_client
+[6.369s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/lib/service_ur5ik/calc_server
+[6.369s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/pythonpath.sh
+[6.369s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/pythonpath.dsv
+[6.370s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik-0.0.0-py3.10.egg-info/PKG-INFO
+[6.370s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.370s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.370s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik-0.0.0-py3.10.egg-info/top_level.txt
+[6.370s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik/__init__.py
+[6.370s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/lib/service_ur5ik/target_client_py.py
+[6.370s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/lib/service_ur5ik/calc_server_py.py
+[6.371s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/ament_index/resource_index/package_run_dependencies/service_ur5ik
+[6.371s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/ament_index/resource_index/parent_prefix_path/service_ur5ik
+[6.371s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/ament_prefix_path.sh
+[6.371s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/ament_prefix_path.dsv
+[6.371s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/path.sh
+[6.371s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/path.dsv
+[6.372s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/local_setup.bash
+[6.372s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/local_setup.sh
+[6.372s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/local_setup.zsh
+[6.372s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/local_setup.dsv
+[6.372s] -- Symlinking: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.dsv
+[6.381s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/ament_index/resource_index/packages/service_ur5ik
+[6.381s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/cmake/service_ur5ikConfig.cmake
+[6.381s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/cmake/service_ur5ikConfig-version.cmake
+[6.381s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.xml
+[6.414s] Listing '/home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik'...
+[6.420s] Invoked command in '/home/icrs/icrsUR/build/service_ur5ik' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/service_ur5ik

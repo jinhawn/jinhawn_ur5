@@ -1,0 +1,8 @@
+{
+  "package_name": "interfaces_ur5ik",
+  "non_idl_tuples": [
+    "/home/icrs/icrsUR/src/interfaces_ur5ik:msg/Target.msg",
+    "/home/icrs/icrsUR/src/interfaces_ur5ik:srv/SixTheta.srv",
+    "/home/icrs/icrsUR/src/interfaces_ur5ik:action/CalcTheta.action"
+  ]
+}

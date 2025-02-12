@@ -1,0 +1,37 @@
+Traceback (most recent call last):
+  File "/home/icrs/icrsUR/build/interfaces_ur5ik/ament_cmake_python/interfaces_ur5ik/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+gmake[1]: *** [CMakeFiles/Makefile2:536: CMakeFiles/interfaces_ur5ik__rosidl_typesupport_introspection_c__pyext.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:565: CMakeFiles/interfaces_ur5ik__rosidl_typesupport_c__pyext.dir/all] Interrupt
+    import pkg_resources
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 78, in <module>
+    __import__('pkg_resources.extern.packaging.requirements')
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/requirements.py", line 84, in <module>
+    REQUIREMENT.parseString("x[]")
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1644, in parseString
+    loc, tokens = self._parse( instring, 0 )
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+    loc,tokens = self.parseImpl( instring, preloc, doActions )
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3417, in parseImpl
+    loc, exprtokens = e._parse( instring, loc, doActions )
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+    loc,tokens = self.parseImpl( instring, preloc, doActions )
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3552, in parseImpl
+    ret = e._parse( instring, loc, doActions )
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+    loc,tokens = self.parseImpl( instring, preloc, doActions )
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3400, in parseImpl
+    loc, resultlist = self.exprs[0]._parse( instring, loc, doActions, callPreParse=False )
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+    loc,tokens = self.parseImpl( instring, preloc, doActions )
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3400, in parseImpl
+    loc, resultlist = self.exprs[0]._parse( instring, loc, doActions, callPreParse=False )
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1434, in _parseNoCache
+    if debugging:
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

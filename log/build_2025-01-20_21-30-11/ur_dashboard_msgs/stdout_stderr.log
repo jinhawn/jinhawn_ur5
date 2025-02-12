@@ -1,0 +1,34 @@
+[  0%] Built target ur_dashboard_msgs__cpp
+[ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_ur_dashboard_msgs
+[ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[ 60%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[ 84%] Built target ur_dashboard_msgs
+[ 85%] Built target ur_dashboard_msgs__py
+Traceback (most recent call last):
+  File "/home/icrs/icrsUR/build/ur_dashboard_msgs/ament_cmake_python/ur_dashboard_msgs/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 78, in <module>
+    __import__('pkg_resources.extern.packaging.requirements')
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 577, in module_from_spec
+  File "<frozen importlib._bootstrap>", line 556, in _init_module_attrs
+  File "<frozen importlib._bootstrap>", line 397, in cached
+  File "<frozen importlib._bootstrap_external>", line 513, in _get_cached
+gmake[1]: *** [CMakeFiles/Makefile2:476: CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/all] Interrupt
+  File "<frozen importlib._bootstrap_external>", line 406, in cache_from_source
+  File "<frozen importlib._bootstrap_external>", line 134, in _path_split
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,24 @@
+[1.118s] Invoking command in '/home/icrs/icrsUR/src/camera_control': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icrs/icrsUR/install/camera_control/lib/python3.10/site-packages:/home/icrs/icrsUR/install/ur_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_control build --build-base /home/icrs/icrsUR/build/camera_control/build install --record /home/icrs/icrsUR/build/camera_control/install.log --single-version-externally-managed install_data
+[1.290s] Traceback (most recent call last):
+[1.290s]   File "/home/icrs/icrsUR/src/camera_control/setup.py", line 1, in <module>
+[1.290s]     from setuptools import find_packages, setup
+[1.290s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[1.300s]     import setuptools.version
+[1.300s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[1.300s]     import pkg_resources
+[1.300s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[1.301s]     def _initialize_master_working_set():
+[1.302s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[1.303s]     f(*args, **kwargs)
+[1.303s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[1.305s]     working_set = WorkingSet._build_master()
+[1.305s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[1.305s]     ws = cls()
+[1.305s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[1.305s]     self.add_entry(entry)
+[1.306s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 614, in add_entry
+[1.306s]     self.add(dist, entry, False)
+[1.306s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 692, in add
+[1.306s]     keys = self.entry_keys.setdefault(entry, [])
+[1.306s] KeyboardInterrupt
+[1.334s] Invoked command in '/home/icrs/icrsUR/src/camera_control' returned '-2': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icrs/icrsUR/install/camera_control/lib/python3.10/site-packages:/home/icrs/icrsUR/install/ur_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_control build --build-base /home/icrs/icrsUR/build/camera_control/build install --record /home/icrs/icrsUR/build/camera_control/install.log --single-version-externally-managed install_data

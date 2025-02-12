@@ -1,0 +1,20 @@
+[31mCMake Error at CMakeLists.txt:23 (find_package):
+  By not providing "Findmoveit/trajectory_processing.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "moveit/trajectory_processing", but CMake
+  did not find one.
+
+  Could not find a package configuration file provided by
+  "moveit/trajectory_processing" with any of the following names:
+
+    moveit/trajectory_processingConfig.cmake
+    moveit/trajectory_processing-config.cmake
+
+  Add the installation prefix of "moveit/trajectory_processing" to
+  CMAKE_PREFIX_PATH or set "moveit/trajectory_processing_DIR" to a directory
+  containing one of the above files.  If "moveit/trajectory_processing"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

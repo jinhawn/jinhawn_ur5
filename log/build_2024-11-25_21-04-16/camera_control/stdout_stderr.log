@@ -1,0 +1,17 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing camera_control.egg-info/PKG-INFO
+writing dependency_links to camera_control.egg-info/dependency_links.txt
+writing entry points to camera_control.egg-info/entry_points.txt
+writing requirements to camera_control.egg-info/requires.txt
+writing top-level names to camera_control.egg-info/top_level.txt
+reading manifest file 'camera_control.egg-info/SOURCES.txt'
+writing manifest file 'camera_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/icrs/icrsUR/install/camera_control/lib/python3.10/site-packages/camera-control.egg-link (link to .)
+Installing camera_control_node script to /home/icrs/icrsUR/install/camera_control/lib/camera_control
+
+Installed /home/icrs/icrsUR/build/camera_control
+running symlink_data

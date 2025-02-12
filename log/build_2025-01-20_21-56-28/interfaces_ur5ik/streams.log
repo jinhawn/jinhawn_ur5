@@ -1,0 +1,45 @@
+[0.036s] Invoking command in '/home/icrs/icrsUR/build/interfaces_ur5ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/interfaces_ur5ik -- -j8 -l8
+[0.534s] [ 10%] Built target interfaces_ur5ik__rosidl_generator_c
+[0.534s] [ 12%] Built target interfaces_ur5ik__cpp
+[0.534s] [ 12%] Built target ament_cmake_python_symlink_interfaces_ur5ik
+[0.534s] [ 23%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_c
+[0.535s] [ 34%] Built target interfaces_ur5ik__rosidl_typesupport_cpp
+[0.535s] [ 44%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_cpp
+[0.535s] [ 55%] Built target interfaces_ur5ik__rosidl_typesupport_c
+[0.535s] [ 65%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_c
+[0.535s] [ 76%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_cpp
+[0.535s] [ 76%] Built target interfaces_ur5ik
+[0.535s] [ 78%] Built target interfaces_ur5ik__py
+[0.536s] [ 87%] Built target interfaces_ur5ik__rosidl_generator_py
+[0.536s] [ 91%] Built target interfaces_ur5ik__rosidl_typesupport_introspection_c__pyext
+[0.536s] [ 95%] Built target interfaces_ur5ik__rosidl_typesupport_c__pyext
+[0.536s] [100%] Built target interfaces_ur5ik__rosidl_typesupport_fastrtps_c__pyext
+[0.536s] Traceback (most recent call last):
+[0.536s]   File "/home/icrs/icrsUR/build/interfaces_ur5ik/ament_cmake_python/interfaces_ur5ik/setup.py", line 1, in <module>
+[0.536s]     from setuptools import find_packages
+[0.536s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[0.537s]     import setuptools.version
+[0.537s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[0.537s]     import pkg_resources
+[0.537s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[0.537s]     def _initialize_master_working_set():
+[0.537s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[0.537s]     f(*args, **kwargs)
+[0.537s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[0.538s]     working_set = WorkingSet._build_master()
+[0.538s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[0.538s]     ws = cls()
+[0.538s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[0.538s]     self.add_entry(entry)
+[0.538s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[0.538s]     for dist in find_distributions(entry, True):
+[0.539s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2073, in find_on_path
+[0.539s]     path_item_entries = _by_version_descending(filtered)
+[0.539s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2043, in _by_version_descending
+[0.539s]     return sorted(names, key=_by_version, reverse=True)
+[0.539s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2066, in <genexpr>
+[0.539s]     filtered = (
+[0.539s] KeyboardInterrupt
+[0.556s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg] Interrupt
+[0.556s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_interfaces_ur5ik_egg.dir/all] Interrupt
+[0.557s] gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,24 @@
+[0.036s] Invoking command in '/home/icrs/icrsUR/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_dashboard_msgs -- -j8 -l8
+[0.712s] [  0%] Built target ur_dashboard_msgs__cpp
+[0.713s] [ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[0.714s] [ 12%] Built target ament_cmake_python_symlink_ur_dashboard_msgs
+[0.714s] [ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[0.714s] [ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[0.715s] [ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[0.715s] [ 67%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[0.715s] [ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[0.715s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[0.716s] [ 84%] Built target ur_dashboard_msgs
+[0.717s] [ 85%] Built target ur_dashboard_msgs__py
+[0.717s] [ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[0.717s] [ 97%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[0.717s] [ 99%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[0.717s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.718s] running egg_info
+[0.718s] writing ur_dashboard_msgs.egg-info/PKG-INFO
+[0.718s] writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+[0.718s] writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+[0.718s] reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[0.718s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[0.758s] [100%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg
+[0.790s] Invoked command in '/home/icrs/icrsUR/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_dashboard_msgs -- -j8 -l8

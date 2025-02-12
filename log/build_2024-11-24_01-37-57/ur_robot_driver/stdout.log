@@ -1,0 +1,30 @@
+[  6%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ur_ros2_control_node.dir/src/ur_ros2_control_node.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[ 46%] Built target ament_cmake_python_symlink_ur_robot_driver
+[ 53%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+running egg_info
+creating ur_robot_driver.egg-info
+writing ur_robot_driver.egg-info/PKG-INFO
+writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+writing top-level names to ur_robot_driver.egg-info/top_level.txt
+writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[ 53%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[ 60%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable ur_ros2_control_node[0m
+[ 73%] Built target ur_ros2_control_node
+[ 80%] [32m[1mLinking CXX executable urscript_interface[0m
+[ 80%] Built target urscript_interface
+[ 86%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[ 86%] Built target controller_stopper_node
+[ 93%] [32m[1mLinking CXX executable dashboard_client[0m
+[ 93%] Built target dashboard_client
+[100%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[100%] Built target ur_robot_driver_plugin

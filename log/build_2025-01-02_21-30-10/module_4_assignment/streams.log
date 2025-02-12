@@ -1,0 +1,11 @@
+[0.021s] Invoking command in '/home/icrs/icrsUR/build/module_4_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/module_4_assignment -- -j8 -l8
+[0.104s] [ 16%] [32mBuilding CXX object CMakeFiles/maze_solver.dir/src/maze_solver/maze_solver.cpp.o[0m
+[0.104s] [ 33%] [32mBuilding CXX object CMakeFiles/maze_solver.dir/src/maze_solver/scan_laser_data.cpp.o[0m
+[0.108s] [ 50%] [32mBuilding CXX object CMakeFiles/line_follower.dir/src/line_follower_camera/line_follower.cpp.o[0m
+[0.127s] [ 66%] [32mBuilding CXX object CMakeFiles/line_follower.dir/src/line_follower_camera/line_follower_camera.cpp.o[0m
+[10.508s] [ 83%] [32m[1mLinking CXX executable line_follower[0m
+[10.806s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.410
+[10.807s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410
+[11.399s] [ 83%] Built target line_follower
+[12.556s] [100%] [32m[1mLinking CXX executable maze_solver[0m
+[13.088s] [100%] Built target maze_solver

@@ -1,0 +1,58 @@
+Traceback (most recent call last):
+  File "/home/icrs/icrsUR/build/ur_custom_interfaces/ament_cmake_python/ur_custom_interfaces/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[  9%] Built target ur_custom_interfaces__rosidl_generator_c
+[ 12%] Built target ur_custom_interfaces__cpp
+[ 12%] Built target ament_cmake_python_symlink_ur_custom_interfaces
+[ 22%] Built target ur_custom_interfaces__rosidl_typesupport_fastrtps_c
+[ 32%] Built target ur_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 41%] Built target ur_custom_interfaces__rosidl_typesupport_introspection_c
+[ 51%] Built target ur_custom_interfaces__rosidl_typesupport_introspection_cpp
+[ 61%] Built target ur_custom_interfaces__rosidl_typesupport_cpp
+[ 70%] Built target ur_custom_interfaces__rosidl_typesupport_c
+[ 70%] Built target ur_custom_interfaces
+[ 74%] Built target ur_custom_interfaces__py
+[ 80%] Built target ur_custom_interfaces__rosidl_generator_py
+[ 87%] Built target ur_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] Built target ur_custom_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target ur_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+    def _initialize_master_working_set():
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+    f(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+    ws = cls()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+    self.add_entry(entry)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+    for dist in factory(fullpath):
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata
+    yield Distribution.from_location(
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2606, in from_location
+    )._reload_version()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3004, in _reload_version
+    md_version = self._get_version()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2785, in _get_version
+    version = _version_from_file(lines)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2569, in _version_from_file
+    line = next(iter(version_lines), '')
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2779, in _get_metadata
+    if self.has_metadata(name):
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1406, in has_metadata
+    return self._has(path)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1604, in _has
+    return os.path.exists(path)
+  File "/usr/lib/python3.10/genericpath.py", line 19, in exists
+    os.stat(path)
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ur_custom_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ur_custom_interfaces_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ur_custom_interfaces_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

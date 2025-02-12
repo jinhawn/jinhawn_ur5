@@ -1,0 +1,125 @@
+[0.041s] Invoking command in '/home/icrs/icrsUR/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_robot_driver -- -j8 -l8
+[0.146s] [ 20%] Built target controller_stopper_node
+[0.162s] [ 33%] Built target urscript_interface
+[0.169s] [ 93%] Built target ur_ros2_control_node
+[0.169s] [100%] Built target ur_robot_driver_plugin
+[0.169s] [100%] Built target dashboard_client
+[0.170s] [100%] Built target ament_cmake_python_symlink_ur_robot_driver
+[0.554s] running egg_info
+[0.556s] writing ur_robot_driver.egg-info/PKG-INFO
+[0.556s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[0.556s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[0.559s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[0.560s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[0.613s] [100%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[0.635s] Invoked command in '/home/icrs/icrsUR/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_robot_driver -- -j8 -l8
+[0.809s] Invoking command in '/home/icrs/icrsUR/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_robot_driver
+[0.823s] -- Install configuration: "RelWithDebInfo"
+[0.825s] -- Execute custom install script
+[0.826s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver//hardware_interface_plugin.xml
+[0.827s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[0.829s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[0.829s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[0.830s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[0.830s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[0.831s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[0.831s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[0.834s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[0.834s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[0.835s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[0.835s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[0.835s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[0.835s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[0.835s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[0.836s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[0.836s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[0.837s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[0.838s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.10-py3.10.egg-info/PKG-INFO
+[0.839s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.10-py3.10.egg-info/SOURCES.txt
+[0.840s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.10-py3.10.egg-info/dependency_links.txt
+[0.845s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.10-py3.10.egg-info/top_level.txt
+[0.846s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+[0.846s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[0.847s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[0.848s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[0.848s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[0.849s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[0.849s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[0.850s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[0.850s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[0.852s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[0.852s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[0.853s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[0.853s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[0.853s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[0.853s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[0.854s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[0.854s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[0.855s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[0.856s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[0.856s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[0.857s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[0.857s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[0.858s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[0.858s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[0.859s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[0.860s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[0.861s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[0.861s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[0.862s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[0.862s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[0.863s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[0.863s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[0.864s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[0.868s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[0.869s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[0.869s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[0.869s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[0.870s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[0.870s] -- Symlinking: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[0.891s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[0.893s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[0.895s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.896s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[0.896s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.897s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[0.897s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[0.898s] -- Up-to-date symlink: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[0.899s] -- Up-to-date: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/resources
+[0.899s] -- Up-to-date: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[0.899s] -- Up-to-date: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[0.900s] -- Up-to-date: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[0.900s] -- Up-to-date: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[0.900s] -- Up-to-date: /home/icrs/icrsUR/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[1.019s] Listing '/home/icrs/icrsUR/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+[1.045s] Invoked command in '/home/icrs/icrsUR/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_robot_driver
+[1.206s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 65, in build
+    has_install_target = await has_target(args.build_base, 'install')
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/icrs/icrsUR/build/ur_robot_driver', '--target', 'help'] to pass: gmake: *** [Makefile:512: help] Interrupt
+

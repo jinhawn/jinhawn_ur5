@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/home/icrs/icrsUR/build/ur_custom_interfaces/ament_cmake_python/ur_custom_interfaces/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+gmake[1]: *** [CMakeFiles/Makefile2:591: ur_custom_interfaces__py/CMakeFiles/ur_custom_interfaces__py.dir/all] Interrupt
+    import distutils.core
+  File "/usr/lib/python3.10/distutils/core.py", line 17, in <module>
+    from distutils.cmd import Command
+  File "/usr/lib/python3.10/distutils/cmd.py", line 9, in <module>
+    from distutils import util, dir_util, file_util, archive_util, dep_util
+  File "/usr/lib/python3.10/distutils/archive_util.py", line 11, in <module>
+    import zipfile
+  File "/usr/lib/python3.10/zipfile.py", line 15, in <module>
+    import struct
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 576, in module_from_spec
+  File "<frozen importlib._bootstrap>", line 48, in _new_module
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ur_custom_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ur_custom_interfaces_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ur_custom_interfaces_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,1 @@
+/home/icrs/icrsUR/build/ur_controllers/scaled_joint_trajectory_controller_parameters/include/scaled_joint_trajectory_controller_parameters.hpp

@@ -1,0 +1,35 @@
+[0.037s] Invoking command in '/home/icrs/icrsUR/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_dashboard_msgs -- -j8 -l8
+[0.422s] [  0%] Built target ur_dashboard_msgs__cpp
+[0.423s] [ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[0.423s] [ 12%] Built target ament_cmake_python_symlink_ur_dashboard_msgs
+[0.423s] [ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[0.423s] [ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[0.423s] [ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[0.423s] [ 60%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[0.424s] [ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[0.424s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[0.424s] [ 84%] Built target ur_dashboard_msgs
+[0.424s] [ 85%] Built target ur_dashboard_msgs__py
+[0.424s] Traceback (most recent call last):
+[0.425s]   File "/home/icrs/icrsUR/build/ur_dashboard_msgs/ament_cmake_python/ur_dashboard_msgs/setup.py", line 1, in <module>
+[0.425s]     from setuptools import find_packages
+[0.425s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[0.425s]     import setuptools.version
+[0.425s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[0.425s]     import pkg_resources
+[0.425s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 78, in <module>
+[0.425s]     __import__('pkg_resources.extern.packaging.requirements')
+[0.425s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[0.425s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[0.425s]   File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+[0.426s]   File "<frozen importlib._bootstrap>", line 577, in module_from_spec
+[0.426s]   File "<frozen importlib._bootstrap>", line 556, in _init_module_attrs
+[0.426s]   File "<frozen importlib._bootstrap>", line 397, in cached
+[0.426s]   File "<frozen importlib._bootstrap_external>", line 513, in _get_cached
+[0.426s] gmake[1]: *** [CMakeFiles/Makefile2:476: CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/all] Interrupt
+[0.426s]   File "<frozen importlib._bootstrap_external>", line 406, in cache_from_source
+[0.426s]   File "<frozen importlib._bootstrap_external>", line 134, in _path_split
+[0.426s] KeyboardInterrupt
+[0.437s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg] Interrupt
+[0.437s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg.dir/all] Interrupt
+[0.437s] gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,23 @@
+[0.042s] Invoking command in '/home/icrs/icrsUR/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_dashboard_msgs -- -j8 -l8
+[21.268s] [  0%] Built target ament_cmake_python_symlink_ur_dashboard_msgs
+[21.268s] [ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[21.268s] [ 12%] Built target ur_dashboard_msgs__cpp
+[21.268s] [ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[21.268s] [ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[21.269s] [ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[21.269s] [ 60%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[21.269s] [ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[21.269s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[21.269s] [ 84%] Built target ur_dashboard_msgs
+[21.269s] [ 85%] Built target ur_dashboard_msgs__py
+[21.269s] [ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[21.270s] [ 98%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[21.270s] [ 99%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[21.270s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[21.270s] running egg_info
+[21.270s] writing ur_dashboard_msgs.egg-info/PKG-INFO
+[21.270s] writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+[21.270s] writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+[21.270s] reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[21.270s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[21.270s] [100%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg

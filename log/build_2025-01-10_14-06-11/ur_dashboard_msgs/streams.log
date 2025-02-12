@@ -1,0 +1,35 @@
+[0.044s] Invoking command in '/home/icrs/icrsUR/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_dashboard_msgs -- -j8 -l8
+[0.356s] [  0%] Built target ur_dashboard_msgs__cpp
+[0.356s] [ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[0.356s] [ 12%] Built target ament_cmake_python_symlink_ur_dashboard_msgs
+[0.357s] [ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[0.357s] [ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[0.357s] [ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[0.357s] [ 60%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[0.357s] [ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[0.357s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[0.357s] [ 84%] Built target ur_dashboard_msgs
+[0.358s] Traceback (most recent call last):
+[0.358s]   File "/home/icrs/icrsUR/build/ur_dashboard_msgs/ament_cmake_python/ur_dashboard_msgs/setup.py", line 1, in <module>
+[0.358s] gmake[1]: *** [CMakeFiles/Makefile2:589: ur_dashboard_msgs__py/CMakeFiles/ur_dashboard_msgs__py.dir/all] Interrupt
+[0.358s]     from setuptools import find_packages
+[0.359s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+[0.367s]     import distutils.core
+[0.368s]   File "/usr/lib/python3.10/distutils/core.py", line 17, in <module>
+[0.369s]     from distutils.cmd import Command
+[0.369s]   File "/usr/lib/python3.10/distutils/cmd.py", line 9, in <module>
+[0.369s]     from distutils import util, dir_util, file_util, archive_util, dep_util
+[0.370s]   File "/usr/lib/python3.10/distutils/archive_util.py", line 11, in <module>
+[0.370s]     import zipfile
+[0.370s]   File "/usr/lib/python3.10/zipfile.py", line 20, in <module>
+[0.370s]     import pathlib
+[0.371s]   File "/usr/lib/python3.10/pathlib.py", line 14, in <module>
+[0.371s]     from urllib.parse import quote_from_bytes as urlquote_from_bytes
+[0.371s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[0.372s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[0.372s]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[0.372s]   File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+[0.372s] KeyboardInterrupt
+[0.379s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg] Interrupt
+[0.379s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg.dir/all] Interrupt
+[0.379s] gmake: *** [Makefile:146: all] Interrupt

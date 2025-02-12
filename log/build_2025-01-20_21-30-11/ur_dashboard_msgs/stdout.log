@@ -1,0 +1,11 @@
+[  0%] Built target ur_dashboard_msgs__cpp
+[ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_ur_dashboard_msgs
+[ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[ 60%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[ 84%] Built target ur_dashboard_msgs
+[ 85%] Built target ur_dashboard_msgs__py

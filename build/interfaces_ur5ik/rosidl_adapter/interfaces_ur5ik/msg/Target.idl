@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces_ur5ik/msg/Target.msg
+// generated code does not contain a copyright notice
+
+
+module interfaces_ur5ik {
+  module msg {
+    struct Target {
+      double target;
+    };
+  };
+};

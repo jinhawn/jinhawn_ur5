@@ -1,0 +1,45 @@
+[0.038s] Invoking command in '/home/icrs/icrsUR/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_dashboard_msgs -- -j8 -l8
+[0.532s] [  0%] Built target ur_dashboard_msgs__cpp
+[0.533s] [ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[0.534s] [ 12%] Built target ament_cmake_python_symlink_ur_dashboard_msgs
+[0.536s] [ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[0.538s] [ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[0.539s] [ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[0.540s] [ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[0.540s] [ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[0.541s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[0.541s] [ 84%] Built target ur_dashboard_msgs
+[0.541s] [ 85%] Built target ur_dashboard_msgs__py
+[0.541s] [ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[0.541s] [ 97%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.542s] [ 98%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[0.542s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[0.542s] Traceback (most recent call last):
+[0.542s]   File "/home/icrs/icrsUR/build/ur_dashboard_msgs/ament_cmake_python/ur_dashboard_msgs/setup.py", line 1, in <module>
+[0.542s]     from setuptools import find_packages
+[0.542s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[0.542s]     import setuptools.version
+[0.542s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[0.543s]     import pkg_resources
+[0.543s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[0.543s]     def _initialize_master_working_set():
+[0.543s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[0.543s]     f(*args, **kwargs)
+[0.543s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[0.543s]     working_set = WorkingSet._build_master()
+[0.543s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[0.543s]     ws = cls()
+[0.544s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[0.544s]     self.add_entry(entry)
+[0.544s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[0.544s]     for dist in find_distributions(entry, True):
+[0.544s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+[0.544s]     for dist in factory(fullpath):
+[0.544s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2134, in distributions_from_metadata
+[0.544s]     if os.path.isdir(path):
+[0.545s]   File "/usr/lib/python3.10/genericpath.py", line 42, in isdir
+[0.559s]     st = os.stat(s)
+[0.559s] KeyboardInterrupt
+[0.583s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg] Interrupt
+[0.583s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ur_dashboard_msgs_egg.dir/all] Interrupt
+[0.583s] gmake: *** [Makefile:146: all] Interrupt

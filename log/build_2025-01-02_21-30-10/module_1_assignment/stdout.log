@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target assignment2[0m
+[35m[1mConsolidate compiler generated dependencies of target assignment1[0m
+[35m[1mConsolidate compiler generated dependencies of target assignment3[0m
+[ 30%] Built target assignment2
+[ 70%] Built target assignment1
+[100%] Built target assignment3
+-- Install configuration: ""
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/lib/module_1_assignment/assignment1
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/lib/module_1_assignment/assignment2
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/lib/module_1_assignment/assignment3
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/ament_index/resource_index/package_run_dependencies/module_1_assignment
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/ament_index/resource_index/parent_prefix_path/module_1_assignment
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/module_1_assignment/environment/ament_prefix_path.sh
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/module_1_assignment/environment/ament_prefix_path.dsv
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/module_1_assignment/environment/path.sh
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/module_1_assignment/environment/path.dsv
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/module_1_assignment/local_setup.bash
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/module_1_assignment/local_setup.sh
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/module_1_assignment/local_setup.zsh
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/module_1_assignment/local_setup.dsv
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/module_1_assignment/package.dsv
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/ament_index/resource_index/packages/module_1_assignment
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/module_1_assignment/cmake/module_1_assignmentConfig.cmake
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/module_1_assignment/cmake/module_1_assignmentConfig-version.cmake
+-- Installing: /home/icrs/icrsUR/install/module_1_assignment/share/module_1_assignment/package.xml

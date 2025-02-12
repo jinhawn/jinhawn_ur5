@@ -1,0 +1,72 @@
+[0.028s] Invoking command in '/home/icrs/icrsUR/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/opt/ros/humble /usr/bin/cmake /home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/icrs/icrsUR/install/ur_moveit_config
+[0.216s] -- The C compiler identification is GNU 11.4.0
+[0.444s] -- The CXX compiler identification is GNU 11.4.0
+[0.467s] -- Detecting C compiler ABI info
+[0.740s] -- Detecting C compiler ABI info - done
+[0.787s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.787s] -- Detecting C compile features
+[0.788s] -- Detecting C compile features - done
+[0.812s] -- Detecting CXX compiler ABI info
+[1.073s] -- Detecting CXX compiler ABI info - done
+[1.119s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.119s] -- Detecting CXX compile features
+[1.120s] -- Detecting CXX compile features - done
+[1.132s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.589s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.751s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.247s] -- Configuring done
+[2.253s] -- Generating done
+[2.255s] -- Build files have been written to: /home/icrs/icrsUR/build/ur_moveit_config
+[2.265s] Invoked command in '/home/icrs/icrsUR/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/opt/ros/humble /usr/bin/cmake /home/icrs/icrsUR/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/icrs/icrsUR/install/ur_moveit_config
+[2.266s] Invoking command in '/home/icrs/icrsUR/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_moveit_config -- -j8 -l8
+[2.417s] Built target ament_cmake_python_symlink_ur_moveit_config
+[3.354s] running egg_info
+[3.359s] creating ur_moveit_config.egg-info
+[3.360s] writing ur_moveit_config.egg-info/PKG-INFO
+[3.360s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[3.360s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[3.361s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[3.367s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[3.368s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[3.417s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[3.861s] Invoked command in '/home/icrs/icrsUR/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_moveit_config -- -j8 -l8
+[3.950s] Invoking command in '/home/icrs/icrsUR/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_moveit_config
+[3.968s] -- Install configuration: ""
+[3.969s] -- Execute custom install script
+[3.973s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[3.995s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[4.028s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[4.056s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[4.087s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[4.114s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[4.143s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[4.174s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[4.198s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[4.226s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[4.263s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.10-py3.10.egg-info/PKG-INFO
+[4.288s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.10-py3.10.egg-info/SOURCES.txt
+[4.315s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.10-py3.10.egg-info/dependency_links.txt
+[4.330s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.10-py3.10.egg-info/top_level.txt
+[4.361s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[4.389s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[4.422s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[4.452s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[4.481s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[4.527s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[4.556s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[4.584s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[4.616s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[4.647s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[4.673s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[4.700s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[4.734s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[4.772s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[4.799s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[4.825s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[4.854s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[4.878s] -- Symlinking: /home/icrs/icrsUR/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[5.054s] Listing '/home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[5.055s] Compiling '/home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py'...
+[5.055s] Compiling '/home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py'...
+[5.194s] Compiling '/home/icrs/icrsUR/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py'...
+[5.215s] Invoked command in '/home/icrs/icrsUR/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/icrs/icrsUR/build/ur_moveit_config

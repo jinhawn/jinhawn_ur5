@@ -1,0 +1,29 @@
+[1.317s] Invoking command in '/home/icrs/icrsUR/build/camera_control': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces LD_LIBRARY_PATH=/home/icrs/icrsUR/install/ur_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icrs/icrsUR/install/camera_control/lib/python3.10/site-packages:/home/icrs/icrsUR/install/ur_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/icrs/icrsUR/build/camera_control/build --no-deps symlink_data
+[1.716s] Traceback (most recent call last):
+[1.716s]   File "/home/icrs/icrsUR/build/camera_control/setup.py", line 8, in <module>
+[1.716s]     packages=find_packages(exclude=['test']),
+[1.716s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 62, in find
+[1.723s]     return list(
+[1.723s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 91, in _find_packages_iter
+[1.723s]     if include(package) and not exclude(package):
+[1.723s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 109, in <lambda>
+[1.723s]     return lambda name: any(fnmatchcase(name, pat=pat) for pat in patterns)
+[1.724s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 109, in <genexpr>
+[1.724s]     return lambda name: any(fnmatchcase(name, pat=pat) for pat in patterns)
+[1.724s]   File "/usr/lib/python3.10/fnmatch.py", line 76, in fnmatchcase
+[1.724s]     match = _compile_pattern(pat)
+[1.724s]   File "/usr/lib/python3.10/fnmatch.py", line 52, in _compile_pattern
+[1.724s]     return re.compile(res).match
+[1.724s]   File "/usr/lib/python3.10/re.py", line 251, in compile
+[1.725s]     return _compile(pattern, flags)
+[1.725s]   File "/usr/lib/python3.10/re.py", line 303, in _compile
+[1.725s]     p = sre_compile.compile(pattern, flags)
+[1.725s]   File "/usr/lib/python3.10/sre_compile.py", line 792, in compile
+[1.725s]     code = _code(p, flags)
+[1.725s]   File "/usr/lib/python3.10/sre_compile.py", line 628, in _code
+[1.726s]     _compile_info(code, p, flags)
+[1.726s]   File "/usr/lib/python3.10/sre_compile.py", line 576, in _compile_info
+[1.726s]     prefix, prefix_skip, got_all = _get_literal_prefix(pattern, flags)
+[1.726s]   File "/usr/lib/python3.10/sre_compile.py", line 485, in _get_literal_prefix
+[1.727s]     def _get_literal_prefix(pattern, flags):
+[1.727s] KeyboardInterrupt

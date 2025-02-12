@@ -1,0 +1,46 @@
+In file included from [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/pid_lib/pid_lib.cpp:1[m[K:
+[01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/include/pid_lib/pid_lib.hpp:[m[K In constructor ‘[01m[KPID::PID(double, double, double, double, double)[m[K’:
+[01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/include/pid_lib/pid_lib.hpp:20:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KPID::_cmd_max[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   20 |     double [01;35m[K_cmd_max[m[K;         // maximum clamp
+      |            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/include/pid_lib/pid_lib.hpp:18:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble PID::_deriv_err_prev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   18 |     double [01;35m[K_deriv_err_prev[m[K;  // Previous derivative
+      |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/pid_lib/pid_lib.cpp:4:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    4 | [01;35m[KPID[m[K::PID(double Kp, double Ki, double Kd, double cmd_min, double cmd_max) : _Kp(Kp), _Ki(Ki), _Kd(Kd),
+      | [01;35m[K^~~[m[K
+In file included from [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/include/goal_planner/goal_planner.h:13[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/include/goal_planner/goal_planner.h:13[m[K,
+                 from [01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner_node.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:[m[K In member function ‘[01m[Kvoid GoalPlanner::odom_callback(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)[m[K’:
+[01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:87:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_kp_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   87 |     double [01;35m[Klinear_kp_[m[K = this->get_parameter("linear_kp").as_double();
+      |            [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:88:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_ki_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   88 |     double [01;35m[Klinear_ki_[m[K = this->get_parameter("linear_ki").as_double();
+      |            [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:89:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_kd_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   89 |     double [01;35m[Klinear_kd_[m[K = this->get_parameter("linear_kd").as_double();
+      |            [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:91:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangular_kp_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   91 |     double [01;35m[Kangular_kp_[m[K = this->get_parameter("angular_kp").as_double();
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:92:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangular_ki_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   92 |     double [01;35m[Kangular_ki_[m[K = this->get_parameter("angular_ki").as_double();
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:93:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangular_kd_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   93 |     double [01;35m[Kangular_kd_[m[K = this->get_parameter("angular_kd").as_double();
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:[m[K In member function ‘[01m[Ktf2::Quaternion* GoalPlanner::get_quaternion_from_euler(double, double, double)[m[K’:
+[01m[K/home/icrs/icrsUR/src/robotics_software_engineer-assignments/src/module_5_assignment/src/goal_planner/goal_planner.cpp:150:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kq[m[K’ is used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized-Wuninitialized]8;;[m[K]
+  150 |     [01;35m[Kq->setRPY(roll, pitch, yaw)[m[K;
+      |     [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.410
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410

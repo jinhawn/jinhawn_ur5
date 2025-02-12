@@ -1,0 +1,24 @@
+[0.032s] Invoking command in '/home/icrs/icrsUR/build/ur_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_custom_interfaces -- -j8 -l8
+[0.723s] [  3%] Built target ur_custom_interfaces__cpp
+[0.723s] [ 12%] Built target ur_custom_interfaces__rosidl_generator_c
+[0.723s] [ 12%] Built target ament_cmake_python_symlink_ur_custom_interfaces
+[0.723s] [ 22%] Built target ur_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.723s] [ 41%] Built target ur_custom_interfaces__rosidl_typesupport_introspection_c
+[0.724s] [ 41%] Built target ur_custom_interfaces__rosidl_typesupport_c
+[0.724s] [ 51%] Built target ur_custom_interfaces__rosidl_typesupport_cpp
+[0.724s] [ 61%] Built target ur_custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.724s] [ 70%] Built target ur_custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.724s] [ 70%] Built target ur_custom_interfaces
+[0.724s] [ 74%] Built target ur_custom_interfaces__py
+[0.724s] [ 80%] Built target ur_custom_interfaces__rosidl_generator_py
+[0.724s] [ 87%] Built target ur_custom_interfaces__rosidl_typesupport_c__pyext
+[0.725s] [ 93%] Built target ur_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.725s] [100%] Built target ur_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.725s] running egg_info
+[0.725s] writing ur_custom_interfaces.egg-info/PKG-INFO
+[0.726s] writing dependency_links to ur_custom_interfaces.egg-info/dependency_links.txt
+[0.728s] writing top-level names to ur_custom_interfaces.egg-info/top_level.txt
+[0.728s] reading manifest file 'ur_custom_interfaces.egg-info/SOURCES.txt'
+[0.728s] writing manifest file 'ur_custom_interfaces.egg-info/SOURCES.txt'
+[0.745s] [100%] Built target ament_cmake_python_build_ur_custom_interfaces_egg
+[0.778s] Invoked command in '/home/icrs/icrsUR/build/ur_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble /usr/bin/cmake --build /home/icrs/icrsUR/build/ur_custom_interfaces -- -j8 -l8

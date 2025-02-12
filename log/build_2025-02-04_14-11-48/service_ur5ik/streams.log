@@ -1,0 +1,63 @@
+[0.065s] Invoking command in '/home/icrs/icrsUR/build/service_ur5ik': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/service_ur5ik -- -j8 -l8
+[0.135s] [35m[1mConsolidate compiler generated dependencies of target calc_server[0m
+[0.152s] [ 50%] Built target target_client
+[0.159s] [ 50%] Built target ament_cmake_python_symlink_service_ur5ik
+[0.170s] [ 75%] [32mBuilding CXX object CMakeFiles/calc_server.dir/src/calc_server.cpp.o[0m
+[0.519s] running egg_info
+[0.520s] writing service_ur5ik.egg-info/PKG-INFO
+[0.520s] writing dependency_links to service_ur5ik.egg-info/dependency_links.txt
+[0.520s] writing top-level names to service_ur5ik.egg-info/top_level.txt
+[0.524s] reading manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+[0.524s] writing manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+[0.561s] [ 75%] Built target ament_cmake_python_build_service_ur5ik_egg
+[3.405s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:500:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[3.405s]   500 | }
+[3.405s]       |  [01;31m[K^[m[K
+[3.405s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:66:48:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.405s]    66 | class ArrayServiceServer : public rclcpp::Node [01;36m[K{[m[K
+[3.405s]       |                                                [01;36m[K^[m[K
+[3.406s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In constructor ‘[01m[KArrayServiceServer::ArrayServiceServer()[m[K’:
+[3.406s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:68:58:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KArrayServiceServer[m[K’ does not have any field named ‘[01m[Kcurrent_node[m[K’
+[3.406s]    68 |     ArrayServiceServer() : Node("array_service_server"), [01;31m[Kcurrent_node[m[K(nullptr) {
+[3.406s]       |                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[3.415s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_client_[m[K’ was not declared in this scope
+[3.415s]    69 |     [01;31m[Kservice_client_[m[K = this->create_service<interfaces_ur5ik::srv::SixTheta>("service_ik",std::bind(&ArrayServiceServer::handle_request, this, std::placeholders::_1, std::placeholders::_2));
+[3.415s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.415s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:69:121:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_request[m[K’ is not a member of ‘[01m[KArrayServiceServer[m[K’
+[3.415s]    69 |     service_client_ = this->create_service<interfaces_ur5ik::srv::SixTheta>("service_ik",std::bind(&ArrayServiceServer::[01;31m[Khandle_request[m[K, this, std::placeholders::_1, std::placeholders::_2));
+[3.415s]       |                                                                                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.420s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:71:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[3.420s]    71 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(500ms, std::bind(&ArrayServiceServer::publish_next_position, this));
+[3.420s]       |     [01;31m[K^~~~~~[m[K
+[3.420s]       |     [32m[Ktimer_t[m[K
+[3.420s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:71:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_next_position[m[K’ is not a member of ‘[01m[KArrayServiceServer[m[K’
+[3.420s]    71 |     timer_ = this->create_wall_timer(500ms, std::bind(&ArrayServiceServer::[01;31m[Kpublish_next_position[m[K, this));
+[3.420s]       |                                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.431s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:72:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kobject_position_pub_[m[K’ was not declared in this scope
+[3.431s]    72 |     [01;31m[Kobject_position_pub_[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>("object_position",10);
+[3.431s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.441s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:177:1:[m[K [01;31m[Kerror: [m[K‘[01m[Klist_[m[K’ was not declared in this scope
+[3.441s]   177 | [01;31m[Klist_[m[K.append(arr1);
+[3.441s]       | [01;31m[K^~~~~[m[K
+[3.450s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:281:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_node[m[K’ was not declared in this scope
+[3.450s]   281 |         [01;31m[Kcurrent_node[m[K = list_.getHead();
+[3.450s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[3.451s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In member function ‘[01m[Kvoid ArrayServiceServer::set_trans(double, double, double, double, double, double)[m[K’:
+[3.451s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:345:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[3.451s]   345 |         [01;31m[K}[m[K
+[3.451s]       |         [01;31m[K^[m[K
+[3.451s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.451s]   344 |         printf[01;36m[K([m[K"%f", T[1][1]
+[3.451s]       |               [01;36m[K^[m[K
+[3.455s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In member function ‘[01m[Kint ArrayServiceServer::main(int, char**)[m[K’:
+[3.455s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:500:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[3.455s]   500 | [01;35m[K}[m[K
+[3.455s]       | [01;35m[K^[m[K
+[3.455s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K At global scope:
+[3.455s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:500:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[3.455s]   500 | }
+[3.455s]       |  [01;31m[K^[m[K
+[4.114s] gmake[2]: *** [CMakeFiles/calc_server.dir/build.make:76: CMakeFiles/calc_server.dir/src/calc_server.cpp.o] Error 1
+[4.114s] gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/calc_server.dir/all] Error 2
+[4.114s] gmake: *** [Makefile:146: all] Error 2
+[4.116s] Invoked command in '/home/icrs/icrsUR/build/service_ur5ik' returned '2': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/service_ur5ik -- -j8 -l8

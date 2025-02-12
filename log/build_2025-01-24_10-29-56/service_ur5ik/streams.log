@@ -1,0 +1,353 @@
+[0.033s] Invoking command in '/home/icrs/icrsUR/build/service_ur5ik': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/service_ur5ik -- -j8 -l8
+[0.127s] [ 25%] [32mBuilding CXX object CMakeFiles/calc_server.dir/src/calc_server.cpp.o[0m
+[0.139s] [ 25%] Built target ament_cmake_python_symlink_service_ur5ik
+[0.139s] [ 75%] Built target target_client
+[0.616s] running egg_info
+[0.617s] writing service_ur5ik.egg-info/PKG-INFO
+[0.617s] writing dependency_links to service_ur5ik.egg-info/dependency_links.txt
+[0.617s] writing top-level names to service_ur5ik.egg-info/top_level.txt
+[0.622s] reading manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+[0.623s] writing manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+[0.674s] [ 75%] Built target ament_cmake_python_build_service_ur5ik_egg
+[3.228s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In constructor ‘[01m[KArrayServiceServer::ArrayServiceServer()[m[K’:
+[3.228s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:190:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr56[m[K’ was not declared in this scope; did you mean ‘[01m[Karr55[m[K’?
+[3.228s]   190 | list_.append([01;31m[Karr56[m[K);
+[3.228s]       |              [01;31m[K^~~~~[m[K
+[3.228s]       |              [32m[Karr55[m[K
+[3.233s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:191:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr57[m[K’ was not declared in this scope; did you mean ‘[01m[Karr55[m[K’?
+[3.233s]   191 | list_.append([01;31m[Karr57[m[K);
+[3.233s]       |              [01;31m[K^~~~~[m[K
+[3.233s]       |              [32m[Karr55[m[K
+[3.237s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:192:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr58[m[K’ was not declared in this scope; did you mean ‘[01m[Karr55[m[K’?
+[3.237s]   192 | list_.append([01;31m[Karr58[m[K);
+[3.238s]       |              [01;31m[K^~~~~[m[K
+[3.238s]       |              [32m[Karr55[m[K
+[3.242s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:193:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr59[m[K’ was not declared in this scope; did you mean ‘[01m[Karr55[m[K’?
+[3.242s]   193 | list_.append([01;31m[Karr59[m[K);
+[3.242s]       |              [01;31m[K^~~~~[m[K
+[3.242s]       |              [32m[Karr55[m[K
+[3.246s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:194:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr60[m[K’ was not declared in this scope; did you mean ‘[01m[Karr50[m[K’?
+[3.246s]   194 | list_.append([01;31m[Karr60[m[K);
+[3.246s]       |              [01;31m[K^~~~~[m[K
+[3.247s]       |              [32m[Karr50[m[K
+[3.251s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:195:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr61[m[K’ was not declared in this scope; did you mean ‘[01m[Karr51[m[K’?
+[3.251s]   195 | list_.append([01;31m[Karr61[m[K);
+[3.251s]       |              [01;31m[K^~~~~[m[K
+[3.251s]       |              [32m[Karr51[m[K
+[3.257s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:196:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr62[m[K’ was not declared in this scope; did you mean ‘[01m[Karr52[m[K’?
+[3.257s]   196 | list_.append([01;31m[Karr62[m[K);
+[3.257s]       |              [01;31m[K^~~~~[m[K
+[3.257s]       |              [32m[Karr52[m[K
+[3.262s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:197:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr63[m[K’ was not declared in this scope; did you mean ‘[01m[Karr53[m[K’?
+[3.262s]   197 | list_.append([01;31m[Karr63[m[K);
+[3.262s]       |              [01;31m[K^~~~~[m[K
+[3.262s]       |              [32m[Karr53[m[K
+[3.267s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:198:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr64[m[K’ was not declared in this scope; did you mean ‘[01m[Karr54[m[K’?
+[3.267s]   198 | list_.append([01;31m[Karr64[m[K);
+[3.267s]       |              [01;31m[K^~~~~[m[K
+[3.267s]       |              [32m[Karr54[m[K
+[3.272s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:199:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr65[m[K’ was not declared in this scope; did you mean ‘[01m[Karr55[m[K’?
+[3.272s]   199 | list_.append([01;31m[Karr65[m[K);
+[3.272s]       |              [01;31m[K^~~~~[m[K
+[3.272s]       |              [32m[Karr55[m[K
+[3.277s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:200:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr66[m[K’ was not declared in this scope; did you mean ‘[01m[Karr46[m[K’?
+[3.277s]   200 | list_.append([01;31m[Karr66[m[K);
+[3.277s]       |              [01;31m[K^~~~~[m[K
+[3.277s]       |              [32m[Karr46[m[K
+[3.281s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:201:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr67[m[K’ was not declared in this scope; did you mean ‘[01m[Karr47[m[K’?
+[3.281s]   201 | list_.append([01;31m[Karr67[m[K);
+[3.281s]       |              [01;31m[K^~~~~[m[K
+[3.281s]       |              [32m[Karr47[m[K
+[3.286s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:202:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr68[m[K’ was not declared in this scope; did you mean ‘[01m[Karr48[m[K’?
+[3.286s]   202 | list_.append([01;31m[Karr68[m[K);
+[3.286s]       |              [01;31m[K^~~~~[m[K
+[3.286s]       |              [32m[Karr48[m[K
+[3.292s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:203:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr69[m[K’ was not declared in this scope; did you mean ‘[01m[Karr49[m[K’?
+[3.292s]   203 | list_.append([01;31m[Karr69[m[K);
+[3.292s]       |              [01;31m[K^~~~~[m[K
+[3.292s]       |              [32m[Karr49[m[K
+[3.297s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:204:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr70[m[K’ was not declared in this scope; did you mean ‘[01m[Karr50[m[K’?
+[3.297s]   204 | list_.append([01;31m[Karr70[m[K);
+[3.297s]       |              [01;31m[K^~~~~[m[K
+[3.297s]       |              [32m[Karr50[m[K
+[3.302s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:205:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr71[m[K’ was not declared in this scope; did you mean ‘[01m[Karr51[m[K’?
+[3.302s]   205 | list_.append([01;31m[Karr71[m[K);
+[3.302s]       |              [01;31m[K^~~~~[m[K
+[3.302s]       |              [32m[Karr51[m[K
+[3.306s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:206:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr72[m[K’ was not declared in this scope; did you mean ‘[01m[Karr52[m[K’?
+[3.306s]   206 | list_.append([01;31m[Karr72[m[K);
+[3.307s]       |              [01;31m[K^~~~~[m[K
+[3.307s]       |              [32m[Karr52[m[K
+[3.312s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:207:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr73[m[K’ was not declared in this scope; did you mean ‘[01m[Karr53[m[K’?
+[3.312s]   207 | list_.append([01;31m[Karr73[m[K);
+[3.312s]       |              [01;31m[K^~~~~[m[K
+[3.312s]       |              [32m[Karr53[m[K
+[3.316s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:208:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr74[m[K’ was not declared in this scope; did you mean ‘[01m[Karr54[m[K’?
+[3.316s]   208 | list_.append([01;31m[Karr74[m[K);
+[3.316s]       |              [01;31m[K^~~~~[m[K
+[3.316s]       |              [32m[Karr54[m[K
+[3.321s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:209:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr75[m[K’ was not declared in this scope; did you mean ‘[01m[Karr55[m[K’?
+[3.321s]   209 | list_.append([01;31m[Karr75[m[K);
+[3.322s]       |              [01;31m[K^~~~~[m[K
+[3.322s]       |              [32m[Karr55[m[K
+[3.327s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:210:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr76[m[K’ was not declared in this scope; did you mean ‘[01m[Karr46[m[K’?
+[3.327s]   210 | list_.append([01;31m[Karr76[m[K);
+[3.327s]       |              [01;31m[K^~~~~[m[K
+[3.327s]       |              [32m[Karr46[m[K
+[3.332s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:211:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr77[m[K’ was not declared in this scope; did you mean ‘[01m[Karr47[m[K’?
+[3.332s]   211 | list_.append([01;31m[Karr77[m[K);
+[3.332s]       |              [01;31m[K^~~~~[m[K
+[3.332s]       |              [32m[Karr47[m[K
+[3.336s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:212:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr78[m[K’ was not declared in this scope; did you mean ‘[01m[Karr48[m[K’?
+[3.336s]   212 | list_.append([01;31m[Karr78[m[K);
+[3.336s]       |              [01;31m[K^~~~~[m[K
+[3.336s]       |              [32m[Karr48[m[K
+[3.341s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:213:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr79[m[K’ was not declared in this scope; did you mean ‘[01m[Karr49[m[K’?
+[3.341s]   213 | list_.append([01;31m[Karr79[m[K);
+[3.341s]       |              [01;31m[K^~~~~[m[K
+[3.341s]       |              [32m[Karr49[m[K
+[3.345s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:214:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr80[m[K’ was not declared in this scope; did you mean ‘[01m[Karr50[m[K’?
+[3.345s]   214 | list_.append([01;31m[Karr80[m[K);
+[3.345s]       |              [01;31m[K^~~~~[m[K
+[3.345s]       |              [32m[Karr50[m[K
+[3.350s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:215:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr81[m[K’ was not declared in this scope; did you mean ‘[01m[Karr51[m[K’?
+[3.350s]   215 | list_.append([01;31m[Karr81[m[K);
+[3.350s]       |              [01;31m[K^~~~~[m[K
+[3.350s]       |              [32m[Karr51[m[K
+[3.356s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:216:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr82[m[K’ was not declared in this scope; did you mean ‘[01m[Karr52[m[K’?
+[3.356s]   216 | list_.append([01;31m[Karr82[m[K);
+[3.356s]       |              [01;31m[K^~~~~[m[K
+[3.356s]       |              [32m[Karr52[m[K
+[3.361s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:217:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr83[m[K’ was not declared in this scope; did you mean ‘[01m[Karr53[m[K’?
+[3.361s]   217 | list_.append([01;31m[Karr83[m[K);
+[3.361s]       |              [01;31m[K^~~~~[m[K
+[3.361s]       |              [32m[Karr53[m[K
+[3.365s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:218:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr84[m[K’ was not declared in this scope; did you mean ‘[01m[Karr54[m[K’?
+[3.365s]   218 | list_.append([01;31m[Karr84[m[K);
+[3.365s]       |              [01;31m[K^~~~~[m[K
+[3.365s]       |              [32m[Karr54[m[K
+[3.369s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:219:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr85[m[K’ was not declared in this scope; did you mean ‘[01m[Karr55[m[K’?
+[3.369s]   219 | list_.append([01;31m[Karr85[m[K);
+[3.369s]       |              [01;31m[K^~~~~[m[K
+[3.370s]       |              [32m[Karr55[m[K
+[3.374s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:220:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr86[m[K’ was not declared in this scope; did you mean ‘[01m[Karr46[m[K’?
+[3.374s]   220 | list_.append([01;31m[Karr86[m[K);
+[3.374s]       |              [01;31m[K^~~~~[m[K
+[3.374s]       |              [32m[Karr46[m[K
+[3.379s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:221:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr87[m[K’ was not declared in this scope; did you mean ‘[01m[Karr47[m[K’?
+[3.379s]   221 | list_.append([01;31m[Karr87[m[K);
+[3.379s]       |              [01;31m[K^~~~~[m[K
+[3.379s]       |              [32m[Karr47[m[K
+[3.385s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:222:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr88[m[K’ was not declared in this scope; did you mean ‘[01m[Karr48[m[K’?
+[3.385s]   222 | list_.append([01;31m[Karr88[m[K);
+[3.385s]       |              [01;31m[K^~~~~[m[K
+[3.385s]       |              [32m[Karr48[m[K
+[3.398s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:223:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr89[m[K’ was not declared in this scope; did you mean ‘[01m[Karr49[m[K’?
+[3.398s]   223 | list_.append([01;31m[Karr89[m[K);
+[3.398s]       |              [01;31m[K^~~~~[m[K
+[3.398s]       |              [32m[Karr49[m[K
+[3.398s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:224:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr90[m[K’ was not declared in this scope; did you mean ‘[01m[Karr50[m[K’?
+[3.398s]   224 | list_.append([01;31m[Karr90[m[K);
+[3.398s]       |              [01;31m[K^~~~~[m[K
+[3.398s]       |              [32m[Karr50[m[K
+[3.400s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:225:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr91[m[K’ was not declared in this scope; did you mean ‘[01m[Karr51[m[K’?
+[3.400s]   225 | list_.append([01;31m[Karr91[m[K);
+[3.400s]       |              [01;31m[K^~~~~[m[K
+[3.400s]       |              [32m[Karr51[m[K
+[3.405s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:226:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr92[m[K’ was not declared in this scope; did you mean ‘[01m[Karr52[m[K’?
+[3.405s]   226 | list_.append([01;31m[Karr92[m[K);
+[3.405s]       |              [01;31m[K^~~~~[m[K
+[3.405s]       |              [32m[Karr52[m[K
+[3.410s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:227:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr93[m[K’ was not declared in this scope; did you mean ‘[01m[Karr53[m[K’?
+[3.410s]   227 | list_.append([01;31m[Karr93[m[K);
+[3.410s]       |              [01;31m[K^~~~~[m[K
+[3.410s]       |              [32m[Karr53[m[K
+[3.415s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:228:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr94[m[K’ was not declared in this scope; did you mean ‘[01m[Karr54[m[K’?
+[3.415s]   228 | list_.append([01;31m[Karr94[m[K);
+[3.415s]       |              [01;31m[K^~~~~[m[K
+[3.415s]       |              [32m[Karr54[m[K
+[3.421s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:229:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr95[m[K’ was not declared in this scope; did you mean ‘[01m[Karr55[m[K’?
+[3.421s]   229 | list_.append([01;31m[Karr95[m[K);
+[3.421s]       |              [01;31m[K^~~~~[m[K
+[3.421s]       |              [32m[Karr55[m[K
+[3.426s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:230:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr96[m[K’ was not declared in this scope; did you mean ‘[01m[Karr46[m[K’?
+[3.426s]   230 | list_.append([01;31m[Karr96[m[K);
+[3.426s]       |              [01;31m[K^~~~~[m[K
+[3.426s]       |              [32m[Karr46[m[K
+[3.430s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:231:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr97[m[K’ was not declared in this scope; did you mean ‘[01m[Karr47[m[K’?
+[3.430s]   231 | list_.append([01;31m[Karr97[m[K);
+[3.430s]       |              [01;31m[K^~~~~[m[K
+[3.430s]       |              [32m[Karr47[m[K
+[3.435s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:232:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr98[m[K’ was not declared in this scope; did you mean ‘[01m[Karr48[m[K’?
+[3.435s]   232 | list_.append([01;31m[Karr98[m[K);
+[3.435s]       |              [01;31m[K^~~~~[m[K
+[3.435s]       |              [32m[Karr48[m[K
+[3.439s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:233:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr99[m[K’ was not declared in this scope; did you mean ‘[01m[Karr49[m[K’?
+[3.439s]   233 | list_.append([01;31m[Karr99[m[K);
+[3.439s]       |              [01;31m[K^~~~~[m[K
+[3.439s]       |              [32m[Karr49[m[K
+[3.444s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:234:14:[m[K [01;31m[Kerror: [m[K‘[01m[Karr100[m[K’ was not declared in this scope; did you mean ‘[01m[Karr10[m[K’?
+[3.444s]   234 | list_.append([01;31m[Karr100[m[K);
+[3.444s]       |              [01;31m[K^~~~~~[m[K
+[3.444s]       |              [32m[Karr10[m[K
+[3.454s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.454s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.454s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.454s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.454s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.454s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.454s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.455s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[3.455s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:[m[K In member function ‘[01m[Kvoid ArrayServiceServer::handle_request(std::shared_ptr<interfaces_ur5ik::srv::SixTheta_Request_<std::allocator<void> > >, std::shared_ptr<interfaces_ur5ik::srv::SixTheta_Response_<std::allocator<void> > >)[m[K’:
+[3.455s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.455s]   344 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[3.455s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.455s]   345 |                         [32m[Kcurrent_node->data[0][m[K, current_node->data[1], current_node->data[2],
+[3.455s]       |                         [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.455s]       |                                             [32m[K|[m[K
+[3.455s]       |                                             [32m[Kdouble[m[K
+[3.455s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.455s]   344 |             RCLCPP_INFO(this->get_logger(), "Sending array: [[01;36m[K%d[m[K, %d, %d, %d, %d, %d]",
+[3.455s]       |                                                              [01;36m[K~^[m[K
+[3.455s]       |                                                               [01;36m[K|[m[K
+[3.456s]       |                                                               [01;36m[Kint[m[K
+[3.456s]       |                                                              [32m[K%f[m[K
+[3.456s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.456s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[3.456s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.456s]   344 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[3.456s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.456s]   345 |                         current_node->data[0], [32m[Kcurrent_node->data[1][m[K, current_node->data[2],
+[3.457s]       |                                                [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.457s]       |                                                                    [32m[K|[m[K
+[3.457s]       |                                                                    [32m[Kdouble[m[K
+[3.457s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.457s]   344 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, [01;36m[K%d[m[K, %d, %d, %d, %d]",
+[3.457s]       |                                                                  [01;36m[K~^[m[K
+[3.457s]       |                                                                   [01;36m[K|[m[K
+[3.457s]       |                                                                   [01;36m[Kint[m[K
+[3.457s]       |                                                                  [32m[K%f[m[K
+[3.457s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.457s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.457s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.457s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.457s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.457s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.457s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.457s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.457s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.457s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.458s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.458s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[3.458s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.458s]   344 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[3.458s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.458s]   345 |                         current_node->data[0], current_node->data[1], [32m[Kcurrent_node->data[2][m[K,
+[3.458s]       |                                                                       [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.458s]       |                                                                                           [32m[K|[m[K
+[3.458s]       |                                                                                           [32m[Kdouble[m[K
+[3.458s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:71:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.458s]   344 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, [01;36m[K%d[m[K, %d, %d, %d]",
+[3.458s]       |                                                                      [01;36m[K~^[m[K
+[3.458s]       |                                                                       [01;36m[K|[m[K
+[3.458s]       |                                                                       [01;36m[Kint[m[K
+[3.458s]       |                                                                      [32m[K%f[m[K
+[3.458s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.458s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.459s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[3.459s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.459s]   344 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[3.459s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.459s]   345 |                         current_node->data[0], current_node->data[1], current_node->data[2],
+[3.459s]   346 |                         [32m[Kcurrent_node->data[3][m[K, current_node->data[4], current_node->data[5]);
+[3.459s]       |                         [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.459s]       |                                             [32m[K|[m[K
+[3.459s]       |                                             [32m[Kdouble[m[K
+[3.459s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:75:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.460s]   344 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, %d, [01;36m[K%d[m[K, %d, %d]",
+[3.460s]       |                                                                          [01;36m[K~^[m[K
+[3.460s]       |                                                                           [01;36m[K|[m[K
+[3.460s]       |                                                                           [01;36m[Kint[m[K
+[3.460s]       |                                                                          [32m[K%f[m[K
+[3.460s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.460s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[3.460s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.460s]   344 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[3.461s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.461s]   345 |                         current_node->data[0], current_node->data[1], current_node->data[2],
+[3.461s]   346 |                         current_node->data[3], [32m[Kcurrent_node->data[4][m[K, current_node->data[5]);
+[3.461s]       |                                                [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.461s]       |                                                                    [32m[K|[m[K
+[3.461s]       |                                                                    [32m[Kdouble[m[K
+[3.461s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:79:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.461s]   344 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, %d, %d, [01;36m[K%d[m[K, %d]",
+[3.461s]       |                                                                              [01;36m[K~^[m[K
+[3.461s]       |                                                                               [01;36m[K|[m[K
+[3.461s]       |                                                                               [01;36m[Kint[m[K
+[3.461s]       |                                                                              [32m[K%f[m[K
+[3.461s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.461s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.461s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.461s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.461s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.461s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.461s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.461s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.462s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.462s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.462s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.462s]                  from [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:12[m[K:
+[3.462s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 10 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.462s]   344 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending array: [%d, %d, %d, %d, %d, %d]"[m[K,
+[3.462s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.462s]   345 |                         current_node->data[0], current_node->data[1], current_node->data[2],
+[3.462s]   346 |                         current_node->data[3], current_node->data[4], [32m[Kcurrent_node->data[5][m[K);
+[3.462s]       |                                                                       [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.462s]       |                                                                                           [32m[K|[m[K
+[3.462s]       |                                                                                           [32m[Kdouble[m[K
+[3.462s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:344:83:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.462s]   344 |             RCLCPP_INFO(this->get_logger(), "Sending array: [%d, %d, %d, %d, %d, [01;36m[K%d[m[K]",
+[3.462s]       |                                                                                  [01;36m[K~^[m[K
+[3.462s]       |                                                                                   [01;36m[K|[m[K
+[3.462s]       |                                                                                   [01;36m[Kint[m[K
+[3.462s]       |                                                                                  [32m[K%f[m[K
+[3.462s] [01m[K/home/icrs/icrsUR/src/service_ur5ik/src/calc_server.cpp:340:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.463s]   340 |     void handle_request([01;35m[Kconst std::shared_ptr<interfaces_ur5ik::srv::SixTheta::Request> request[m[K,
+[3.463s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.641s] gmake[2]: *** [CMakeFiles/calc_server.dir/build.make:76: CMakeFiles/calc_server.dir/src/calc_server.cpp.o] Error 1
+[4.641s] gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/calc_server.dir/all] Error 2
+[4.641s] gmake: *** [Makefile:146: all] Error 2
+[4.643s] Invoked command in '/home/icrs/icrsUR/build/service_ur5ik' returned '2': CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/home/icrs/icrsUR/install/ur:/home/icrs/icrsUR/install/ur_calibration:/home/icrs/icrsUR/install/ur_robot_driver:/home/icrs/icrsUR/install/ur_mover:/home/icrs/icrsUR/install/ur_moveit_config:/home/icrs/icrsUR/install/ur_bringup:/home/icrs/icrsUR/install/ur_description:/home/icrs/icrsUR/install/ur_controllers:/home/icrs/icrsUR/install/ur_dashboard_msgs:/home/icrs/icrsUR/install/ur_custom_interfaces:/home/icrs/icrsUR/install/service_ur5ik:/home/icrs/icrsUR/install/robotiq_description:/home/icrs/icrsUR/install/module_5_assignment:/home/icrs/icrsUR/install/module_3_assignment:/home/icrs/icrsUR/install/module_1_assignment:/home/icrs/icrsUR/install/module_10_assignment:/home/icrs/icrsUR/install/camera_control:/home/icrs/icrsUR/install/gripper_control:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:/home/icrs/icrsUR/install/ur_robot_driver/lib:/home/icrs/icrsUR/install/ur_controllers/lib:/home/icrs/icrsUR/install/ur_dashboard_msgs/lib:/home/icrs/icrsUR/install/ur_custom_interfaces/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/icrs/icrsUR/build/service_ur5ik -- -j8 -l8

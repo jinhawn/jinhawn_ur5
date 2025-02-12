@@ -1,0 +1,43 @@
+[0.363s] Invoking command in '/home/icrs/icrsUR/build/service_ur5ik': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/install/interfaces_ur5ik/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/icrs/icrsUR/build/service_ur5ik -- -j8 -l8
+[0.443s] [ 50%] Built target target_client
+[0.444s] [ 50%] Built target ament_cmake_python_symlink_service_ur5ik
+[0.448s] [100%] Built target calc_server
+[0.936s] running egg_info
+[0.938s] writing service_ur5ik.egg-info/PKG-INFO
+[0.938s] writing dependency_links to service_ur5ik.egg-info/dependency_links.txt
+[0.938s] writing top-level names to service_ur5ik.egg-info/top_level.txt
+[0.942s] reading manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+[0.943s] writing manifest file 'service_ur5ik.egg-info/SOURCES.txt'
+[0.992s] [100%] Built target ament_cmake_python_build_service_ur5ik_egg
+[1.005s] Invoked command in '/home/icrs/icrsUR/build/service_ur5ik' returned '0': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/install/interfaces_ur5ik/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/icrs/icrsUR/build/service_ur5ik -- -j8 -l8
+[1.048s] Invoking command in '/home/icrs/icrsUR/build/service_ur5ik': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/install/interfaces_ur5ik/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/icrs/icrsUR/build/service_ur5ik
+[1.059s] -- Install configuration: ""
+[1.059s] -- Execute custom install script
+[1.060s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/lib/service_ur5ik/target_client
+[1.060s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/lib/service_ur5ik/calc_server
+[1.060s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/pythonpath.sh
+[1.061s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/pythonpath.dsv
+[1.061s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik-0.0.0-py3.10.egg-info/PKG-INFO
+[1.061s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.061s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.062s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik-0.0.0-py3.10.egg-info/top_level.txt
+[1.062s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik/__init__.py
+[1.062s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/lib/service_ur5ik/target_client_py.py
+[1.063s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/lib/service_ur5ik/calc_server_py.py
+[1.063s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/ament_index/resource_index/package_run_dependencies/service_ur5ik
+[1.063s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/ament_index/resource_index/parent_prefix_path/service_ur5ik
+[1.064s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/ament_prefix_path.sh
+[1.067s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/ament_prefix_path.dsv
+[1.068s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/path.sh
+[1.068s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/environment/path.dsv
+[1.068s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/local_setup.bash
+[1.068s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/local_setup.sh
+[1.068s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/local_setup.zsh
+[1.068s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/local_setup.dsv
+[1.068s] -- Symlinking: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.dsv
+[1.085s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/ament_index/resource_index/packages/service_ur5ik
+[1.085s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/cmake/service_ur5ikConfig.cmake
+[1.085s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/cmake/service_ur5ikConfig-version.cmake
+[1.086s] -- Up-to-date symlink: /home/icrs/icrsUR/install/service_ur5ik/share/service_ur5ik/package.xml
+[1.152s] Listing '/home/icrs/icrsUR/install/service_ur5ik/local/lib/python3.10/dist-packages/service_ur5ik'...
+[1.167s] Invoked command in '/home/icrs/icrsUR/build/service_ur5ik' returned '0': AMENT_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik:/opt/ros/humble LD_LIBRARY_PATH=/home/icrs/icrsUR/install/interfaces_ur5ik/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icrs/icrsUR/install/interfaces_ur5ik/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/icrs/icrsUR/build/service_ur5ik
